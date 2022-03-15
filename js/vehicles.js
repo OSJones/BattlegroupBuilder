@@ -2588,11 +2588,6 @@ var vehicles = [
     'mg':true
 },
 {
-    'id':352,
-    'name':'Panzer I Ambulance',
-    'armour':true
-},
-{
     'id':353,
     'name':'Toldi II',
     'armour':true,
@@ -2645,7 +2640,11 @@ var vehicles = [
     'armour':true,
     'mg':true
 },
-
+{
+    'id':360,
+    'name':'Panzer I Ambulance',
+    'armour':true
+},
 
 // greg to-do, landing craft
 {

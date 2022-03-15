@@ -308,7 +308,7 @@ var forces = [
                             },
                             {
                                 "name":"Assault Pioneer Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -476,7 +476,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -498,7 +498,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -1857,7 +1857,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -1881,7 +1881,7 @@ var forces = [
                             },
                             {
                                 "name":"Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -2037,7 +2037,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -2060,7 +2060,7 @@ var forces = [
                             },
                             {
                                 "name":"Assault Pioneer Squad",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -3169,7 +3169,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -3192,7 +3192,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":4,
                                 "br":0,
                                 "mandatory":true,
@@ -4306,7 +4306,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -4322,7 +4322,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":4,
                                 "br":0,
                                 "mandatory":true,
@@ -4464,14 +4464,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Company Command Squad",
-                                
+
                                 "br":0,
                                 "officer":true,
                                 "mandatory":true
                             },
                             {
                                 "name":"Rifle Platoon",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "p":1,
@@ -4480,7 +4480,7 @@ var forces = [
                                 "sub_units":[
                                     {
                                         "name":"Command Squad",
-                                        
+
                                         "br":0,
                                         "mandatory":true,
                                         "officer":true,
@@ -4496,7 +4496,7 @@ var forces = [
                                     },
                                     {
                                         "name":"Rifle Squad",
-                                        
+
                                         "count":4,
                                         "br":0,
                                         "mandatory":true,
@@ -5517,7 +5517,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Section",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -5533,7 +5533,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Sections",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -5563,7 +5563,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -5580,7 +5580,7 @@ var forces = [
                             },
                             {
                                 "name":"PIAT Team",
-                                
+
                                 "w":91,
                                 "br":0,
                                 "mandatory":true,
@@ -5692,45 +5692,45 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Troop", 
-                        "cost":130, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Troop",
+                        "cost":130,
+                        "multiplier":3,
+                        "br":9,
                         "v":101,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4A4","vc":3},
-                                    {"text":"2 M4A4, 1 Firefly","cost":16,"v":"[101,102]","vc":"[2,1]"} 
-                                ] 
+                                    {"text":"2 M4A4, 1 Firefly","cost":16,"v":"[101,102]","vc":"[2,1]"}
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Self-Propelled Anti-Tank Gun", 
-                        "cost":34, 
-                        "br":3, 
-                        "restricted":true, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M10 Wolverine","v":132}, 
-                                    {"text":"M10 Achilles","cost":20,"v":133} 
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                        ]
+                    },
+                    {
+                        "name":"Self-Propelled Anti-Tank Gun",
+                        "cost":34,
+                        "br":3,
+                        "restricted":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M10 Wolverine","v":132},
+                                    {"text":"M10 Achilles","cost":20,"v":133}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -6468,21 +6468,21 @@ var forces = [
                     "sub_units":[
                         {
                             "name":"Troop HQ",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "officer":true
                         },
                         {
                             "name":"Rifle Group",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "count":2
                         },
                         {
                             "name":"Bren Team",
-                            
+
                             "count":2,
                             "br":0,
                             "mandatory":true,
@@ -6500,7 +6500,7 @@ var forces = [
                         },
                         {
                             "name":"Light Mortar Team",
-                            
+
                             "br":0,
                             "w":60,
                             "count":2,
@@ -6508,7 +6508,7 @@ var forces = [
                         },
                         {
                             "name":"Sniper Team",
-                            
+
                             "br":0,
                             "w":1,
                             "count":2,
@@ -6535,21 +6535,21 @@ var forces = [
                     "sub_units":[
                         {
                             "name":"Assault Platoon HQ",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "officer":true
                         },
                         {
                             "name":"Rifle Section",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "count":2
                         },
                         {
                             "name":"Light Mortar Team",
-                            
+
                             "br":0,
                             "w":60,
                             "count":1,
@@ -6557,14 +6557,14 @@ var forces = [
                         },
                         {
                             "name":"Sniper Team",
-                            
+
                             "br":0,
                             "count":1,
                             "mandatory":true
                         },
                         {
                             "name":"Combat Medic",
-                            
+
                             "br":0,
                             "count":1,
                             "mandatory":true
@@ -6573,135 +6573,135 @@ var forces = [
                 }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"DD Sherman Troop", 
-                        "cost":135, 
-                        "multiplier":3, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"DD Sherman Troop",
+                        "cost":135,
+                        "multiplier":3,
                         "br":9,
                         "officer":true,
-                        "v":106, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 DD Shermans"} 
-                                ] 
-                            } 
-                        ] 
-                    }, 
-                    { 
-                        "name":"Sherman Crab Troop",
-                        "cost":165, 
-                        "br":11, 
-                        "multiplier":3,
-                        "officer":true, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 Sherman Crabs","v":107} 
-                                ] 
-                            } 
-                        ] 
+                        "v":106,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 DD Shermans"}
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
+                        "name":"Sherman Crab Troop",
+                        "cost":165,
+                        "br":11,
+                        "multiplier":3,
+                        "officer":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 Sherman Crabs","v":107}
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "name":"Centaur IV Troop",
-                        "cost":170, 
-                        "br":11, 
+                        "cost":170,
+                        "br":11,
                         "multiplier":3,
                         "v":127,
                         "vc":3,
-                        "officer":true, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 Centaur IV"} 
-                                ] 
-                            } 
-                        ] 
+                        "officer":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 Centaur IV"}
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
                         "name":"DD Sherman",
-                        "cost":52, 
+                        "cost":52,
                         "br":3
                     },
-                    { 
+                    {
                         "name":"AVRE Squadron",
-                        "cost":220, 
+                        "cost":220,
                         "br":11,
-                        "officer":true, 
+                        "officer":true,
                         "multiplier":3,
                         "v":123,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 Churchill AVREs"} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 Churchill AVREs"}
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
                         "name":"Engineer Churchill Troop",
-                        "cost":147, 
-                        "br":11, 
+                        "cost":147,
+                        "br":11,
                         "multiplier":3,
-                        "officer":true, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"1 Fascine, 1 Ark, 1 AVRE","v":107} 
-                                ] 
-                            } 
-                        ] 
+                        "officer":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"1 Fascine, 1 Ark, 1 AVRE","v":107}
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
                         "name":"Beach Assault Tank Troop",
-                        "cost":180, 
-                        "br":11, 
+                        "cost":180,
+                        "br":11,
                         "v":"[123,107]",
                         "vc":"[2,1]",
                         "multiplier":3,
-                        "officer":true, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "officer":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"2 Churchill AVRE, 1 Sherman Crab"},
                                     {"text":"1 Churchill AVRE, 1 Churchill Fascine, 1 Sherman Crab"},
                                     {"text":"1 Churchill AVRE, 1 Churchill Bridgelayer, 1 Sherman Crab"},
                                     {"text":"2 Churchill Bridgelayers, 1 Sherman Crab"},
                                     {"text":"2 Churchill Fascines, 1 Sherman Crab"}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
                         "name":"Sherman Tank Squadron",
-                        "cost":785, 
-                        "br":44, 
+                        "cost":785,
+                        "br":44,
                         "multiplier":10,
                         "restricted":true,
                         "officer":4,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"10 M4A4 Shermans, 3 Fireflies","v":"[101,102]","vc":"[10,3]"}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -6788,21 +6788,21 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Demo Party Leader",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Demo Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":3
                             },
                             {
                                 "name":"Combat Medic",
-                                
+
                                 "br":0,
                                 "count":1,
                                 "mandatory":true
@@ -6879,14 +6879,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Team Leader",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Medium Mortar Team",
-                                
+
                                 "br":0,
                                 "w":61,
                                 "count":1,
@@ -6902,7 +6902,7 @@ var forces = [
                             },
                             {
                                 "name":"Vickers MG Team",
-                                
+
                                 "br":0,
                                 "count":2,
                                 "mandatory":true,
@@ -6917,7 +6917,7 @@ var forces = [
                             },
                             {
                                 "name":"Demo Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":1
@@ -6979,14 +6979,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Team Leader",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"K-gun Team",
-                                
+
                                 "br":0,
                                 "mandatory":true
                             },
@@ -7140,7 +7140,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -7156,7 +7156,7 @@ var forces = [
                             },
                             {
                                 "name":"Infantry Squad",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -7179,21 +7179,21 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":2
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
                             },
                             {
                                 "name":"Bazooka Team",
-                                
+
                                 "br":0,
                                 "w":92,
                                 "mandatory":true
@@ -7460,77 +7460,77 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":100,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s"},
                                     {"text":"4 M4s","cost":50,"br":3,"vc":4},
-                                    {"text":"5 M4s","cost":100,"br":6,"vc":5} 
-                                ] 
+                                    {"text":"5 M4s","cost":100,"br":6,"vc":5}
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
-                                    {"text":"M5 Stuart","cost":-20,"v":89} 
-                                ] 
-                            } 
-                        ] 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
+                                    {"text":"M5 Stuart","cost":-20,"v":89}
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "officer":true,
                         "multiplier":4,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts","vc":3}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts","vc":3},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -8146,40 +8146,40 @@ var forces = [
                     "sub_units":[
                         {
                             "name":"Boat Team Leader",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "officer":true
                         },
                         {
                             "name":"Rifle Squad",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "count":2
                         },
                         {
                             "name":"Light Mortar Team",
-                            
+
                             "br":0,
                             "w":60,
                             "mandatory":true
                         },
                         {
                             "name":"Flamethrower Team",
-                            
+
                             "br":0,
                             "mandatory":true
                         },
                         {
                             "name":"Demolitions Team",
-                            
+
                             "br":0,
                             "mandatory":true
                         },
                         {
                             "name":"Combat Medic",
-                            
+
                             "br":0,
                             "mandatory":true
                         }
@@ -8191,41 +8191,41 @@ var forces = [
                     "br":7,
                     "p":1,
                     'multiplier':4,
-                    "options":[ 
-                        { 
-                            "name":"Transport", 
-                            "choices":[ 
+                    "options":[
+                        {
+                            "name":"Transport",
+                            "choices":[
                                 {"text":"DUKW","v":175},
                                 {"text":"LCA"},
-                                {"text":"LCA with rocket-prop. grapnels","cost":5} 
-                            ] 
-                        } 
+                                {"text":"LCA with rocket-prop. grapnels","cost":5}
+                            ]
+                        }
                     ],
                     "sub_text":"Team Components",
                     "sub_units":[
                         {
                             "name":"Boat Team Leader",
-                            
+
                             "br":0,
                             "mandatory":true,
                             "officer":true
                         },
                         {
                             "name":"Rifle Squad",
-                            
+
                             "br":0,
                             "mandatory":true
                         },
                         {
                             "name":"Light Mortar Team",
-                            
+
                             "br":0,
                             "w":60,
                             "mandatory":true
                         },
                         {
                             "name":"Bazooka Team",
-                            
+
                             "w":92,
                             "br":0,
                             "mandatory":true
@@ -8234,70 +8234,70 @@ var forces = [
                 }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"DD Sherman Platoon", 
-                        "cost":135, 
-                        "multiplier":3, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"DD Sherman Platoon",
+                        "cost":135,
+                        "multiplier":3,
                         "br":9,
                         "officer":true,
                         "vc":3,
-                        "v":106, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 DD Shermans"} 
-                                ] 
-                            } 
-                        ] 
-                    }, 
-                    { 
+                        "v":106,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 DD Shermans"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "name":"Sherman Platoon",
-                        "cost":160, 
-                        "br":12, 
-                        "officer":true, 
+                        "cost":160,
+                        "br":12,
+                        "officer":true,
                         "v":100,
                         "vc":3,
                         "multiplier":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"2 Shermans, 1 Sherman Dozer"} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"2 Shermans, 1 Sherman Dozer"}
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
                         "name":"DD Sherman",
-                        "cost":52, 
-                        "v":106, 
+                        "cost":52,
+                        "v":106,
                         "br":3
                     },
-                    { 
+                    {
                         "name":"Sherman Tank Company",
-                        "cost":675, 
+                        "cost":675,
                         "br":44,
                         "restricted":true,
                         "v":100,
                         "multiplier":10,
                         "officer":4,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"13 M4 Sherman Tanks"} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"13 M4 Sherman Tanks"}
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -8391,28 +8391,28 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Gap Team Leader",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Demo Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":4
                             },
                             {
                                 "name":"Combat Medic",
-                                
+
                                 "br":0,
                                 "count":1,
                                 "mandatory":true
                             },
                             {
                                 "name":"Sherman Bulldozer",
-                                
+
                                 "br":0,
                                 "count":1,
                                 "v":108,
@@ -8490,21 +8490,21 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Team Leader",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "br":0,
                                 "count":1,
                                 "mandatory":true
                             },
                             {
                                 "name":"Medium Mortar Team",
-                                
+
                                 "br":0,
                                 "count":1,
                                 "w":61,
@@ -8520,14 +8520,14 @@ var forces = [
                             },
                             {
                                 "name":"MG Team",
-                                
+
                                 "br":0,
                                 "count":2,
                                 "mandatory":true
                             },
                             {
                                 "name":"Demo Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":1
@@ -8710,21 +8710,21 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "count":1,
                                 "br":0,
                                 "mandatory":true,
@@ -8842,14 +8842,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true
@@ -8882,14 +8882,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true
@@ -9516,7 +9516,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -9539,7 +9539,7 @@ var forces = [
                             },
                             {
                                 "name":"Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -9716,7 +9716,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -10813,7 +10813,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -10829,7 +10829,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -10845,7 +10845,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -10978,7 +10978,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -11001,7 +11001,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -11017,7 +11017,7 @@ var forces = [
                             },
                             {
                                 "name":"PIAT Team",
-                                
+
                                 "w":91,
                                 "br":0,
                                 "mandatory":true
@@ -11151,7 +11151,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -11165,7 +11165,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -11180,7 +11180,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -11198,114 +11198,114 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":150, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":150,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 1 Firefly","v":"[101,102]","vc":"[2,1]"},
                                     {"text":"1 M4, 1 M4A4, 1 Firefly","cost":2,"v":"[100,101,102]","vc":"[1,1,1]"},
                                     {"text":"2 M4s, 1 Firefly","cost":4,"v":"[100,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":80, 
-                        "br":6, 
+                        "cost":80,
+                        "br":6,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M3A3 'Honey's","v":115}, 
-                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"}, 
-                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"}, 
-                                    {"text":"3 M5 Stuarts","cost":6,"v":116} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M3A3 'Honey's","v":115},
+                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"},
+                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"},
+                                    {"text":"3 M5 Stuarts","cost":6,"v":116}
+                                ]
+                            }
+                        ]
                     },
                     // greg need to add exclude option for sherman and cromwell troops. Not allowed both.
-                    { 
-                        "name":"Cromwell Tank Troop", 
-                        "cost":156, 
-                        "multiplier":3, 
-                        "br":9, 
+                    {
+                        "name":"Cromwell Tank Troop",
+                        "cost":156,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 Cromwell IVs, 1 Firefly","v":"[111,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Cromwell Tank Troop (Challenger)", 
-                        "cost":178, 
-                        "multiplier":3, 
-                        "br":9, 
+                        ]
+                    },
+                    {
+                        "name":"Cromwell Tank Troop (Challenger)",
+                        "cost":178,
+                        "multiplier":3,
+                        "br":9,
                         "unique":true,
                         "officer":true,
                         "v":"[111,114]",
                         "vc":"[2,1]",
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 Cromwell IVs, 1 Challenger"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
+                        "cost":48,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
                                     {"text":"Cromwell IV","cost":4,"v":111},
                                     {"text":"M3A3 'Honey'","cost":-20,"v":115},
                                     {"text":"M5 Stuart","cost":-18,"v":89}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M10 Achilles","cost":20,"v":133}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -11577,19 +11577,19 @@ var forces = [
                     },
                     {
                         "name":"Reconnaissance Tank",
-                        "cost":62, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":62,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Cromwell IV","v":111},
                                     {"text":"M3A3 'Honey'","cost":-24,"v":115,"br":-1},
                                     {"text":"M5 Stuart","cost":-22,"v":89,"br":-1},
                                     {"text":"M5 Stuart 'recce'","cost":-38,"v":117,"br":-2}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Infantry Foot Patrol",
@@ -12078,7 +12078,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -12094,7 +12094,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -12110,7 +12110,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -12243,7 +12243,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -12257,7 +12257,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -12272,7 +12272,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -12290,79 +12290,79 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":146, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":146,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 1 Firefly","v":"[101,102]","vc":"[2,1]"},
                                     {"text":"1 M4, 1 M4A4, 1 Firefly","cost":2,"v":"[100,101,102]","vc":"[1,1,1]"},
                                     {"text":"2 M4s, 1 Firefly","cost":4,"v":"[100,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Churchill Tank Troop", 
-                        "cost":130, 
-                        "multiplier":3, 
-                        "br":9, 
+                        ]
+                    },
+                    {
+                        "name":"Churchill Tank Troop",
+                        "cost":130,
+                        "multiplier":3,
+                        "br":9,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 Churchill VIs","v":121},
                                     {"text":"2 Churchill VIs, 1 Churchill III/IV","v":"[121,88]","vc":"[2,1]"},
                                     {"text":"1 Churchill VI, 2 Churchill III/IVs","v":"[121,88]","vc":"[1,2]"},
                                     {"text":"3 Churchill III/IVs","v":88}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Self-Propelled Anti-Tank Gun", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        ]
+                    },
+                    {
+                        "name":"Self-Propelled Anti-Tank Gun",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M10 Achilles","cost":20,"v":133}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
+                        "cost":48,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
                                     {"text":"Churchill III/IV","v":88},
                                     {"text":"Churchill V","v":120}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -13090,7 +13090,7 @@ var forces = [
                                 {"text":"M20 Utility Car","cost":10,"v":143},
                                 {"text":"M3 Half-Track","cost":8,"v":148},
                             ]
-                        },                        
+                        },
                         {
                             "name":"Radio",
                             "choices":[
@@ -13175,7 +13175,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -13198,7 +13198,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -13220,7 +13220,7 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":2,
@@ -13243,7 +13243,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -13375,105 +13375,105 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Medium Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Medium Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":"[100,104]",
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s","vc":"[3,0]"},
                                     {"text":"4 M4s","cost":50,"br":3,"vc":"[4,0]"},
-                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"} 
-                                ] 
+                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"}
+                                ]
                             },
-                            { 
-                                "name":"76mmL53 Guns", 
+                            {
+                                "name":"76mmL53 Guns",
                                 "choices":[
                                     {"text":"No 76mmL53 Guns","np":true},
                                     {"text":"1 76mmL53 Gun","cost":4,"vcd":"[-1,1]"},
                                     {"text":"2 76mmL53 Guns","cost":8,"vcd":"[-2,2]"},
                                     {"text":"3 76mmL53 Guns","cost":12,"vcd":"[-3,3]"},
                                     {"text":"4 76mmL53 Guns","cost":16,"vcd":"[-4,4]"},
-                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"} 
+                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"}
                                 ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "multiplier":4,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts"}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts"},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
-                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104}, 
-                                    {"text":"M5 Stuart","cost":-20,"v":89} 
-                                ] 
-                            } 
-                        ] 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
+                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104},
+                                    {"text":"M5 Stuart","cost":-20,"v":89}
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer Battery", 
+                    {
+                        "name":"Self-Propelled Tank Destroyer Battery",
                         "cost":100,
                         "multiplier":4,
                         "br":6,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M10 Wolverines","v":132,"vc":3},
                                     {"text":"4 M10 Wolverines","cost":34,"br":2,"v":132,"vc":4}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -13744,17 +13744,17 @@ var forces = [
                     },
                     {
                         "name":"Light Tank",
-                        "cost":40, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":40,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M5 Stuart","v":89},
                                     {"text":"M5 Stuart 'recce'","cost":-22,"v":117}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Armoured Infantry Patrol",
@@ -14122,7 +14122,7 @@ var forces = [
                                 {"text":"M20 Utility Car","cost":10,"v":143},
                                 {"text":"M3 Half-Track","cost":8,"v":148},
                             ]
-                        },                        
+                        },
                         {
                             "name":"Radio",
                             "choices":[
@@ -14207,7 +14207,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -14223,7 +14223,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -14239,7 +14239,7 @@ var forces = [
                             },
                             {
                                 "name":"BAR Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":3
@@ -14412,105 +14412,105 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Medium Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Medium Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":"[100,104]",
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s","vc":"[3,0]"},
                                     {"text":"4 M4s","cost":50,"br":3,"vc":"[4,0]"},
-                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"} 
-                                ] 
+                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"}
+                                ]
                             },
-                            { 
-                                "name":"76mmL53 Guns", 
+                            {
+                                "name":"76mmL53 Guns",
                                 "choices":[
                                     {"text":"No 76mmL53 Guns","np":true},
                                     {"text":"1 76mmL53 Gun","cost":4,"vcd":"[-1,1]"},
                                     {"text":"2 76mmL53 Guns","cost":8,"vcd":"[-2,2]"},
                                     {"text":"3 76mmL53 Guns","cost":12,"vcd":"[-3,3]"},
                                     {"text":"4 76mmL53 Guns","cost":16,"vcd":"[-4,4]"},
-                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"} 
-                                ] 
+                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"}
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "vc":3,
                         "multiplier":4,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts"}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts"},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
-                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104}, 
-                                    {"text":"M5 Stuart","cost":-20,"v":89} 
-                                ] 
-                            } 
-                        ] 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
+                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104},
+                                    {"text":"M5 Stuart","cost":-20,"v":89}
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer Battery", 
+                    {
+                        "name":"Self-Propelled Tank Destroyer Battery",
                         "cost":100,
                         "multiplier":4,
                         "br":6,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M10 Wolverines","v":132},
                                     {"text":"4 M10 Wolverines","cost":34,"br":2,"v":132}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -15290,7 +15290,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -15508,7 +15508,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -15900,7 +15900,7 @@ var forces = [
                                             {"text":"None"},
                                             {"text":"SdKfz 251/1","v":37,"cost":12}
                                         ]
-                                    },                                    
+                                    },
                                 ]
                             },
                             {
@@ -15920,7 +15920,7 @@ var forces = [
                                         "choices":[
                                             {"text":"Platoon cmd SdKfz 250/1 or /10"}
                                         ]
-                                    }                                    
+                                    }
                                 ]
                             },
                             {
@@ -16006,7 +16006,7 @@ var forces = [
                                 "cost":27,
                                 "br":1,
                                 "unique":true,
-                                "v":46 
+                                "v":46
                             }
                         ]
                     },
@@ -17044,7 +17044,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -17093,7 +17093,7 @@ var forces = [
                                         "choices":[
                                             {"text":"None"},
                                             {"text":"Bipod MG34","cost":10},
-                                            {"text":"Bipod MG42","cost":4}        
+                                            {"text":"Bipod MG42","cost":4}
                                         ]
                                     }
                                 ]
@@ -17288,7 +17288,7 @@ var forces = [
                                         "choices":[
                                             {"text":"None"},
                                             {"text":"Bipod MG34","cost":10},
-                                            {"text":"Bipod MG42","cost":4}        
+                                            {"text":"Bipod MG42","cost":4}
                                         ]
                                     }
                                 ]
@@ -18244,7 +18244,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -18266,7 +18266,7 @@ var forces = [
                                 ]
                             },
                             {
-                                "name":"Grenadier Squad",   
+                                "name":"Grenadier Squad",
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -18467,7 +18467,7 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "count":1,
                                 "br":0,
                                 "mandatory":true,
@@ -18584,7 +18584,7 @@ var forces = [
                         "sub_text":"Squad Components",
                         "sub_units":[
                             {
-                                "name":"Grenadier Squad",   
+                                "name":"Grenadier Squad",
                                 "count":1,
                                 "br":0,
                                 "mandatory":true,
@@ -19654,7 +19654,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -19677,7 +19677,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -19694,7 +19694,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -19845,7 +19845,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -19868,7 +19868,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -19884,7 +19884,7 @@ var forces = [
                             },
                             {
                                 "name":"PIAT Team",
-                                
+
                                 "w":91,
                                 "br":0,
                                 "mandatory":true
@@ -20034,7 +20034,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -20048,7 +20048,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -20063,7 +20063,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -20098,7 +20098,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -20114,7 +20114,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -20151,7 +20151,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -20289,85 +20289,85 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":208, 
-                        "multiplier":4, 
-                        "br":12, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":208,
+                        "multiplier":4,
+                        "br":12,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 2 Fireflies","v":"[101,102]","vc":"[2,2]"},
                                     {"text":"1 M4, 1 M4A4, 2 Fireflies","cost":2,"v":"[100,101,102]","vc":"[1,1,2]"},
                                     {"text":"2 M4s, 2 Fireflies","cost":4,"v":"[100,102]","vc":"[2,2]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Comet Tank Troop", 
-                        "cost":245, 
+                        ]
+                    },
+                    {
+                        "name":"Comet Tank Troop",
+                        "cost":245,
                         "multiplier":3,
                         "restricted":true,
                         "br":12,
                         "v":235,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 Comets","vc":3},
                                     {"text":"4 Comets","cost":94,"br":4,"vc":4}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Self-Propelled Anti-Tank Gun", 
-                        "cost":54, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        ]
+                    },
+                    {
+                        "name":"Self-Propelled Anti-Tank Gun",
+                        "cost":54,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Achilles","v":133},
                                     {"text":"Archer","cost":-12,"restricted":true,"v":234}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Cromwell Tank Troop", 
-                        "cost":230, 
-                        "multiplier":4, 
-                        "br":12, 
+                    {
+                        "name":"Cromwell Tank Troop",
+                        "cost":230,
+                        "multiplier":4,
+                        "br":12,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 Cromwell IVs, 1 Challenger","v":"[111,114]","vc":"[3,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Churchill Tank Troop", 
-                        "cost":130, 
-                        "multiplier":3, 
-                        "br":9, 
+                        ]
+                    },
+                    {
+                        "name":"Churchill Tank Troop",
+                        "cost":130,
+                        "multiplier":3,
+                        "br":9,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 Churchill VIs","v":121},
                                     {"text":"2 Churchill VIs, 1 Churchill III/IV","v":"[121,88]","vc":"[2,1]"},
@@ -20396,50 +20396,50 @@ var forces = [
                                     {"text":"2 Churchill VIIs, 2 Churchill III/IVs","v":"[122,88]","vc":"[2,2]","cost":92,"br":3},
                                     {"text":"3 Churchill VIIs, 1 Churchill III/IVs","v":"[122,88]","vc":"[3,1]","cost":114,"br":3},
                                     {"text":"1 Churchill VIIs, 3 Churchill III/IVs","v":"[122,88]","vc":"[1,3]","cost":70,"br":3}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
+                        "cost":48,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
                                     {"text":"Cromwell IV","cost":4,"v":111},
                                     {"text":"Churchill III/IV","v":88},
                                     {"text":"Churchill VI","v":121},
                                     {"text":"Churchill VII","cost":22,"v":122},
                                     {"text":"Comet","cost":46,"v":235}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Light Tank Troop",
-                        "cost":80, 
-                        "br":6, 
+                        "cost":80,
+                        "br":6,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M3A3 'Honey's","v":115}, 
-                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"}, 
-                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"}, 
-                                    {"text":"3 M5 Stuarts","cost":6,"v":116} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M3A3 'Honey's","v":115},
+                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"},
+                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"},
+                                    {"text":"3 M5 Stuarts","cost":6,"v":116}
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -20708,18 +20708,18 @@ var forces = [
                     },
                     {
                         "name":"Reconnaissance Tank",
-                        "cost":62, 
-                        "br":3, 
-                        "options":[ 
+                        "cost":62,
+                        "br":3,
+                        "options":[
                             {
-                                "name":"Composition", 
-                                "choices":[ 
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Cromwell IV","v":111},
                                     {"text":"M5 Stuart","cost":-22,"v":116,"br":-1},
                                     {"text":"M5 Stuart 'recce'","cost":-38,"v":117,"br":-2}
-                                ] 
+                                ]
                             }
-                        ] 
+                        ]
                     },
                     {
                         "name":"Chaffee Recon Tank",
@@ -21119,14 +21119,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Section HQ",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Group",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -21142,7 +21142,7 @@ var forces = [
                             },
                             {
                                 "name":"Bren Group",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -21160,7 +21160,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -21168,7 +21168,7 @@ var forces = [
                             },
                             {
                                 "name":"Sniper Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "unique":true
@@ -21349,7 +21349,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -21380,7 +21380,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":4,
                                 "br":0,
                                 "mandatory":true,
@@ -21594,7 +21594,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -21610,7 +21610,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":4,
                                 "br":0,
                                 "mandatory":true,
@@ -21753,7 +21753,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Platoon",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "p":1,
@@ -21762,7 +21762,7 @@ var forces = [
                                 "sub_units":[
                                     {
                                         "name":"Command Squad",
-                                        
+
                                         "br":0,
                                         "mandatory":true,
                                         "officer":true,
@@ -21778,7 +21778,7 @@ var forces = [
                                     },
                                     {
                                         "name":"Rifle Squad",
-                                        
+
                                         "count":4,
                                         "br":0,
                                         "mandatory":true,
@@ -21903,7 +21903,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -21926,7 +21926,7 @@ var forces = [
                             },
                             {
                                 "name":"Pioneer Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -22113,23 +22113,23 @@ var forces = [
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":40, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"T-34/76","v":75}, 
-                                    {"text":"T-34/76 (Bed Spring)","v":75,"cost":3}, 
+                        "cost":40,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"T-34/76","v":75},
+                                    {"text":"T-34/76 (Bed Spring)","v":75,"cost":3},
                                     {"text":"T-34/85","cost":15,"v":236},
                                     {"text":"T-34/85 (Bed Spring)","cost":18,"v":236},
                                     {"text":"Sherman \'Emcha\'","cost":14,"v":99},
                                     {"text":"Sherman \'Emcha\' (Bed Spring)","cost":17,"v":99},
                                     {"text":"IS-II","cost":48,"v":237},
                                     {"text":"IS-II (Bed Spring)","cost":51,"v":237}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Sherman \'Emcha\' Company",
@@ -23755,7 +23755,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -23778,7 +23778,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -23993,7 +23993,7 @@ var forces = [
                                 ]
                             }
                         ]
-                    },                  
+                    },
                     {
                         "name":"Atypical Infantry",
                         "cost":0,
@@ -25339,7 +25339,7 @@ var forces = [
                                 {"text":"M20 Utility Car","cost":10,"v":143},
                                 {"text":"M3 Half-Track","cost":8,"v":148},
                             ]
-                        },                        
+                        },
                         {
                             "name":"Radio",
                             "choices":[
@@ -25430,7 +25430,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -25453,7 +25453,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -25849,22 +25849,22 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Medium Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Medium Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":"[100,104]",
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s","vc":"[3,0]"},
                                     {"text":"2 M4, 1 M4 Sherman (76mm)","vc":"[2,1]","cost":4},
                                     {"text":"2 M4, 1 M4A3E8","vc":"[2,1]","v":"[100,267]","cost":6},
@@ -25907,111 +25907,111 @@ var forces = [
                                     {"text":"3 M4 Shermans (76mm), 2 M4A3E8","br":6,"vc":"[3,2]","v":"[104,267]","cost":124},
                                     {"text":"2 M4 Shermans (76mm), 3 M4A3E8","br":6,"vc":"[2,3]","v":"[104,267]","cost":126},
                                     {"text":"5 M4A3E8s","cost":130,"br":6,"vc":5,"v":267}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "multiplier":4,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts"}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts"},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5},
-                                    {"text":"3 M24 Chaffees","v":232,"cost":24}, 
+                                    {"text":"3 M24 Chaffees","v":232,"cost":24},
                                     {"text":"4 M24 Chaffees","cost":62,"br":2,"vc":4,"v":232},
                                     {"text":"5 M24 Chaffees","cost":100,"br":4,"vc":5,"v":232}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Heavy Tank Platoon",
-                        "cost":195, 
-                        "br":12, 
+                        "cost":195,
+                        "br":12,
                         "v":266,
                         "restricted":true,
                         "multiplier":4,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M26 Pershings"}, 
-                                    {"text":"4 M26 Pershings","cost":72,"br":4,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M26 Pershings"},
+                                    {"text":"4 M26 Pershings","cost":72,"br":4,"vc":4},
                                     {"text":"5 M26 Pershings","cost":144,"br":8,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
                                     {"text":"M4 Sherman (76mmL53)","cost":4,"v":104},
                                     {"text":"M4A3E8 (HVVS)","cost":6,"v":267},
                                     {"text":"M5 Stuart","cost":-20,"v":89,"br":-1},
                                     {"text":"M24 Chaffee","cost":-12,"br":-1,"v":232},
                                     {"text":"M26 Pershing","cost":22,"br":1,"v":266}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer Battery", 
+                    {
+                        "name":"Self-Propelled Tank Destroyer Battery",
                         "cost":100,
                         "multiplier":4,
                         "br":6,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M10 Wolverines","v":132},
                                     {"text":"4 M10 Wolverines","cost":34,"br":2,"v":132},
                                     {"text":"3 M18 Hellcats","cost":12,"v":269},
                                     {"text":"4 M18 Hellcats","cost":50,"br":2,"v":269},
                                     {"text":"3 M36 Jacksons","cost":12,"v":268},
                                     {"text":"4 M36 Jacksons","cost":82,"br":2,"v":268}
-                                ] 
-                            } 
-                        ] 
-                    }, 
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M18 Hellcat","cost":4,"v":269},
                                     {"text":"M36 Jackson","cost":12,"v":268}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
+                    {
                         "name":"Additional Armour",
                         "cost":5
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -26321,18 +26321,18 @@ var forces = [
                     },
                     {
                         "name":"Light Tank",
-                        "cost":40, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":40,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M5 Stuart","v":89},
                                     {"text":"M5 Stuart 'recce'","cost":-22,"br":-1,"v":117},
                                     {"text":"M24 Chaffee","cost":8,"v":232}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Armoured Infantry Patrol",
@@ -28037,12 +28037,12 @@ var forces = [
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":14, 
-                        "br":1, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":14,
+                        "br":1,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Panzer I","restricted":true,"v":286},
                                     {"text":"Panzer II C","v":0,"cost":6,"br":1},  //greg
                                     {"text":"Panzer II F","v":13,"cost":8,"br":1},
@@ -28053,9 +28053,9 @@ var forces = [
                                     {"text":"Panzer IV E","v":7,"cost":28,"br":2},
                                     {"text":"Panzer 38(t)","v":279,"cost":22,"br":2},
                                     {"text":"Panzer 35(t)","v":278,"cost":6,"br":1}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -28420,7 +28420,7 @@ var forces = [
                     ]
                 }
             ]
-        },      
+        },
         {
             "name":"Engineer Support Units",
             "allows":null,
@@ -29805,7 +29805,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -29950,7 +29950,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -29964,7 +29964,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -29979,7 +29979,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -29997,57 +29997,57 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":146, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":146,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 1 Firefly","v":"[101,102]","vc":"[2,1]"},
                                     {"text":"1 M4, 1 M4A4, 1 Firefly","cost":2,"v":"[100,101,102]","vc":"[1,1,1]"},
                                     {"text":"2 M4s, 1 Firefly","cost":4,"v":"[100,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Self-Propelled Anti-Tank Gun", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        ]
+                    },
+                    {
+                        "name":"Self-Propelled Anti-Tank Gun",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
-                                ] 
-                            } 
-                        ] 
+                        "cost":48,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -30657,7 +30657,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -30674,7 +30674,7 @@ var forces = [
                             },
                             {
                                 "name":"Gebirgsjäger Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -30692,7 +30692,7 @@ var forces = [
                                             {"text":"ZB-28 LMG"},
                                             {"text":"MG34","cost":10},
                                             {"text":"MG42","cost":20}
-        
+
                                         ]
                                     }
                                 ]
@@ -30878,7 +30878,7 @@ var forces = [
                                 "choices":[
                                     {"text":"2 Pack Mules"},
                                     {"text":"1 Medium truck & 1 Pack mule","cost":4,"v":91},
-                                    {"text":"2 Medium truck","cost":8,"v":91},                                    
+                                    {"text":"2 Medium truck","cost":8,"v":91},
                                 ]
                             }
 
@@ -31358,7 +31358,7 @@ var forces = [
                                         "name":"SMG",
                                         "choices":[
                                             {"text":"Replace all rifles with SMGs"}
-        
+
                                         ]
                                     }
                                 ]
@@ -32118,17 +32118,17 @@ var forces = [
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":20, 
-                        "br":1, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":20,
+                        "br":1,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Panzer 35(t)","v":278,"br":1},
                                     {"text":"Panzer 38(t)","v":279,"cost":16,"br":2}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -32333,7 +32333,7 @@ var forces = [
                     ]
                 }
             ]
-            },      
+            },
             {
             "name":"Engineer Support Units",
             "allows":null,
@@ -32671,7 +32671,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -32854,7 +32854,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -32877,7 +32877,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -33211,7 +33211,7 @@ var forces = [
                                             {"text":"None"},
                                             {"text":"SdKfz 251/1","v":37,"cost":12}
                                         ]
-                                    },                                    
+                                    },
                                 ]
                             },
                             {
@@ -33231,7 +33231,7 @@ var forces = [
                                         "choices":[
                                             {"text":"Platoon cmd SdKfz 250/1 or /10"}
                                         ]
-                                    }                                    
+                                    }
                                 ]
                             },
                             {
@@ -33317,7 +33317,7 @@ var forces = [
                                 "cost":27,
                                 "br":1,
                                 "unique":true,
-                                "v":46 
+                                "v":46
                             }
                         ]
                     },
@@ -33729,7 +33729,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
-                    "scout":1,                    
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -33744,7 +33744,7 @@ var forces = [
                     "name":"Mounted Panzer Grenadier Patrol",
                     "cost":28,
                     "br":3,
-                    "scout":1,                    
+                    "scout":1,
                     "options":[
                         {
                             "name":"Panzerfaust",
@@ -33765,7 +33765,7 @@ var forces = [
                     "name":"Motorised Reconnaissance Patrol",
                     "cost":18,
                     "br":1,
-                    "scout":1,                    
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -33781,7 +33781,7 @@ var forces = [
                     "br":2,
                     "unique":true,
                     "officer":true,
-                    "scout":1,                    
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -33797,7 +33797,7 @@ var forces = [
                     "cost":36,
                     "br":3,
                     "s":1,
-                    "scout":1,                    
+                    "scout":1,
                     "options":[
                         {
                             "name":"MG",
@@ -33820,7 +33820,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":20,
                     "br":1,
-                    "scout":1,                    
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -34374,7 +34374,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -34399,7 +34399,7 @@ var forces = [
                             },
                             {
                                 "name":"Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -35545,7 +35545,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -35568,7 +35568,7 @@ var forces = [
                             },
                             {
                                 "name":"Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -35732,14 +35732,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -35755,7 +35755,7 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "count":1,
                                 "br":0,
                                 "mandatory":true,
@@ -38060,7 +38060,7 @@ var forces = [
                                 {"text":"M20 Utility Car","cost":10,"v":143},
                                 {"text":"M3 Half-Track","cost":8,"v":148},
                             ]
-                        },                        
+                        },
                         {
                             "name":"Radio",
                             "choices":[
@@ -38179,7 +38179,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -38201,7 +38201,7 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":2,
@@ -38224,7 +38224,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -38508,109 +38508,109 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Medium Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Medium Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":"[100,104]",
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s","vc":"[3,0]"},
                                     {"text":"4 M4s","cost":50,"br":3,"vc":"[4,0]"},
-                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"} 
-                                ] 
+                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"}
+                                ]
                             },
-                            { 
-                                "name":"76mmL53 Guns", 
+                            {
+                                "name":"76mmL53 Guns",
                                 "choices":[
                                     {"text":"No 76mmL53 Guns","np":true},
                                     {"text":"1 76mmL53 Gun","cost":4,"vcd":"[-1,1]"},
                                     {"text":"2 76mmL53 Guns","cost":8,"vcd":"[-2,2]"},
                                     {"text":"3 76mmL53 Guns","cost":12,"vcd":"[-3,3]"},
                                     {"text":"4 76mmL53 Guns","cost":16,"vcd":"[-4,4]"},
-                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"} 
+                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"}
                                 ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "multiplier":4,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts"}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts"},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M18 Hellcat","cost":4,"v":269,restricted:"true"},
                                     {"text":"M36 Jackson","cost":12,"v":268,restricted:"true"}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
-                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104}, 
-                                    {"text":"M5 Stuart","cost":-20,"v":89} 
-                                ] 
-                            } 
-                        ] 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
+                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104},
+                                    {"text":"M5 Stuart","cost":-20,"v":89}
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer Battery", 
+                    {
+                        "name":"Self-Propelled Tank Destroyer Battery",
                         "cost":100,
                         "multiplier":4,
                         "br":6,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M10 Wolverines","v":132,"vc":3},
                                     {"text":"4 M10 Wolverines","cost":34,"br":2,"v":132,"vc":4},
                                     {"text":"3 M18 Hellcats","cost":12,"v":269},
                                     {"text":"4 M18 Hellcats","cost":50,"br":2,"v":269}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -38884,19 +38884,19 @@ var forces = [
                     },
                     {
                         "name":"Light Tank",
-                        "cost":40, 
+                        "cost":40,
                         "scout":1,
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M5 Stuart","v":89},
                                     {"text":"M5 Stuart 'recce'","cost":-22,"v":117},
                                     {"text":"M24 Chaffee","cost":8,"v":232,restricted:"true"}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Armoured Infantry Patrol",
@@ -39275,7 +39275,7 @@ var forces = [
                                 {"text":"M20 Utility Car","cost":10,"v":143},
                                 {"text":"M3 Half-Track","cost":8,"v":148},
                             ]
-                        },                        
+                        },
                         {
                             "name":"Radio",
                             "choices":[
@@ -39372,7 +39372,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -39388,7 +39388,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -39404,7 +39404,7 @@ var forces = [
                             },
                             {
                                 "name":"BAR Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":3
@@ -39729,109 +39729,109 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Medium Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Medium Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":"[100,104]",
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s","vc":"[3,0]"},
                                     {"text":"4 M4s","cost":50,"br":3,"vc":"[4,0]"},
-                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"} 
-                                ] 
+                                    {"text":"5 M4s","cost":100,"br":6,"vc":"[5,0]"}
+                                ]
                             },
-                            { 
-                                "name":"76mmL53 Guns", 
+                            {
+                                "name":"76mmL53 Guns",
                                 "choices":[
                                     {"text":"No 76mmL53 Guns","np":true},
                                     {"text":"1 76mmL53 Gun","cost":4,"vcd":"[-1,1]"},
                                     {"text":"2 76mmL53 Guns","cost":8,"vcd":"[-2,2]"},
                                     {"text":"3 76mmL53 Guns","cost":12,"vcd":"[-3,3]"},
                                     {"text":"4 76mmL53 Guns","cost":16,"vcd":"[-4,4]"},
-                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"} 
-                                ] 
+                                    {"text":"5 76mmL53 Guns","cost":20,"vcd":"[-5,5]"}
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "vc":3,
                         "multiplier":4,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts"}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts"},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M18 Hellcat","cost":4,"v":269,restricted:"true"},
                                     {"text":"M36 Jackson","cost":12,"v":268,restricted:"true"}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
-                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104}, 
-                                    {"text":"M5 Stuart","cost":-20,"v":89} 
-                                ] 
-                            } 
-                        ] 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
+                                    {"text":"M4 Sherman (76mmL53)","cost":4,"v":104},
+                                    {"text":"M5 Stuart","cost":-20,"v":89}
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer Battery", 
+                    {
+                        "name":"Self-Propelled Tank Destroyer Battery",
                         "cost":100,
                         "multiplier":4,
                         "br":6,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M10 Wolverines","v":132,"vc":3},
                                     {"text":"4 M10 Wolverines","cost":34,"br":2,"v":132,"vc":4},
                                     {"text":"3 M18 Hellcats","cost":12,"v":269},
                                     {"text":"4 M18 Hellcats","cost":50,"br":2,"v":269}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -40607,7 +40607,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -40623,7 +40623,7 @@ var forces = [
                             },
                             {
                                 "name":"Infantry Squad",
-                                
+
                                 "count":2,
                                 "br":0,
                                 "mandatory":true,
@@ -40646,21 +40646,21 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "count":2
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
                             },
                             {
                                 "name":"Bazooka Team",
-                                
+
                                 "br":0,
                                 "w":92,
                                 "mandatory":true
@@ -41079,79 +41079,79 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Platoon", 
-                        "cost":140, 
-                        "multiplier":4, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Platoon",
+                        "cost":140,
+                        "multiplier":4,
+                        "br":9,
                         "v":100,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"3 M4s"},
                                     {"text":"4 M4s","cost":50,"br":3,"vc":4},
-                                    {"text":"5 M4s","cost":100,"br":6,"vc":5} 
-                                ] 
+                                    {"text":"5 M4s","cost":100,"br":6,"vc":5}
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Additional Tank",
-                        "cost":50, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4 Sherman","v":100}, 
-                                    {"text":"M5 Stuart","cost":-20,"v":89} 
-                                ] 
-                            } 
-                        ] 
+                        "cost":50,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4 Sherman","v":100},
+                                    {"text":"M5 Stuart","cost":-20,"v":89}
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":90, 
-                        "br":6, 
+                        "cost":90,
+                        "br":6,
                         "v":89,
                         "officer":true,
                         "multiplier":4,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M5 Stuarts","vc":3}, 
-                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M5 Stuarts","vc":3},
+                                    {"text":"4 M5 Stuarts","cost":30,"br":2,"vc":4},
                                     {"text":"5 M5 Stuarts","cost":60,"br":4,"vc":5}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M18 Hellcat","cost":4,"v":269,restricted:"true"},
                                     {"text":"M36 Jackson","cost":12,"v":268,restricted:"true"}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -44028,7 +44028,7 @@ var forces = [
                         ]
                     },
                 ]
-            },    
+            },
             {
                 "name":"Tank Units",
                 "allows":'[6,7,8,9]',
@@ -44718,7 +44718,7 @@ var forces = [
                     "br":0,
                     "cost":25,
                     "unique":true
-                }                
+                }
                 ]
             },
             {
@@ -44746,7 +44746,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -44771,7 +44771,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -44955,7 +44955,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -44978,7 +44978,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -45313,7 +45313,7 @@ var forces = [
                                             {"text":"None"},
                                             {"text":"SdKfz 251/1","v":37,"cost":12}
                                         ]
-                                    },                                    
+                                    },
                                 ]
                             },
                             {
@@ -45333,7 +45333,7 @@ var forces = [
                                         "choices":[
                                             {"text":"Platoon cmd SdKfz 250/1 or /10"}
                                         ]
-                                    }                                    
+                                    }
                                 ]
                             },
                             {
@@ -45419,7 +45419,7 @@ var forces = [
                                 "cost":27,
                                 "br":1,
                                 "unique":true,
-                                "v":46 
+                                "v":46
                             }
                         ]
                     },
@@ -46335,7 +46335,7 @@ var forces = [
                     "br":0,
                     "cost":25,
                     "unique":true
-                }  
+                }
                 ]
             },
             {
@@ -46364,7 +46364,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -46389,7 +46389,7 @@ var forces = [
                             },
                             {
                                 "name":"Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -47454,7 +47454,7 @@ var forces = [
                     "br":0,
                     "cost":25,
                     "unique":true
-                }  
+                }
                 ]
             },
             {
@@ -47473,7 +47473,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -47496,7 +47496,7 @@ var forces = [
                             },
                             {
                                 "name":"Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -47660,14 +47660,14 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -47683,7 +47683,7 @@ var forces = [
                             },
                             {
                                 "name":"MMG Team",
-                                
+
                                 "count":1,
                                 "br":0,
                                 "mandatory":true,
@@ -48733,7 +48733,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -48749,7 +48749,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -48765,7 +48765,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -48898,7 +48898,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -48921,7 +48921,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -48937,7 +48937,7 @@ var forces = [
                             },
                             {
                                 "name":"PIAT Team",
-                                
+
                                 "w":91,
                                 "br":0,
                                 "mandatory":true
@@ -49071,7 +49071,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -49085,7 +49085,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -49100,7 +49100,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -49118,114 +49118,114 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":150, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":150,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 1 Firefly","v":"[101,102]","vc":"[2,1]"},
                                     {"text":"1 M4, 1 M4A4, 1 Firefly","cost":2,"v":"[100,101,102]","vc":"[1,1,1]"},
                                     {"text":"2 M4s, 1 Firefly","cost":4,"v":"[100,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":80, 
-                        "br":6, 
+                        "cost":80,
+                        "br":6,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M3A3 'Honey's","v":115}, 
-                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"}, 
-                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"}, 
-                                    {"text":"3 M5 Stuarts","cost":6,"v":116} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M3A3 'Honey's","v":115},
+                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"},
+                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"},
+                                    {"text":"3 M5 Stuarts","cost":6,"v":116}
+                                ]
+                            }
+                        ]
                     },
                     // greg need to add exclude option for sherman and cromwell troops. Not allowed both.
-                    { 
-                        "name":"Cromwell Tank Troop", 
-                        "cost":156, 
-                        "multiplier":3, 
-                        "br":9, 
+                    {
+                        "name":"Cromwell Tank Troop",
+                        "cost":156,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 Cromwell IVs, 1 Firefly","v":"[111,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Cromwell Tank Troop (Challenger)", 
-                        "cost":178, 
-                        "multiplier":3, 
-                        "br":9, 
+                        ]
+                    },
+                    {
+                        "name":"Cromwell Tank Troop (Challenger)",
+                        "cost":178,
+                        "multiplier":3,
+                        "br":9,
                         "unique":true,
                         "officer":true,
                         "v":"[111,114]",
                         "vc":"[2,1]",
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 Cromwell IVs, 1 Challenger"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
+                        "cost":48,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
                                     {"text":"Cromwell IV","cost":4,"v":111},
                                     {"text":"M3A3 'Honey'","cost":-20,"v":115},
                                     {"text":"M5 Stuart","cost":-18,"v":89}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M10 Achilles","cost":20,"v":133}
-                                ] 
-                            } 
-                        ] 
-                    } 
-                ] 
-            }, 
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -49501,19 +49501,19 @@ var forces = [
                     {
                         "name":"Reconnaissance Tank",
                         "scout":1,
-                        "cost":62, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":62,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Cromwell IV","v":111},
                                     {"text":"M3A3 'Honey'","cost":-24,"v":115,"br":-1},
                                     {"text":"M5 Stuart","cost":-22,"v":89,"br":-1},
                                     {"text":"M5 Stuart 'recce'","cost":-38,"v":117,"br":-2}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Infantry Foot Patrol",
@@ -50005,7 +50005,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -50021,7 +50021,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -50037,7 +50037,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -50170,7 +50170,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -50184,7 +50184,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -50199,7 +50199,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -50217,79 +50217,79 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":146, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":146,
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 1 Firefly","v":"[101,102]","vc":"[2,1]"},
                                     {"text":"1 M4, 1 M4A4, 1 Firefly","cost":2,"v":"[100,101,102]","vc":"[1,1,1]"},
                                     {"text":"2 M4s, 1 Firefly","cost":4,"v":"[100,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Churchill Tank Troop", 
-                        "cost":130, 
-                        "multiplier":3, 
-                        "br":9, 
+                        ]
+                    },
+                    {
+                        "name":"Churchill Tank Troop",
+                        "cost":130,
+                        "multiplier":3,
+                        "br":9,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 Churchill VIs","v":121},
                                     {"text":"2 Churchill VIs, 1 Churchill III/IV","v":"[121,88]","vc":"[2,1]"},
                                     {"text":"1 Churchill VI, 2 Churchill III/IVs","v":"[121,88]","vc":"[1,2]"},
                                     {"text":"3 Churchill III/IVs","v":88}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Self-Propelled Anti-Tank Gun", 
-                        "cost":34, 
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        ]
+                    },
+                    {
+                        "name":"Self-Propelled Anti-Tank Gun",
+                        "cost":34,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M10 Achilles","cost":20,"v":133}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
+                        "cost":48,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
                                     {"text":"Churchill III/IV","v":88},
                                     {"text":"Churchill V","v":120}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -51084,7 +51084,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Sections",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -51400,18 +51400,18 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Not Available", 
-                        "cost":0, 
+            {
+                "name":"Tank Units",
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Not Available",
+                        "cost":0,
                         "br":0,
                         "unique":true
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -52284,7 +52284,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -52300,7 +52300,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -52316,7 +52316,7 @@ var forces = [
                             },
                             {
                                 "name":"Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true
@@ -52451,7 +52451,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -52474,7 +52474,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Section",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -52490,7 +52490,7 @@ var forces = [
                             },
                             {
                                 "name":"PIAT Team",
-                                
+
                                 "w":91,
                                 "br":0,
                                 "mandatory":true
@@ -52626,7 +52626,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Rifle Team",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "options":[
@@ -52640,7 +52640,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier Light Mortar Team",
-                                
+
                                 "br":0,
                                 "w":60,
                                 "mandatory":true,
@@ -52655,7 +52655,7 @@ var forces = [
                             },
                             {
                                 "name":"Carrier PIAT Team",
-                                
+
                                 "br":0,
                                 "w":91,
                                 "mandatory":true,
@@ -52674,120 +52674,120 @@ var forces = [
 
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "requires":false, 
-                "entries":[ 
-                    { 
-                        "name":"Sherman Tank Troop", 
-                        "cost":150, 
-                        "multiplier":3, 
-                        "br":9, 
+            {
+                "name":"Tank Units",
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Sherman Tank Troop",
+                        "cost":150,
+                        "multiplier":3,
+                        "br":9,
                         "origin_brit":true,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 M4A4s, 1 Firefly","v":"[101,102]","vc":"[2,1]"},
                                     {"text":"1 M4, 1 M4A4, 1 Firefly","cost":2,"v":"[100,101,102]","vc":"[1,1,1]"},
                                     {"text":"2 M4s, 1 Firefly","cost":4,"v":"[100,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank Platoon",
-                        "cost":80, 
-                        "br":6, 
+                        "cost":80,
+                        "br":6,
                         "origin_brit":true,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M3A3 'Honey's","v":115}, 
-                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"}, 
-                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"}, 
-                                    {"text":"3 M5 Stuarts","cost":6,"v":116} 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M3A3 'Honey's","v":115},
+                                    {"text":"1 M5 Stuart, 2 M3A3 'Honey's","cost":2,"v":"[116,115]","vc":"[1,2]"},
+                                    {"text":"2 M5 Stuarts, 1 M3A3 'Honey'","cost":4,"v":"[116,115]","vc":"[2,1]"},
+                                    {"text":"3 M5 Stuarts","cost":6,"v":116}
+                                ]
+                            }
+                        ]
                     },
                     // greg need to add exclude option for sherman and cromwell troops. Not allowed both.
-                    { 
-                        "name":"Cromwell Tank Troop", 
-                        "cost":156, 
+                    {
+                        "name":"Cromwell Tank Troop",
+                        "cost":156,
                         "origin_brit":true,
-                        "multiplier":3, 
-                        "br":9, 
+                        "multiplier":3,
+                        "br":9,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 Cromwell IVs, 1 Firefly","v":"[111,102]","vc":"[2,1]"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Cromwell Tank Troop (Challenger)", 
-                        "cost":178, 
-                        "multiplier":3, 
-                        "br":9, 
+                        ]
+                    },
+                    {
+                        "name":"Cromwell Tank Troop (Challenger)",
+                        "cost":178,
+                        "multiplier":3,
+                        "br":9,
                         "origin_brit":true,
                         "unique":true,
                         "officer":true,
                         "v":"[111,114]",
                         "vc":"[2,1]",
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"2 Cromwell IVs, 1 Challenger"}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Additional Tank",
-                        "cost":48, 
+                        "cost":48,
                         "origin_brit":true,
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"M4A4 Sherman","v":101}, 
-                                    {"text":"M4 Sherman","cost":2,"v":100}, 
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"M4A4 Sherman","v":101},
+                                    {"text":"M4 Sherman","cost":2,"v":100},
                                     {"text":"Cromwell IV","cost":4,"v":111},
                                     {"text":"M3A3 'Honey'","cost":-20,"v":115},
                                     {"text":"M5 Stuart","cost":-18,"v":89}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Self-Propelled Tank Destroyer", 
-                        "cost":34, 
+                    {
+                        "name":"Self-Propelled Tank Destroyer",
+                        "cost":34,
                         "origin_brit":true,
-                        "br":2, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"M10 Wolverine","v":132},
                                     {"text":"M10 Achilles","cost":20,"v":133}
-                                ] 
-                            } 
-                        ] 
-                    } 
+                                ]
+                            }
+                        ]
+                    }
 
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -53292,19 +53292,19 @@ var forces = [
                         "name":"Reconnaissance Tank",
                         "origin_brit":true,
                         "scout":1,
-                        "cost":62, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":62,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Cromwell IV","v":111},
                                     {"text":"M3A3 'Honey'","cost":-24,"v":115,"br":-1},
                                     {"text":"M5 Stuart","cost":-22,"v":89,"br":-1},
                                     {"text":"M5 Stuart 'recce'","cost":-38,"v":117,"br":-2}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Infantry Foot Patrol",
@@ -53895,58 +53895,58 @@ var forces = [
                         ]
                     }
                 ]
-            },            
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
+            },
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
                     {
                         "name":"Vickers Light Tank Platoon",
-                        "cost":50, 
-                        "br":3, 
+                        "cost":50,
+                        "br":3,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 Vickers VI B","v":327}, 
-                                    {"text":"2 Vickers VI B and 1 Vickers VI C","v":"[327,328]","vc":"[2,1]"}, 
-                                    {"text":"1 Vickers VI B and 2 Vickers VI C","v":"[327,328]","vc":"[1,2]"}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 Vickers VI B","v":327},
+                                    {"text":"2 Vickers VI B and 1 Vickers VI C","v":"[327,328]","vc":"[2,1]"},
+                                    {"text":"1 Vickers VI B and 2 Vickers VI C","v":"[327,328]","vc":"[1,2]"},
                                     {"text":"3 Vickers VI C","v":328}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"M3 'Honey' Platoon",
-                        "cost":75, 
-                        "br":6, 
+                        "cost":75,
+                        "br":6,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 M3 'Honey'","v":324}, 
-                                ] 
-                            } 
-                        ] 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 M3 'Honey'","v":324},
+                                ]
+                            }
+                        ]
                     },
                     // greg need to add exclude option for sherman and cromwell troops. Not allowed both.
-                    { 
-                        "name":"Cruiser Tank Platoon", 
-                        "cost":70, 
-                        "multiplier":3, 
-                        "br":9, 
+                    {
+                        "name":"Cruiser Tank Platoon",
+                        "cost":70,
+                        "multiplier":3,
+                        "br":9,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 A13","v":335},
                                     {"text":"2 A13 and 1 A13 Mark II","cost":6,"v":"[335,321]","vc":"[2,1]"},
@@ -53968,97 +53968,97 @@ var forces = [
                                     {"text":"2 A10 and 1 A9","cost":11,"v":"[321,323]","vc":"[2,1]"},
                                     {"text":"1 A10 and 2 A9","cost":19,"v":"[321,323]","vc":"[2,1]"},
                                     {"text":"3 A9","cost":27,"v":332},
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
-                    { 
-                        "name":"Crusader Tank Platoon", 
-                        "cost":75, 
-                        "multiplier":3, 
+                        ]
+                    },
+                    {
+                        "name":"Crusader Tank Platoon",
+                        "cost":75,
+                        "multiplier":3,
                         "br":9,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3x Crusader I","v":322},
                                     {"text":"2x Crusader I and 1x Crusader II","v":"[322,323]","vc":"[2,1]"},
                                     {"text":"1x Crusader I and 2x Crusader II","v":"[322,323]","vc":"[1,2]"},
                                     {"text":"3x Crusader II","v":323}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Light Tank",
                         "cost":12,
                         "br":1,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"Bren Carrier (Boys AT Rifle)","v":329}, 
-                                    {"text":"Vickers IV","cost":-2,"v":326}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"Bren Carrier (Boys AT Rifle)","v":329},
+                                    {"text":"Vickers IV","cost":-2,"v":326},
                                     {"text":"Vickers VI A-B","cost":6,"v":327},
-                                    {"text":"Vickers VI C","cost":6,"v":328}, 
+                                    {"text":"Vickers VI C","cost":6,"v":328},
                                     {"text":"M3 'Honey'","cost":16,"br":1,"v":324}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Cruiser Tank",
                         "cost":35,
                         "br":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"A9","v":332}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"A9","v":332},
                                     {"text":"A10","cost":-8,"v":334},
-                                    {"text":"A13","cost":-9,"v":335}, 
+                                    {"text":"A13","cost":-9,"v":335},
                                     {"text":"A13 Mark II","cost":-3,"v":321},
-                                    {"text":"Crusader I","cost":-7,"v":322}, 
+                                    {"text":"Crusader I","cost":-7,"v":322},
                                     {"text":"Crusader II","cost":-1,"v":323}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Cruiser Tank",
                         "cost":31,
                         "unique":true,
                         "br":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"A9 CS","v":333}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"A9 CS","v":333},
                                     {"text":"Crusader II CS","v":339}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Captured Italian Tank",
                         "cost":18,
                         "br":1,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"CV-33 Tankette","v":300}, 
-                                    {"text":"CV-35 Tankette","cost":4,"v":301}, 
-                                    {"text":"M11/39","cost":21,"br":2,"v":307}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"CV-33 Tankette","v":300},
+                                    {"text":"CV-35 Tankette","cost":4,"v":301},
+                                    {"text":"M11/39","cost":21,"br":2,"v":307},
                                     {"text":"M13/40","cost":33,"br":2,"v":309}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -54222,19 +54222,19 @@ var forces = [
                     },
                     {
                         "name":"Light Tank",
-                        "cost":15, 
+                        "cost":15,
                         "scout":1,
-                        "br":1, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "br":1,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Vickers IV","v":326},
                                     {"text":"Vickers IV A-B","cost":6,"v":327},
                                     {"text":"Vickers VI C","cost":6,"v":328}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Armoured Car",
@@ -54845,82 +54845,82 @@ var forces = [
                         ]
                     }
                 ]
-            },            
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
+            },
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
                     {
                         "name":"Vickers Light Tank Platoon",
-                        "cost":50, 
-                        "br":3, 
+                        "cost":50,
+                        "br":3,
                         "officer":true,
                         "multiplier":3,
                         "vc":3,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"3 Vickers VI B","v":327}, 
-                                    {"text":"2 Vickers VI B and 1 Vickers VI C","v":"[327,328]","vc":"[2,1]"}, 
-                                    {"text":"1 Vickers VI B and 2 Vickers VI C","v":"[327,328]","vc":"[1,2]"}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"3 Vickers VI B","v":327},
+                                    {"text":"2 Vickers VI B and 1 Vickers VI C","v":"[327,328]","vc":"[2,1]"},
+                                    {"text":"1 Vickers VI B and 2 Vickers VI C","v":"[327,328]","vc":"[1,2]"},
                                     {"text":"3 Vickers VI C","v":328}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
-                    { 
-                        "name":"Infantry Tank Platoon", 
-                        "cost":87, 
-                        "multiplier":3, 
+                    {
+                        "name":"Infantry Tank Platoon",
+                        "cost":87,
+                        "multiplier":3,
                         "br":9,
                         "vc":3,
                         "officer":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
+                        "options":[
+                            {
+                                "name":"Composition",
                                 "choices":[
                                     {"text":"3 Matilda II","v":58},
                                     {"text":"3 Valentine II","v":331}
-                                ] 
+                                ]
                             }
-                        ] 
-                    }, 
+                        ]
+                    },
                     {
                         "name":"Tank",
                         "cost":12,
                         "br":1,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"Bren Carrier (Boys AT Rifle)","v":329}, 
-                                    {"text":"Vickers IV","cost":-2,"v":326}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"Bren Carrier (Boys AT Rifle)","v":329},
+                                    {"text":"Vickers IV","cost":-2,"v":326},
                                     {"text":"Vickers VI A-B","cost":6,"v":327},
-                                    {"text":"Vickers VI C","cost":6,"v":328}, 
+                                    {"text":"Vickers VI C","cost":6,"v":328},
                                     {"text":"Matilda II","v":58,"cost":18,"br":2},
                                     {"text":"Valentine II","v":331,"cost":24,"br":2}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Tank",
                         "cost":26,
                         "br":3,
                         "unique":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Matilda II CS","v":330,"cost":14},
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -55154,19 +55154,19 @@ var forces = [
                     },
                     {
                         "name":"Light Tank",
-                        "cost":15, 
+                        "cost":15,
                         "scout":1,
-                        "br":1, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "br":1,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Vickers IV","v":326},
                                     {"text":"Vickers IV A-B","cost":6,"v":327},
                                     {"text":"Vickers VI C","cost":6,"v":328}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Armoured Car",
@@ -55477,17 +55477,17 @@ var forces = [
                         "cost":35,
                         "br":3,
                         "restricted":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"A9","v":332}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"A9","v":332},
                                     {"text":"A10","cost":-8,"v":334},
-                                    {"text":"A13","cost":-9,"v":335}, 
+                                    {"text":"A13","cost":-9,"v":335},
                                     {"text":"A13 Mark II","cost":-3,"v":321},
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -55877,46 +55877,46 @@ var forces = [
                         ]
                     }
                 ]
-            },            
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
+            },
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
                     {
                         "name":"Tank",
                         "cost":12,
                         "br":1,
                         "restricted":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"Bren Carrier (Boys AT Rifle)","v":329}, 
-                                    {"text":"Vickers IV","cost":-2,"v":326}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"Bren Carrier (Boys AT Rifle)","v":329},
+                                    {"text":"Vickers IV","cost":-2,"v":326},
                                     {"text":"Vickers VI A-B","cost":6,"v":327},
-                                    {"text":"Vickers VI C","cost":6,"v":328}, 
+                                    {"text":"Vickers VI C","cost":6,"v":328},
                                     {"text":"Matilda II","v":58,"cost":18,"br":2}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Tank",
                         "cost":26,
                         "br":3,
                         "unique":true,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Matilda II CS","v":330,"cost":14},
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
-                ] 
-            }, 
+                ]
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
@@ -56612,20 +56612,20 @@ var forces = [
                     }
                 ]
             },
-            { 
-                "name":"Tank Units", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
                 "entries":[
                 ]
-            }, 
+            },
             {
                 "name":"Artillery Units",
                 "allows":[10],
                 "requires":false,
                 "entries":[
                 ]
-            },            
+            },
             {
                 "name":"Defences",
                 "allows":null,
@@ -56714,9 +56714,9 @@ var forces = [
                     },
                     {
                         "name":"SAS Team",
-                        "cost":40, 
+                        "cost":40,
                         "scout":1,
-                        "br":2, 
+                        "br":2,
                         "v":273,
                     },
                     {
@@ -57540,7 +57540,7 @@ var forces = [
                                             {"text":"Anti-tank grenades","cost":5}
                                         ]
                                     }
-        
+
                                 ]
                             },
                             {
@@ -57851,12 +57851,12 @@ var forces = [
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":14, 
-                        "br":1, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
+                        "cost":14,
+                        "br":1,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
                                     {"text":"Panzer I","v":286},
                                     {"text":"Panzer II C","v":287,"cost":6,"br":1},  //greg
                                     {"text":"Panzer II F","restricted":true,"v":13,"cost":8,"br":1},
@@ -57865,31 +57865,31 @@ var forces = [
                                     {"text":"Panzer III H or J","v":6,"cost":26,"br":2},
                                     {"text":"Panzer IV D","v":96,"cost":26,"br":2},
                                     {"text":"Panzer IV E","v":7,"cost":28,"br":2},
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Captured British Tank",
                         "cost":20,
                         "restricted":true,
                         "br":2,
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"Vickers Mk.VI C","v":328}, 
-                                    {"text":"M3 Honey","cost":13,"v":328}, 
-                                    {"text":"A9 Cruiser Mk.I","cost":20,"v":332}, 
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"Vickers Mk.VI C","v":328},
+                                    {"text":"M3 Honey","cost":13,"v":328},
+                                    {"text":"A9 Cruiser Mk.I","cost":20,"v":332},
                                     {"text":"A10 Cruiser Mk.II","cost":12,"v":334},
-                                    {"text":"A13Cruiser Mk.III","cost":11,"v":335}, 
+                                    {"text":"A13Cruiser Mk.III","cost":11,"v":335},
                                     {"text":"Matilda II","cost":15,"v":86},
-                                    {"text":"Crusader I","cost":13,"v":322}, 
+                                    {"text":"Crusader I","cost":13,"v":322},
                                     {"text":"Crusader II","cost":19,"v":323},
                                     {"text":"Valentine II","cost":21,"v":331}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -58272,7 +58272,7 @@ var forces = [
                     ]
                 }
             ]
-        },      
+        },
         {
             "name":"Engineer Support Units",
             "allows":null,
@@ -58288,7 +58288,7 @@ var forces = [
                     "sub_text":"Platoon Components",
                     "sub_units":[
                         {
-                            "name":"Assault Pioneer Command Squad",                            
+                            "name":"Assault Pioneer Command Squad",
                             "br":0,
                             "mandatory":true,
                             "officer":true,
@@ -58502,7 +58502,7 @@ var forces = [
                         "name":"Composition",
                         "choices":[
                             {"text":"Ambulance medium truck","v":91},
-                            {"text":"Panzer I Ambulance","cost":8,"v":352}
+                            {"text":"Panzer I Ambulance","cost":8,"v":360}
                         ]
                         }
                     ]
@@ -59425,7 +59425,7 @@ var forces = [
                     "br":2
                 }
             ]
-        },      
+        },
         {
             "name":"Engineer Support Units - (pg.162)",
             "allows":null,
@@ -59928,14 +59928,14 @@ var forces = [
                         ]
                     }
                 ]
-            },            
-            { 
-                "name":"Tank Units - (Pg.169)", 
-                "allows":'[6,7,8,9]', 
-                "requires":false, 
-                "entries":[ 
+            },
+            {
+                "name":"Tank Units - (Pg.169)",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
                 ]
-            }, 
+            },
             {
                 "name":"Artillery Units - (Pg.171)",
                 "allows":[10],
@@ -60532,7 +60532,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -60563,7 +60563,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":4,
                                 "br":0,
                                 "mandatory":true,
@@ -60777,7 +60777,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -60793,7 +60793,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Squad",
-                                
+
                                 "count":4,
                                 "br":0,
                                 "mandatory":true,
@@ -60936,7 +60936,7 @@ var forces = [
                             },
                             {
                                 "name":"Rifle Platoon",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "p":1,
@@ -60945,7 +60945,7 @@ var forces = [
                                 "sub_units":[
                                     {
                                         "name":"Command Squad",
-                                        
+
                                         "br":0,
                                         "mandatory":true,
                                         "officer":true,
@@ -60961,7 +60961,7 @@ var forces = [
                                     },
                                     {
                                         "name":"Rifle Squad",
-                                        
+
                                         "count":4,
                                         "br":0,
                                         "mandatory":true,
@@ -61086,7 +61086,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -61109,7 +61109,7 @@ var forces = [
                             },
                             {
                                 "name":"Pioneer Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -61297,23 +61297,23 @@ var forces = [
                     },
                     {
                         "name":"Additional Tank",
-                        "cost":40, 
-                        "br":3, 
-                        "options":[ 
-                            { 
-                                "name":"Composition", 
-                                "choices":[ 
-                                    {"text":"T-34/76","v":75}, 
-                                    {"text":"T-34/76 (Bed Spring)","v":75,"cost":3}, 
+                        "cost":40,
+                        "br":3,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"T-34/76","v":75},
+                                    {"text":"T-34/76 (Bed Spring)","v":75,"cost":3},
                                     {"text":"T-34/85","cost":15,"v":236},
                                     {"text":"T-34/85 (Bed Spring)","cost":18,"v":236},
                                     {"text":"Sherman \'Emcha\'","cost":14,"v":99},
                                     {"text":"Sherman \'Emcha\' (Bed Spring)","cost":17,"v":99},
                                     {"text":"IS-II","cost":48,"v":237},
                                     {"text":"IS-II (Bed Spring)","cost":51,"v":237}
-                                ] 
-                            } 
-                        ] 
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Sherman \'Emcha\' Company",
@@ -62299,7 +62299,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -62954,7 +62954,7 @@ var forces = [
                                             {"text":"None"},
                                             {"text":"SdKfz 251/1","v":37,"cost":12}
                                         ]
-                                    },                                    
+                                    },
                                 ]
                             },
                             {
@@ -62974,7 +62974,7 @@ var forces = [
                                         "choices":[
                                             {"text":"Platoon cmd SdKfz 250/1 or /10"}
                                         ]
-                                    }                                    
+                                    }
                                 ]
                             },
                             {
@@ -63060,7 +63060,7 @@ var forces = [
                                 "cost":27,
                                 "br":1,
                                 "unique":true,
-                                "v":46 
+                                "v":46
                             }
                         ]
                     },
@@ -64153,7 +64153,7 @@ var forces = [
                             },
                             {
                                 "name":"Panzer Grenadier Squad",
-                                
+
                                 "count":3,
                                 "br":0,
                                 "mandatory":true,
@@ -64371,7 +64371,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -64763,7 +64763,7 @@ var forces = [
                                             {"text":"None"},
                                             {"text":"SdKfz 251/1","v":37,"cost":12}
                                         ]
-                                    },                                    
+                                    },
                                 ]
                             },
                             {
@@ -64783,7 +64783,7 @@ var forces = [
                                         "choices":[
                                             {"text":"Platoon cmd SdKfz 250/1 or /10"}
                                         ]
-                                    }                                    
+                                    }
                                 ]
                             },
                             {
@@ -64869,7 +64869,7 @@ var forces = [
                                 "cost":27,
                                 "br":1,
                                 "unique":true,
-                                "v":46 
+                                "v":46
                             }
                         ]
                     },
@@ -64926,7 +64926,7 @@ var forces = [
                         "sub_units":[
                             {
                                 "name":"Command Squad",
-                                
+
                                 "br":0,
                                 "mandatory":true,
                                 "officer":true,
@@ -64975,7 +64975,7 @@ var forces = [
                                         "choices":[
                                             {"text":"None"},
                                             {"text":"Bipod MG34","cost":10},
-                                            {"text":"Bipod MG42","cost":4}        
+                                            {"text":"Bipod MG42","cost":4}
                                         ]
                                     }
                                 ]
@@ -65171,7 +65171,7 @@ var forces = [
                                         "choices":[
                                             {"text":"None"},
                                             {"text":"Bipod MG34","cost":10},
-                                            {"text":"Bipod MG42","cost":4}        
+                                            {"text":"Bipod MG42","cost":4}
                                         ]
                                     }
                                 ]
