@@ -1879,6 +1879,40 @@ var weapons = {
                 'strength':['10','10','10','10','10','10']
             }
         ]
-    }
+      },
+  155:{
+      'name':'25mm L72 PstK/37',
+      'stats':[
+          {
+              'type':'AP',
+              'effect':'-',
+              'strength':['3','3','2','1','1','-']
+          }
+      ]
+  },
+  156:{
+      'name':'37mm Bofors',
+      'stats':[
+          {
+              'type':'HE [VL]',
+              'effect':'2/5+',
+              'strength':['1','1','1','1','1']
+          },
+          {
+              'type':'AP',
+              'effect':'-',
+              'strength':['4','4','3','2','1']
+          }
+      ]
+    },
+  157:{
+      'name':'76mm Field Gun',
+      'stats':[
+          {
+              'type':'HE [L]',
+              'effect':'-',
+              'strength':['-','-','-','-','-']
+          }
+      ]
+  }
 }
-

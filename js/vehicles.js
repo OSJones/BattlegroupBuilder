@@ -2645,6 +2645,83 @@ var vehicles = [
     'name':'Panzer I Ambulance',
     'armour':true
 },
+{
+    'id':361,
+    'name':'Panzer III H Panzerbefehlswagen',
+    'armour':true,
+    'weapons':[8],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':362,
+    'name':'SdKfz 251/6',
+    'armour':true,
+    'open':true,
+    'mg':true
+},
+{
+    'id':363,
+    'name':'BAB Armoured Car',
+    'armour':true,
+    'mg':true
+},
+{
+    'id':364,
+    'name':'BAF Armoured Car',
+    'armour':true,
+    'weapons':[38],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':365,
+    'name':'T-26 m36',
+    'armour':true,
+    'weapons':[38],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':366,
+    'name':'T-28',
+    'armour':true,
+    'weapons':[41],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':367,
+    'name':'BT-5',
+    'armour':true,
+    'weapons':[38],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':368,
+    'name':'BT-7',
+    'armour':true,
+    'weapons':[38],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':369,
+    'name':'Panzer III H',
+    'armour':true,
+    'weapons':[8],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':370,
+    'name':'OT-130 Flamethrower Tank',
+    'armour':true,
+    'weapons':[32],
+    'ammo':true,
+    'mg':false,
+},
 
 // greg to-do, landing craft
 {
