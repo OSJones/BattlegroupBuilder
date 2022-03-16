@@ -2722,6 +2722,12 @@ var vehicles = [
     'ammo':true,
     'mg':false,
 },
+{
+    'id':371,
+    'name':'CV3/33 Tankette',
+    'armour':true,
+    'mg':true,
+},
 
 // greg to-do, landing craft
 {

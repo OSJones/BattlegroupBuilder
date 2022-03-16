@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+15/03/2022 - _Added Barbarossa / Hungarian Rapid Corps_<br>
 15/03/2022 - _Added Barbarossa / Finnish Infantry Division_<br>
 15/03/2022 - _Added Barbarossa / German Infantry Division_<br>
 15/03/2022 - _Corrected duplicate vehicle ID affecting Print of Hungarian vehicles_<br>

@@ -1914,5 +1914,15 @@ var weapons = {
               'strength':['-','-','-','-','-']
           }
       ]
+    },
+  158:{
+      'name':'149mm 14/31 Howitzer',
+      'stats':[
+          {
+              'type':'HE [M]',
+              'effect':'6/3+',
+          'strength':['','','','','']
+          }
+      ]
   }
 }
