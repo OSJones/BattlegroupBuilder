@@ -1924,5 +1924,40 @@ var weapons = {
           'strength':['','','','','']
           }
       ]
-  }
+    },
+  159:{
+      'name':'75mm Field Gun',
+      'stats':[
+          {
+              'type':'HE [L]',
+              'effect':'2/5+',
+          'strength':['','','','','']
+          }
+      ]
+    },
+  160:{
+      'name':'100mm L25 Howitzer',
+      'stats':[
+          {
+              'type':'HE [M]',
+              'effect':'5/3+',
+          'strength':['','','','','']
+          }
+      ]
+  },
+  161:{
+    'name':'Böhler 47mm L36',
+    'stats':[
+    {
+        'type':'HE [VL]',
+        'effect':'',
+        'strength':['','','','','']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['','','','','']
+    }
+    ]
+}
 }

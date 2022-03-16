@@ -2728,6 +2728,32 @@ var vehicles = [
     'armour':true,
     'mg':true,
 },
+{
+    'id':372,
+    'name':'R-35 Tank',
+    'armour':true,
+    'weapons':[112],
+    'ammo':true,
+    'mg':true,
+},
+{
+    'id':373,
+    'name':'Tatra Armoured Car',
+    'armour':true,
+    'mg':true,
+},
+{
+    'id':374,
+    'name':'R1 (AH-IV) Tankette',
+    'armour':true,
+    'mg':true,
+},
+{
+    'id':375,
+    'name':'UE Supply Carrier',
+    'armour':true,
+    'mg':false,
+},
 
 // greg to-do, landing craft
 {
