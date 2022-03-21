@@ -1959,5 +1959,39 @@ var weapons = {
         'strength':['','','','','']
     }
     ]
-}
+  },
+  162:{
+      'name':'76.2mm L52 Gun (F-22)',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'',
+          'strength':['','','','','']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['','','','','']
+      }
+      ]
+  },
+  163:{
+    'name':'76mmL55',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'',
+        'strength':['','','','','']
+      }
+    },
+    164:{
+    'name':'122mm L12',
+    'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'5/3+',
+        'strength':['','','','','']
+        }
+    ]
+  }
 }

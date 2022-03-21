@@ -1,6 +1,6 @@
 /**
- * © Greg Farrell greg@gregfarrell.org 
- * Do as you wish with this code but please respect the IP of any authors for 
+ * © Greg Farrell greg@gregfarrell.org
+ * Do as you wish with this code but please respect the IP of any authors for
  * whose game you create a force builder using any of this code.
  * @license MIT
  */
@@ -104,7 +104,7 @@ function requires_match(item, requires) {
 // maybe make it get which value from a select?
 function render_name(force) {
     var group=null;
-    var text = "<div class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix'><div style='display:inline'><select id=forceChoice style='display:inline; float:left; margin-right:20px; margin-left:10px; height: 24px; width: 360px'>"; 
+    var text = "<div class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix'><div style='display:inline'><select id=forceChoice style='display:inline; float:left; margin-right:20px; margin-left:10px; height: 24px; width: 360px'>";
     for (var i=0; i<forces.length; i++) {
         if (group != forces[i].group) {
             if ( group !== null )
@@ -179,7 +179,7 @@ function count_allows() {
 function count_requires() {
     var selected = $('.ui-selected');
     var array = $.map(selected, function(a)
-        { 
+        {
             if ($(a).parent().data('requires')) {
                 var rv=[];
                 for (var i=0; i<($(a).data('multiplier')); i++) {
@@ -239,7 +239,7 @@ function reduce_by_count(allows, requires) {
             found = true;
         }
     }
-        
+
     if (found) // reduced, so try to reduce again
         reduce_by_count(allows, requires);
     /*alert(JSON.stringify(count));
@@ -429,20 +429,20 @@ function render_entries(entries, sub_entries, async) {
                         else
                             text = text + "<option data-cost='0";
                         if (entries[i].options[j].choices[k].np)
-                           text = text +"' data-np='"+entries[i].options[j].choices[k].br; 
+                           text = text +"' data-np='"+entries[i].options[j].choices[k].br;
                         if (entries[i].options[j].choices[k].br)
-                           text = text +"' data-br='"+entries[i].options[j].choices[k].br; 
+                           text = text +"' data-br='"+entries[i].options[j].choices[k].br;
                         if (entries[i].options[j].choices[k].v)
-                           text = text +"' data-v='"+entries[i].options[j].choices[k].v; 
+                           text = text +"' data-v='"+entries[i].options[j].choices[k].v;
                         if (entries[i].options[j].choices[k].vc)
-                           text = text +"' data-vc='"+entries[i].options[j].choices[k].vc; 
+                           text = text +"' data-vc='"+entries[i].options[j].choices[k].vc;
                         if (entries[i].options[j].choices[k].vcd)
-                           text = text +"' data-vcd='"+entries[i].options[j].choices[k].vcd; 
+                           text = text +"' data-vcd='"+entries[i].options[j].choices[k].vcd;
                         if (entries[i].options[j].choices[k].w)
-                           text = text +"' data-w='"+entries[i].options[j].choices[k].w; 
+                           text = text +"' data-w='"+entries[i].options[j].choices[k].w;
                         if (entries[i].options[j].choices[k].restricted)
-                           text = text +"' data-restricted='"+entries[i].options[j].choices[k].w; 
-                        text = text + "' value='" + (k+1) +"'>"+entries[i].options[j].choices[k].text + "</option>"; 
+                           text = text +"' data-restricted='"+entries[i].options[j].choices[k].w;
+                        text = text + "' value='" + (k+1) +"'>"+entries[i].options[j].choices[k].text + "</option>";
                     }
                     text = text + "</select></div>";
                 }
@@ -455,6 +455,12 @@ function render_entries(entries, sub_entries, async) {
             }
             if ( entries[i]['warning'] )
                 text = text + "<div><span style='display:inline-block; width:100%; background-color:A80000;'>"+entries[i]['warning']+"</span></div>";
+
+            if ( entries[i]['info'] )
+                    text = text + "<div><span style='display:inline-block; width:100%; background-color:A8A800;'>"+entries[i]['info']+"</span></div>";
+
+
+
             text = text + "</div>";
         }
     }
@@ -616,7 +622,7 @@ function get_selected_entries() {
         // check if they are a sub entry - if so require all parent entries to be selected
         var which = $(this);
         while (which.data('sub_entry')) {
-            if ( ! $(which).parents('.ui-selectable').data('sub_parent') || 
+            if ( ! $(which).parents('.ui-selectable').data('sub_parent') ||
                 ! $('#'+$(which).parents('.ui-selectable').data('sub_parent')).hasClass('ui-selected')) {
                     return false;
                     }
@@ -698,16 +704,16 @@ function update_cost() {
                 scout_count = scout_count + $(this).data('scout');
         }
     });
- 
+
     if ( d6s == 0 )
         $('#force_cost').text(cost + ' / ' + br +'br');
     else
         $('#force_cost').text(cost + ' / ' + br + '+'+d6s+'D6 br');
- 
+
     $('#officer_count').text(officer_count);
     $('#scout_count').text(scout_count);
- 
-    var restricted = entries.filter( 
+
+    var restricted = entries.filter(
         function() {
             if ($(this).data('restricted'))
                 return true;
@@ -720,9 +726,9 @@ function update_cost() {
             }
             return false;
         });
- 
+
     $('#restricted_count').text(restricted.length);
- 
+
     //greg WIP squads_check(cost, entries);
 }
 
@@ -1057,7 +1063,7 @@ function print_entry(entry){
 
             for (i=0; i<v.length; i++)
                 addV(v[i],vc[i]);
-        } else 
+        } else
             addV(v,vc);
     }
     var w = $(entry).data('w');
@@ -1210,7 +1216,7 @@ function print_vehicles(listV, listW) {
         text = text + "</table>";
     text = text + "</div>";
     text = text + "<div class='p_section'>"+ print_weapons(listW) + "</div>";
-    
+
     //text = text + "<div class='p_section' id='p_ammo'>"+ print_ammo(listV) + "</div>";
     text = text + print_ammo(listV);
     return text;
@@ -1274,7 +1280,7 @@ function SortByName(a, b){
     if ( aGroup > bGroup )
         return(1);
     var aName = a.name.toLowerCase();
-    var bName = b.name.toLowerCase(); 
+    var bName = b.name.toLowerCase();
     return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
 }
 
