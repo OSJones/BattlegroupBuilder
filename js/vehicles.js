@@ -2959,6 +2959,14 @@ var vehicles = [
     'armour':true,
     'mg':false,
 },
+{
+    'id':404,
+    'name':'Panzer III J (lang)',
+    'armour':true,
+    'weapons':[9],
+    'ammo':true,
+    'mg':true
+},
 
 // greg to-do, landing craft
 {
