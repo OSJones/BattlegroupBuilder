@@ -2967,6 +2967,19 @@ var vehicles = [
     'ammo':true,
     'mg':true
 },
+{
+    'id':405,
+    'name':'Panzer IV F2',
+    'armour':true,
+    'weapons':[165],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':406,
+    'name':'Panzer IV Brückenleger',
+    'armour':true,
+},
 
 // greg to-do, landing craft
 {

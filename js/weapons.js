@@ -1994,5 +1994,21 @@ var weapons = {
             'strength':['','','','','']
         }
     ]
-  }
+  },
+  165:{
+    'name':'75mm L43',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'',
+        'strength':['','','','','']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['','','','','']
+    }
+    ]
+}
+
 }
