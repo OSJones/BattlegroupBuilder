@@ -74033,8 +74033,7 @@ var forces = [
                                     {
                                         "name":"MG Team",
                                         "choices":[
-                                            {"text":"Bipod MG34"},
-                                            {"text":"Bipod MG42","cost":4}
+                                            {"text":"Bipod MG34"}
                                         ]
                                     },
                                 ]
@@ -76931,5 +76930,1106 @@ var forces = [
             ]
         }
         ]
-    }
+    },
+    {
+        "id":66,
+        "group":"Battlegroup Stalingrad",
+        "name":"German Stalingrad Stoßgruppe",
+        "infantry":[
+            [[1,0],[0,1]],
+            [[0,1],[0,2]],
+            [[0,2],[0,3]],
+            [[0,3],[0,6]]
+        ],
+        "sections":[
+            {
+                "name":"Forward Headquarters Units",
+                "allows":'[8,10]',
+                "requires":false,
+                "entries":[
+                {
+                    "name":"Forward Headquarters",
+                    "cost":22,
+                    "br":3,
+                    "unique":true,
+                    "officer":true
+                },
+                {
+                    "name":"Luftwaffe Air Liaison Officer",
+                    "cost":26,
+                    "br":1,
+                    "unique":true,
+                    "officer":true
+                },
+                {
+                    "name":"Comms Relay Team",
+                    "br":0,
+                    "unique":true,
+                    "cost":15
+                },
+                {
+                    "name":"Wire Team",
+                    "br":0,
+                    "cost":8
+                },
+                {
+                    "name":"Infiltration Tactics",
+                    "cost":15,
+                    "unique":true,
+                    "br":0
+                }
+                ]
+            },
+            {
+                "name":"Infantry Units",
+                "allows":'[6,7,9]',
+                "requires":false,
+                "unique":true,
+                "entries":[
+                    {
+                        "name":"Infantry Platoon",
+                        "cost":112,
+                        "br":11,
+                        "p":1,
+                        'multiplier':4,
+                        "sub_text":"Platoon Components",
+                        "sub_units":[
+                            {
+                                "name":"Command Squad",
+                                "br":0,
+                                "mandatory":true,
+                                "officer":true,
+                                "options":[
+                                    {
+                                        "name":"AT grenades",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Anti-tank grenades","cost":5}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Infantry Squad",
+                                "count":3,
+                                "br":0,
+                                "mandatory":true,
+                                "options":[
+                                    {
+                                        "name":"AT grenades",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Anti-tank grenades","cost":5}
+                                        ]
+                                    },
+                                    {
+                                        "name":"MG Team",
+                                        "choices":[
+                                            {"text":"Bipod MG34"}
+                                        ]
+                                    },
+                                ]
+                            },
+                            {
+                                "name":"Combat Medic",
+                                "cost":8,
+                                "br":0,
+                                "unique":true
+                            },
+                            {
+                                "name":"Light Mortar Team",
+                                "cost":12,
+                                "br":1,
+                                "w":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Heavy Machine Gun team",
+                                "cost":18,
+                                "br":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Machine Gun",
+                                        "choices":[
+                                            {"text":"Tripod MG34"}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Anti-tank Rifle Team",
+                                "cost":14,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Medium Mortar Team",
+                                "cost":24,
+                                "br":1,
+                                "w":2,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Anti-tank Gun",
+                                "cost":15,
+                                "br":2,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Gun type",
+                                        "choices":[
+                                            {"text":"28mm PzB41 gun","w":6},
+                                            {"text":"37mm PaK36","cost":4,"w":7}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Tow",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Light Truck","cost":4,"v":316}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Infantry Gun",
+                                "cost":19,
+                                "br":1,
+                                "w":99,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Tow",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Light Truck","cost":4,"v":316}
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Infantry Squad",
+                        "br":3,
+                        "cost":30,
+                        "s":1,
+                        "options":[
+                            {
+                                "name":"MG",
+                                "choices":[
+                                    {"text":"Bipod MG34"}
+                                ]
+                            },
+                            {
+                                "name":"AT grenades",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"Anti-tank grenades","cost":5}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Sturm Platoon",
+                        "cost":145,
+                        "br":15,
+                        "p":1,
+                        'multiplier':5,
+                        "sub_text":"Platoon Components",
+                        "sub_units":[
+                            {
+                                "name":"Command Squad",
+                                "br":0,
+                                "mandatory":true,
+                                "officer":true,
+                                "options":[
+                                    {
+                                        "name":"AT grenades",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Anti-tank grenades","cost":5}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Artillery Spotter",
+                                        "choices":[
+                                            {"text":"Mortar Spotter"},
+                                            {"text":"Artillery Spotter","cost":5}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Combat Medic",
+                                        "choices":[
+                                            {"text":"Combat Medic"}
+                                          ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Infantry Squad",
+                                "count":3,
+                                "br":0,
+                                "mandatory":true,
+                                "options":[
+                                    {
+                                        "name":"AT grenades",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Anti-tank grenades","cost":5}
+                                        ]
+                                    },
+                                    {
+                                        "name":"MG Team",
+                                        "choices":[
+                                            {"text":"Bipod MG34"}
+                                        ]
+                                    },
+                                ]
+                            },
+                            {
+                                "name":"Light Mortar Team",
+                                "cost":13,
+                                "br":1,
+                                "w":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Stretcher Party",
+                                "cost":11,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Demolition Team",
+                                "cost":11,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Flamethrower Team",
+                                "cost":16,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Heavy Machine Gun team",
+                                "cost":20,
+                                "br":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Machine Gun",
+                                        "choices":[
+                                            {"text":"Tripod MG34"}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Medium Mortar Team",
+                                "cost":25,
+                                "br":1,
+                                "w":2,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Anti-tank Gun",
+                                "cost":21,
+                                "br":2,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Gun type",
+                                        "choices":[
+                                            {"text":"37mm PaK36","cost":4,"w":7}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Tow",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Light Truck","cost":4,"v":316}
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Sturm Squad",
+                        "br":4,
+                        "cost":38,
+                        "s":1,
+                        "options":[
+                            {
+                                "name":"MG",
+                                "choices":[
+                                    {"text":"Bipod MG34"}
+                                ]
+                            },
+                            {
+                                "name":"AT grenades",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"Anti-tank grenades","cost":5}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Assault Pioneer Platoon",
+                        "cost":221,
+                        "br":16,
+                        "restricted":true,
+                        "multiplier":5,
+                        "p":1,
+                        "sub_text":"Platoon Components",
+                        "sub_units":[
+                            {
+                                "name":"Command Squad",
+                                "br":0,
+                                "mandatory":true,
+                                "officer":true,
+                                "options":[
+                                    {
+                                        "name":"Experience",
+                                        "choices":[
+                                            {"text":"Veteran"},
+                                            {"text":"Elite","cost":38,"br":4}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Assault Pioneer Squad",
+                                "count":3,
+                                "br":0,
+                                "mandatory":true,
+                                "options":[
+                                    {
+                                        "name":"Small arms",
+                                        "choices":[
+                                            {"text":"Rifles"},
+                                            {"text":"SMGs"}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Mine sweeper",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Mine sweeper","cost":5}
+                                        ]
+                                    },
+                                    {
+                                        "name":"MG",
+                                        "choices":[
+                                            {"text":"Bipod MG34"}
+                                        ]
+                                    },
+                                ]
+                            },
+                            {
+                                "name":"Flamethrower Team",
+                                "count":1,
+                                "br":0,
+                                "mandatory":true
+                            },
+                            {
+                                "name":"Combat Medic",
+                                "cost":9,
+                                "br":0,
+                                "unique":true
+                            },
+                            {
+                                "name":"Light Mortar Team",
+                                "cost":12,
+                                "br":1,
+                                "w":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Anti-tank Rifle Team",
+                                "cost":16,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Heavy Machine Gun team",
+                                "cost":21,
+                                "br":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Machine Gun",
+                                        "choices":[
+                                            {"text":"Tripod MG34"}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Flamethrower Team",
+                                "cost":16,
+                                "br":1,
+                                "unique":true
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Assault Pioneer Squad",
+                        "cost":54,
+                        "br":4,
+                        "s":1,
+                        "options":[
+                            {
+                                "name":"Experience",
+                                "choices":[
+                                    {"text":"Veteran"},
+                                    {"text":"Elite","cost":10,"br":1}
+                                ]
+                            },
+                            {
+                                "name":"MG",
+                                "choices":[
+                                    {"text":"Bipod MG34"}
+                                ]
+                            },
+                            {
+                                "name":"Mine sweeper",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"Mine sweeper","cost":5}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Assault Gun",
+                        "cost":20,
+                        "br":2,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"StuG III A-E","v":15},
+                                    {"text":"StuG III F","v":16,"cost":14,"br":1},
+                                    {"text":"StuG 33B","v":407,"cost":20,"br":1,"restricted":true},
+                                    {"text":"sIG33 auf Pz1","v":284,"cost":22,"restricted":true}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Tank",
+                        "cost":22,
+                        "br":2,
+                        "restricted":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"Panzer II F","v":13},
+                                    {"text":"Panzer III G","v":289,"cost":13,"br":1},
+                                    {"text":"Panzer III H (or J)","v":369,"cost":18,"br":1},
+                                    {"text":"Panzer III J (lang)","v":404,"cost":27,"br":1},
+                                    {"text":"Panzer III L","v":2,"cost":27,"br":1,"restricted":true},
+                                    {"text":"Panzer IV E","v":7,"cost":20,"br":1},
+                                    {"text":"Panzer IV F1","v":7,"cost":22,"br":1},
+                                    {"text":"Panzer IV F2","v":405,"cost":34,"br":1,"restricted":true}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Artillery Units",
+                "allows":[10],
+                "requires":false,
+                "officer":true,
+                "entries":[
+                    {
+                        "name":"Forward Observer Team",
+                        "cost":21,
+                        "br":1
+                    },
+                    {
+                        "name":"Off-Table Artillery Fire",
+                        "cost":48,
+                        "br":0,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"2 75mm L12 infantry guns",'w':10},
+                                    {"text":"2 105mm howitzer","cost":42,'w':22},
+                                    {"text":"2 150mm howitzer","cost":87}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Off-Table Mortar Fire",
+                        "cost":54,
+                        "br":0,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"2 80mm mortars","w":2}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Timed Ju-87 Air Strike",
+                        "cost":15,
+                        "br":0
+                    },
+                    {
+                        "name":"105mm Howitzer",
+                        "cost":36,
+                        "br":2,
+                        "w":22,
+                        "options":[
+                            {
+                                "name":"Loader team",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"3-man loader team","cost":10}
+                                ]
+                            },
+                            {
+                                "name":"Tow",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"Medium Truck","cost":4,"v":91},
+                                    {"text":"SdKfz 6","cost":6,"v":64}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"150mm Howitzer",
+                        "cost":54,
+                        "br":2,
+                        "w":26,
+                        "options":[
+                            {
+                                "name":"Loader team",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"3-man loader team","cost":10}
+                                ]
+                            },
+                            {
+                                "name":"Tow",
+                                "choices":[
+                                  {"text":"None"},
+                                  {"text":"SdKfz 7","cost":8,"v":65}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"150mm Infantry Gun",
+                        "cost":54,
+                        "br":2,
+                        "w":12,
+                        "options":[
+                            {
+                                "name":"Loader team",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"3-man loader team","cost":10}
+                                ]
+                            },
+                            {
+                                "name":"Tow",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"SdKfz 7","cost":8,"v":65}
+                                ]
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                "name":"Defences",
+                "allows":null,
+                "requires":false,
+                "entries":[
+                  {
+                      "name":"Improvised Barricades",
+                      "cost":5,
+                      "br":0
+                  },
+                  {
+                      "name":"Machine Gun Dug-out",
+                      "cost":32,
+                      "br":1
+                  },
+                  {
+                      "name":"Mortar Pit",
+                      "cost":32,
+                      "br":1
+                  },
+                  {
+                      "name":"Fortified Building",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"Foxholes",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Trenches",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Sniper Hideout",
+                      "cost":15,
+                      "br":0
+                  },
+                  {
+                      "name":"AT Gun Dug-out",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"Booby Trapped Building",
+                      "cost":25,
+                      "br":0
+                  },
+                  {
+                      "name":"Barbed Wire",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Minefield",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"Improvised Road Block",
+                      "cost":5,
+                      "br":0
+                  },
+                  {
+                      "name":"Command Bunker",
+                      "cost":30,
+                      "officer":true,
+                      "br":3,
+                      "restricted":true,
+                      "unique":true
+                  },
+                  {
+                      "name":"Artillery Observation Point",
+                      "cost":26,
+                      "unique":true,
+                      "br":1
+                  },
+                  {
+                      "name":"Timed Demolition Charge",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"Cellar Shelter",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Collapsed Tunnel",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Für das Vaterland!",
+                      "cost":15,
+                      "br":"D6",
+                      "unique":true
+                  }
+                ]
+            },
+            {
+                "name":"Reconnaissance Support Units",
+                "allows":null,
+                "requires":true,
+                "entries":[
+                {
+                    "name":"Sniper",
+                    "cost":10,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"1 sniper"},
+                                {"text":"1 sniper + 1 spotter","cost":5}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Infiltration Team",
+                    "br":1,
+                    "cost":24,
+                    "scout":1
+                },
+                {
+                    "name":"Armoured Car",
+                    "cost":16,
+                    "br":1,
+                    "v":294,
+                    "scout":1,
+                    "restricted":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"SdKfz 221"},
+                                {"text":"SdKfz 222","cost":4,"v":32}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Grenadier Foot Patrol",
+                    "br":4,
+                    "cost":41,
+                    "scout":1,
+                    "s":1,
+                    "options":[
+                        {
+                            "name":"Mortar Spotter",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"Mortar Spotter","cost":5}
+                            ]
+                        },
+                        {
+                            "name":"AT grenades",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"Anti-tank grenades","cost":5}
+                            ]
+                        },
+                        {
+                            "name":"MG",
+                            "choices":[
+                                {"text":"Bipod MG34"}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Engineer Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Demolition Team",
+                    "br":1,
+                    "cost":14
+                },
+                {
+                    "name":"Recovery Vehicle",
+                    "cost":18,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"SdKfz 9 'Famo'","v":67}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Logistics Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Supply Column",
+                    "cost":8,
+                    "br":1,
+                    "unique":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"1 Medium truck","v":91,},
+                                {"text":"2 Medium trucks","v":91,"cost":4},
+                                {"text":"3 Medium trucks","v":91,"cost":8}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Stretcher Party",
+                    "cost":11,
+                    "br":1,
+                    "options":[
+                        {
+                        "name":"Composition",
+                        "choices":[
+                            {"text":"2 men"}
+                        ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Ambulance",
+                    "cost":14,
+                    "br":2,
+                    "restricted":true,
+                    "options":[
+                        {
+                        "name":"Composition",
+                        "choices":[
+                            {"text":"Ambulance medium truck","v":91}
+                        ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Specialist Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Anti-Aircraft Vehicle",
+                    "cost":16,
+                    "br":1,
+                    "restricted":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"SdKfz 10 with 20mm","v":62,"w":35},
+                                {"text":"SdKfz 6 with 37mm","v":64,"cost":4,"w":36},
+                                {"text":"SdKfz 7 with  Vierling","v":65,"cost":38,"w":4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Tunnel Access",
+                    "cost":10,
+                    "br":0
+                },
+                {
+                    "name":"AA MG34 with 3 crew",
+                    "cost":16,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Loader team",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"3-man loader team","cost":10}
+                                ]
+                        }
+                    ]
+                },
+                {
+                    "name":"20mm AA Gun",
+                    "cost":28,
+                    "br":1,
+                    "w":4,
+                    "options":[
+                        {
+                            "name":"Loader team",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"3-man loader team","cost":10}
+                                ]
+                        },
+                        {
+                            "name":"Tow",
+                            "choices":[
+                            {"text":"None"},
+                            {"text":"Medium Truck tow","cost":4,"v":91},
+                            {"text":"SdKfz 10 halftrack", "cost":8,"v":62}
+                            ]
+                        }
+                    ]
+                }
+             ]
+         },
+        {
+            "name":"Additional Fire Support",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Off-Table Artillery Request",
+                    "cost":5,
+                    "br":0,
+                    "options":[
+                        {
+                            "name":"Target Priority",
+                            "choices":[
+                                {"text":"3rd (5+)"},
+                                {"text":"2nd (4+)","cost":5},
+                                {"text":"1st (2+)","cost":15}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Pre-Registered Target Point",
+                    "cost":15,
+                    "br":0
+                },
+                {
+                    "name":"Counter-Battery Fire Mission",
+                    "cost":10,
+                    "br":0
+                },
+                {
+                    "name":"Timed 80mm Mortar Barrage",
+                    "w":2,
+                    "cost":5,
+                    "br":0
+                },
+                {
+                    "name":"Timed 105mm Barrage",
+                    "w":22,
+                    "cost":10,
+                    "br":0
+                },
+                {
+                    "name":"Timed 150mm Barrage",
+                    "cost":20,
+                    "br":0
+                },
+                {
+                    "name":"Timed Ju-87 Air Strike",
+                    "cost":15,
+                    "br":0
+                },
+                {
+                    "name":"Timed He-111 Air Strike",
+                    "cost":25,
+                    "br":0
+                },
+                {
+                    "name":"Timed Nebelwerfer Barrage",
+                    "cost":40,
+                    "w":27,
+                    "br":0
+                }
+            ]
+        }
+        ]
+    },
 ]

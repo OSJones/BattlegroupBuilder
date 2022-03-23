@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+23/03/2022 - _Added Stalingrad / German Stalingrad Stoßgruppe_<br>
 22/03/2022 - _Added Stalingrad / German Panzer Division_<br>
 21/03/2022 - _Added Stalingrad / German Infantry Division_<br>
 21/03/2022 - _Added Barbarossa / Russian Rifle Division_<br>
