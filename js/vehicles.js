@@ -2988,6 +2988,14 @@ var vehicles = [
     'mg':true,
     'ammo':true
 },
+{
+    'id':408,
+    'name':'KV-8',
+    'armour':true,
+    'weapons':[17,32],
+    'mg':true,
+    'ammo':true
+},
 
 // greg to-do, landing craft
 {

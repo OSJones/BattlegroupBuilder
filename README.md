@@ -12,6 +12,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+25/03/2022 - _Liberally applied the Scout rule to Recon units_<br>
+25/03/2022 - _Added Stalingrad / Defenders of Stalingrad_<br>
 24/03/2022 - _Added Stalingrad / Russian Tank Corps_<br>
 23/03/2022 - _Added Stalingrad / Russian Rifle Division_<br>
 23/03/2022 - _Added Stalingrad / German Stalingrad Stoßgruppe_<br>
@@ -23,7 +25,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 16/03/2022 - _Added Barbarossa / Hungarian Rapid Corps_<br>
 15/03/2022 - _Added Barbarossa / Finnish Infantry Division_<br>
 15/03/2022 - _Added Barbarossa / German Infantry Division_<br>
-15/03/2022 - _Corrected duplicate vehicle ID affecting Print of Hungarian vehicles_<br>
+15/03/2022 - _Corrected duplicate vehicle ID affecting print of Hungarian vehicles_<br>
 03/11/2021 - _Added Spring Awakening / Hungarian Battlegroup_<br>
 03/11/2021 - _Battlegroup Wacht Am Rhein / Kampfgruppe Peiper_<br>
 02/11/2021 - _Added Spring Awakening / Panzer Division Battlegroup_<br>

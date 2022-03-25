@@ -1278,6 +1278,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -2656,6 +2657,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -2669,6 +2671,7 @@ var forces = [
                 {
                     "name":"Motorcycle Reconnaissance Patrol",
                     "cost":18,
+                    "scout":1,
                     "br":1
                 },
                 {
@@ -2676,6 +2679,7 @@ var forces = [
                     "cost":50,
                     "br":2,
                     "unique":true,
+                    "scout":2,
                     "options":[
                         {
                             "name":"Composition",
@@ -2690,6 +2694,7 @@ var forces = [
                     "cost":20,
                     "br":1,
                     "v":32,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -2703,6 +2708,7 @@ var forces = [
                     "name":"Fusilier Foot Patrol",
                     "cost":36,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"MG",
@@ -2727,6 +2733,7 @@ var forces = [
                     "unique":true,
                     "officer":true,
                     "v":32,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -3735,6 +3742,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -3749,6 +3757,7 @@ var forces = [
                     "name":"Mechanised Infantry Patrol",
                     "cost":28,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -3770,12 +3779,14 @@ var forces = [
                     "name":"Jeep Reconnaissance Team",
                     "cost":18,
                     "v":163,
+                    "scout":1,
                     "br":2
                 },
                 {
                     "name":"Light Tank",
                     "cost":30,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -3792,6 +3803,7 @@ var forces = [
                     "cost":50,
                     "br":2,
                     "unique":true,
+                    "scout":2,
                     "options":[
                         {
                             "name":"Composition",
@@ -3805,6 +3817,7 @@ var forces = [
                     "name":"Infantry Foot Patrol",
                     "cost":22,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"AT grenades",
@@ -3819,6 +3832,7 @@ var forces = [
                     "name":"Motorcycle Reconnaissance Patrol",
                     "cost":18,
                     "v":51,
+                    "scout":1,
                     "br":1
                 },
                 {
@@ -3826,6 +3840,7 @@ var forces = [
                     "cost":26,
                     "br":1,
                     "restricted":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -5053,6 +5068,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -5068,6 +5084,7 @@ var forces = [
                     "cost":26,
                     "br":1,
                     "restricted":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -5080,12 +5097,14 @@ var forces = [
                 {
                     "name":"Cavalry Squadron",
                     "cost":30,
+                    "scout":1,
                     "br":2
                 },
                 {
                     "name":"Infantry Foot Patrol",
                     "cost":22,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"AT grenades",
@@ -5100,6 +5119,7 @@ var forces = [
                     "name":"Motorcycle Reconnaissance Patrol",
                     "cost":18,
                     "v":50,
+                    "scout":1,
                     "br":1
                 }
             ]
@@ -5944,6 +5964,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -5958,6 +5979,7 @@ var forces = [
                         "name":"Mounted Infantry Patrol",
                         "cost":24,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -5982,6 +6004,7 @@ var forces = [
                         "officer":true,
                         "unique":true,
                         "v":163,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -5995,6 +6018,7 @@ var forces = [
                         "name":"Infantry Foot Patrol",
                         "cost":41,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"AT grenades",
@@ -6024,6 +6048,7 @@ var forces = [
                         "cost":70,
                         "br":3,
                         "vc":3,
+                        "scout":3,
                         "officer":true,
                         "unique":true,
                         "options":[
@@ -6041,6 +6066,7 @@ var forces = [
                         "name":"Armoured Recce Tank",
                         "cost":35,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -6056,6 +6082,7 @@ var forces = [
                         "name":"Armoured Recce HQ",
                         "cost":45,
                         "br":2,
+                        "scout":1,
                         "officer":true,
                         "options":[
                             {
@@ -6514,7 +6541,6 @@ var forces = [
                         },
                         {
                             "name":"Sniper Team",
-
                             "br":0,
                             "w":1,
                             "count":2,
@@ -6563,7 +6589,6 @@ var forces = [
                         },
                         {
                             "name":"Sniper Team",
-
                             "br":0,
                             "count":1,
                             "mandatory":true
@@ -7754,6 +7779,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -7768,6 +7794,7 @@ var forces = [
                         "name":"Jeep Reconnaissance Team",
                         "cost":26,
                         "v":163,
+                        "scout":1,
                         "br":1
                     },
                     {
@@ -7777,6 +7804,7 @@ var forces = [
                         "officer":true,
                         "unique":true,
                         "v":163,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -7790,6 +7818,7 @@ var forces = [
                         "name":"Infantry Foot Patrol",
                         "cost":51,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"AT grenades",
@@ -7811,6 +7840,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":26,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -9205,6 +9235,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -10273,6 +10304,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -10287,6 +10319,7 @@ var forces = [
                         "name":"Mounted Panzer Grenadier Patrol",
                         "cost":28,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Panzerfaust",
@@ -10307,6 +10340,7 @@ var forces = [
                         "name":"Motorcycle Reconnaissance Patrol",
                         "cost":18,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -10328,6 +10362,7 @@ var forces = [
                         "br":2,
                         "unique":true,
                         "officer":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -10342,6 +10377,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":20,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -10359,6 +10395,7 @@ var forces = [
                         "cost":36,
                         "br":3,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"MG Team",
@@ -11533,6 +11570,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -11549,6 +11587,7 @@ var forces = [
                         "br":2,
                         "unique":true,
                         "officer":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -11565,6 +11604,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":18,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -11585,6 +11625,7 @@ var forces = [
                         "name":"Reconnaissance Tank",
                         "cost":62,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -11601,6 +11642,7 @@ var forces = [
                         "name":"Infantry Foot Patrol",
                         "cost":31,
                         "br":2,
+                        "scout":1,
                         "s":1
                     },
                     {
@@ -11608,6 +11650,7 @@ var forces = [
                         "cost":35,
                         "br":3,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -11623,6 +11666,7 @@ var forces = [
                         "cost":24,
                         "br":1,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -12621,6 +12665,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -12635,6 +12680,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":18,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -12655,6 +12701,7 @@ var forces = [
                         "name":"Infantry Foot Patrol",
                         "cost":31,
                         "br":2,
+                        "scout":1,
                         "s":1
                     },
                     {
@@ -12662,6 +12709,7 @@ var forces = [
                         "cost":24,
                         "br":1,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -12677,6 +12725,7 @@ var forces = [
                         "br":2,
                         "unique":true,
                         "officer":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -13704,6 +13753,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -13718,6 +13768,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":26,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -13736,6 +13787,7 @@ var forces = [
                         "officer":true,
                         "unique":true,
                         "v":163,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -13752,6 +13804,7 @@ var forces = [
                         "name":"Light Tank",
                         "cost":40,
                         "br":2,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -13766,6 +13819,7 @@ var forces = [
                         "name":"Armoured Infantry Patrol",
                         "cost":43,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Bazooka",
@@ -13793,6 +13847,7 @@ var forces = [
                         "name":"Jeep Reconnaissance Team",
                         "cost":24,
                         "v":163,
+                        "scout":1,
                         "br":1
                     }
                 ]
@@ -14783,6 +14838,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -14797,6 +14853,7 @@ var forces = [
                         "name":"Jeep Reconnaissance Team",
                         "cost":24,
                         "v":163,
+                        "scout":1,
                         "br":1
                     },
                     {
@@ -14806,6 +14863,7 @@ var forces = [
                         "officer":true,
                         "unique":true,
                         "v":163,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -14820,12 +14878,14 @@ var forces = [
                     {
                         "name":"Infantry Patrol",
                         "cost":34,
+                        "scout":1,
                         "br":2
                     },
                     {
                         "name":"Armoured Car",
                         "cost":26,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -16514,6 +16574,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":20,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -17792,6 +17853,7 @@ var forces = [
                     "cost":37,
                     "br":1,
                     "officer":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -19025,6 +19087,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -19040,6 +19103,7 @@ var forces = [
                     "cost":25,
                     "br":1,
                     "w":107,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -19059,6 +19123,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":20,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -19075,6 +19140,7 @@ var forces = [
                     "br":2,
                     "officer":true,
                     "unique":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -19088,6 +19154,7 @@ var forces = [
                     "name":"Fusilier Foot Patrol",
                     "cost":36,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Panzerfaust",
@@ -20666,6 +20733,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -20682,6 +20750,7 @@ var forces = [
                         "br":2,
                         "unique":true,
                         "officer":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -20698,6 +20767,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":6,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -20716,6 +20786,7 @@ var forces = [
                         "name":"Reconnaissance Tank",
                         "cost":62,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -20732,12 +20803,14 @@ var forces = [
                         "v":232,
                         "unique":true,
                         "cost":48,
+                        "scout":1,
                         "br":2
                     },
                     {
                         "name":"Infantry Foot Patrol",
                         "cost":31,
                         "br":2,
+                        "scout":1,
                         "s":1
                     },
                     {
@@ -20745,6 +20818,7 @@ var forces = [
                         "cost":35,
                         "br":3,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Mount",
@@ -20763,6 +20837,7 @@ var forces = [
                         "vc":2,
                         "v":163,
                         "unique":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -20777,6 +20852,7 @@ var forces = [
                         "cost":24,
                         "br":1,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Transport",
@@ -20791,6 +20867,7 @@ var forces = [
                         "cost":46,
                         "br":3,
                         "s":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Mount",
@@ -21174,7 +21251,6 @@ var forces = [
                             },
                             {
                                 "name":"Sniper Team",
-
                                 "br":0,
                                 "mandatory":true,
                                 "unique":true
@@ -22470,6 +22546,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -22484,6 +22561,7 @@ var forces = [
                     "name":"Mechanised Infantry Patrol",
                     "cost":28,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -22505,12 +22583,14 @@ var forces = [
                     "name":"Jeep Reconnaissance Team",
                     "cost":18,
                     "v":163,
+                    "scout":1,
                     "br":1
                 },
                 {
                     "name":"Scout Tank",
                     "cost":35,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -22526,6 +22606,7 @@ var forces = [
                     "name":"Scout T-80",
                     "cost":35,
                     "br":2,
+                    "scout":1,
                     "unique":true,
                     "v":231
                 },
@@ -22533,6 +22614,7 @@ var forces = [
                     "name":"Infantry Foot Patrol",
                     "cost":28,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"AT grenades",
@@ -22549,6 +22631,7 @@ var forces = [
                     "br":4,
                     "v":90,
                     "unique":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"AT grenades",
@@ -22571,12 +22654,14 @@ var forces = [
                     "name":"Motorcycle Reconnaissance Patrol",
                     "cost":18,
                     "v":51,
+                    "scout":1,
                     "br":1
                 },
                 {
                     "name":"BA-64 Armoured Car",
                     "cost":20,
                     "br":1,
+                    "scout":1,
                     "v":81
                 }
             ]
@@ -26279,6 +26364,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -26293,6 +26379,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":26,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -26311,6 +26398,7 @@ var forces = [
                         "officer":true,
                         "unique":true,
                         "v":163,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -26329,6 +26417,7 @@ var forces = [
                         "name":"Light Tank",
                         "cost":40,
                         "br":2,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -26344,6 +26433,7 @@ var forces = [
                         "name":"Armoured Infantry Patrol",
                         "cost":56,
                         "br":3,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Bazooka",
@@ -26371,6 +26461,7 @@ var forces = [
                         "name":"Jeep Reconnaissance Team",
                         "cost":24,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -28293,6 +28384,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -28309,6 +28401,7 @@ var forces = [
                     "br":2,
                     "unique":true,
                     "officer":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -28325,6 +28418,7 @@ var forces = [
                     "cost":24,
                     "br":3,
                     "restricted":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -28340,6 +28434,7 @@ var forces = [
                     "br":2,
                     "unique":true,
                     "w":7,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Tow",
@@ -28355,6 +28450,7 @@ var forces = [
                     "br":3,
                     "unique":true,
                     "officer":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -28367,6 +28463,7 @@ var forces = [
                 {
                     "name":"Kradschützen MG Patrol",
                     "cost":27,
+                    "scout":1,
                     "br":1
                 },
                 {
@@ -28374,6 +28471,7 @@ var forces = [
                     "br":2,
                     "cost":39,
                     "s":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Mortar Spotter",
@@ -28402,6 +28500,7 @@ var forces = [
                     "br":2,
                     "cost":33,
                     "s":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Mortar Spotter",
@@ -29371,6 +29470,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -29385,6 +29485,7 @@ var forces = [
                     "name":"Armoured Panzer Grenadier Patrol",
                     "cost":36,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Panzerfaust",
@@ -29405,6 +29506,7 @@ var forces = [
                     "name":"Motorised Reconnaissance Patrol",
                     "cost":18,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -29420,6 +29522,7 @@ var forces = [
                     "br":2,
                     "unique":true,
                     "officer":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -29434,6 +29537,7 @@ var forces = [
                     "cost":36,
                     "br":3,
                     "s":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"MG",
@@ -29456,6 +29560,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":20,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -30246,6 +30351,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -30260,6 +30366,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":13,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -30276,13 +30383,14 @@ var forces = [
                         "name":"Infantry Foot Patrol",
                         "cost":31,
                         "br":2,
+                        "scout":1,
                         "scout":true
                     },
                     {
                         "name":"Carrier Team",
                         "cost":24,
                         "br":1,
-                        "scout":true,
+                        "scout":true, //OJ
                         "options":[
                             {
                                 "name":"Transport",
@@ -30298,6 +30406,7 @@ var forces = [
                         "br":2,
                         "unique":true,
                         "officer":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -30979,6 +31088,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -30993,6 +31103,7 @@ var forces = [
                     "name":"Mounted Gebirgsjäger Patrol",
                     "cost":20,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -31008,6 +31119,7 @@ var forces = [
                     "cost":18,
                     "br":2,
                     "scout":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -31023,6 +31135,7 @@ var forces = [
                     "br":3,
                     "unique":true,
                     "officer":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -31036,6 +31149,7 @@ var forces = [
                     "name":"Gebirgsjäger Foot Patrol",
                     "cost":36,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"MG",
@@ -31052,6 +31166,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":18,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -31618,6 +31733,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -31632,6 +31748,7 @@ var forces = [
                     "name":"Partisan Foot Patrol",
                     "cost":20,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -31645,12 +31762,14 @@ var forces = [
                     "name":"Mounted Partisan Patrol",
                     "cost":15,
                     "br":3,
+                    "scout":1,
                     "scout":true,
                 },
                 {
                     "name":"Reconnaissance Command",
                     "cost":30,
                     "br":3,
+                    "scout":1,
                     "unique":true,
                     "officer":true,
                 },
@@ -31658,6 +31777,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":24,
                     "br":1,
+                    "scout":1,
                     "restricted":true,
                     "options":[
                         {
@@ -32255,7 +32375,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
-                    "scout":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -32272,7 +32392,7 @@ var forces = [
                     "br":2,
                     "unique":true,
                     "officer":true,
-                    "scout":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -32286,7 +32406,7 @@ var forces = [
                     "name":"Mounted Infantry Patrol",
                     "cost":18,
                     "br":1,
-                    "scout":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -32301,19 +32421,19 @@ var forces = [
                     "name":"Infantry Foot Patrol",
                     "cost":26,
                     "br":2,
-                    "scout":true,
+                    "scout":1,
                 },
                 {
                     "name":"Motorcycle Recce Team",
                     "cost":12,
                     "br":1,
-                    "scout":true,
+                    "scout":1,
                 },
                 {
                     "name":"Captured Tankette",
                     "cost":15,
                     "br":1,
-                    "scout":true,
+                    "scout":1,
                     "restricted":true,
                     "options":[
                         {
@@ -32328,7 +32448,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":18,
                     "br":1,
-                    "scout":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -44333,6 +44453,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":23,
                         "br":1,
+                        "scout":1,
                         "restricted":true,
                         "options":[
                             {
@@ -50548,6 +50669,7 @@ var forces = [
                         "name":"Sniper",
                         "cost":10,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -50562,6 +50684,7 @@ var forces = [
                         "name":"Armoured Car",
                         "cost":18,
                         "br":1,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -50582,12 +50705,14 @@ var forces = [
                         "name":"Infantry Foot Patrol",
                         "cost":31,
                         "br":2,
+                        "scout":1,
                         "s":1
                     },
                     {
                         "name":"Carrier Team",
                         "cost":24,
                         "br":1,
+                        "scout":1,
                         "s":1,
                         "options":[
                             {
@@ -50604,6 +50729,7 @@ var forces = [
                         "br":2,
                         "unique":true,
                         "officer":true,
+                        "scout":1,
                         "options":[
                             {
                                 "name":"Composition",
@@ -58224,7 +58350,7 @@ var forces = [
                 {
                     "name":"Kradschützen sMG Patrol",
                     "cost":30,
-                    "scout":2,
+                    "scout":1,
                     "br":1
                 },
                 {
@@ -61685,6 +61811,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -61699,6 +61826,7 @@ var forces = [
                     "name":"Mechanised Infantry Patrol",
                     "cost":28,
                     "br":3,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Transport",
@@ -61720,12 +61848,14 @@ var forces = [
                     "name":"Jeep Reconnaissance Team",
                     "cost":18,
                     "v":163,
+                    "scout":1,
                     "br":1
                 },
                 {
                     "name":"Scout Tank",
                     "cost":35,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -61741,6 +61871,7 @@ var forces = [
                     "name":"Scout T-80",
                     "cost":35,
                     "br":2,
+                    "scout":1,
                     "unique":true,
                     "v":231
                 },
@@ -61748,6 +61879,7 @@ var forces = [
                     "name":"Infantry Foot Patrol",
                     "cost":28,
                     "br":2,
+                    "scout":1,
                     "options":[
                         {
                             "name":"AT grenades",
@@ -61764,6 +61896,7 @@ var forces = [
                     "br":4,
                     "v":90,
                     "unique":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"AT grenades",
@@ -61786,12 +61919,14 @@ var forces = [
                     "name":"Motorcycle Reconnaissance Patrol",
                     "cost":18,
                     "v":51,
+                    "scout":1,
                     "br":1
                 },
                 {
                     "name":"BA-64 Armoured Car",
                     "cost":20,
                     "br":1,
+                    "scout":1,
                     "v":81
                 }
             ]
@@ -65536,6 +65671,7 @@ var forces = [
                     "cost":20,
                     "br":1,
                     "unique":true,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -67799,6 +67935,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -68930,6 +69067,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -69783,6 +69921,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -70618,6 +70757,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -71983,6 +72123,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -73287,6 +73428,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -74611,6 +74753,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -76102,6 +76245,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -77653,6 +77797,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -77964,6 +78109,7 @@ var forces = [
                 {
                     "name":"Low on Fuel",
                     "br":0,
+                    "unique":true,
                     "cost":15
                 },
                 {
@@ -78724,6 +78870,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -79157,8 +79304,6 @@ var forces = [
       }
     ]
     },
-
-
     {
         "id":68,
         "name":"Russian Tank Corps",
@@ -79825,6 +79970,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -80293,5 +80439,928 @@ var forces = [
           ]
         }
       ]
+    },
+    {
+        "id":69,
+        "name":"Russian Defenders of Stalingrad",
+        "group":"Battlegroup Stalingrad",
+        "infantry":[
+            [[1,0],[0,2]],
+            [[0,1],[0,4]],
+            [[0,2],[0,6]],
+            [[0,3],[0,9]]
+        ],
+        "sections":[
+            {
+                "name":"Forward Headquarters Units",
+                "allows":'[8,10]',
+                "requires":false,
+                "entries":[
+                {
+                    "name":"Forward Headquarters",
+                    "cost":22,
+                    "br":3,
+                    "unique":true,
+                    "officer":true
+                },
+                {
+                    "name":"Bled White",
+                    "br":0,
+                    "unique":true,
+                    "cost":15
+                },
+                {
+                    "name":"'Not one step back!'",
+                    "br":'D6',
+                    "unique":true,
+                    "cost":15
+                },
+                {
+                    "name":"Comms Relay Team",
+                    "br":1,
+                    "cost":11
+                },
+                {
+                    "name":"Wire Team",
+                    "br":0,
+                    "cost":7
+                },
+                {
+                    "name":"NKVD Officer",
+                    "br":'D6',
+                    "cost":31,
+                    "unique":true,
+                    "officer":true
+                }
+                ]
+            },
+            {
+                "name":"Infantry Units",
+                "allows":'[6,7,9]',
+                "requires":false,
+                "unique":true,
+                "entries":[
+                    {
+                        "name":"Remnant Rifle Platoon",
+                        "cost":106,
+                        "br":13,
+                        'multiplier':5,
+                        "sub_text":"Platoon Components",
+                        "p":1,
+                       "options":[
+                           {
+                               "name":"Experience",
+                               "choices":[
+                                   {"text":"Veterans","np":true},
+                                   {"text":"Elite","cost":26, "br":4}
+                               ]
+                           }
+                       ],
+                       "sub_units":[
+                            {
+                                "name":"Command Squad",
+                                "br":0,
+                                "mandatory":true,
+                                "officer":true,
+                            },
+                            {
+                                "name":"Rifle Squad",
+                                "count":4,
+                                "br":0,
+                                "mandatory":true,
+                                "options":[
+                                    {
+                                        "name":"DP LMG",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"1 x DP LMG","cost":2},
+                                            {"text":"2 x DP LMG","cost":4}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Anti-Tank Grenades",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"Anti-Tank Grenades","cost":5}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Small Arms",
+                                        "choices":[
+                                            {"text":"Rifles"},
+                                            {"text":"Replace all rifles with SMGs"}
+                                        ]
+                                    },
+                                ]
+                            },
+                            {
+                                "name":"Combat Medic",
+                                "cost":9,
+                                "br":0,
+                                "unique":true
+                            },
+                            {
+                                "name":"Light Mortar Team",
+                                "cost":14,
+                                "br":1,
+                                "w":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Marksman",
+                                "cost":11,
+                                "br":1,
+                                "scout":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Sapper Demo Team",
+                                "cost":15,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Anti-Tank Team",
+                                "cost":11,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Maxim Machine Gun team",
+                                "cost":22,
+                                "br":1,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Anti-tank Rifle Team",
+                                "cost":17,
+                                "br":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Anti-tank Gun",
+                                "cost":20,
+                                "br":1,
+                                "unique":true,
+                                "w":38,
+                                "options":[
+                                     {
+                                         "name":"Gun type",
+                                         "choices":[
+                                             {"text":"45mmL46","w":38},
+                                             {"text":"45mmL66","w":39,"cost":4}
+                                         ]
+                                     },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"Infantry Gun",
+                                "cost":21,
+                                "br":1,
+                                "w":41,
+                                "unique":true,
+                                "options":[
+                                    {
+                                        "name":"Gun type",
+                                        "choices":[
+                                            {"text":"76.2mm infantry gun"}
+                                        ]
+                                    },
+                                    {
+                                        "name":"Loader team",
+                                        "choices":[
+                                            {"text":"None"},
+                                            {"text":"3-man loader team","cost":10}
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Remnant Rifle Squad",
+                        "cost":18,
+                        "br":3,
+                        "s":1,
+                        "options":[
+                            {
+                                "name":"Experience",
+                                "choices":[
+                                    {"text":"Veterans","np":true},
+                                    {"text":"Elite","cost":8, "br":1}
+                                ]
+                            },
+                            {
+                                "name":"DP LMG",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"1 x DP LMG","cost":2},
+                                    {"text":"2 x DP LMG","cost":4}
+                                ]
+                            },
+                            {
+                                "name":"Anti-Tank Grenades",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"Anti-Tank Grenades","cost":5}
+                                ]
+                            },
+                            {
+                                "name":"Small Arms",
+                                "choices":[
+                                    {"text":"Rifles"},
+                                    {"text":"Replace all rifles with SMGs"}
+                                ]
+                            },
+                            {
+                                "name":"Behind Enemy Lines",
+                                "choices":[
+                                    {"text":"None"},
+                                    {"text":"Upgrade to Behind Enemy Lines","cost":5}
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                         "name":"Reserve Rifle Platoon",
+                         "cost":63,
+                         "br":5,
+                         'multiplier':2,
+                         "sub_text":"Platoon Components",
+                         "p":1,
+                         "options":[
+                               {
+                                   "name":"Experience",
+                                   "choices":[
+                                       {"text":"Inexperienced","np":true},
+                                       {"text":"Regulars","cost":18, "br":4}
+                                   ]
+                               }
+                            ],
+                         "sub_units":[
+                            {
+                                "name":"Command Squad",
+                                "br":0,
+                                "mandatory":true,
+                                "officer":true
+                            } ,
+                            {
+                                "name":"Reserve Rifle Squad",
+                                "count":4,
+                                "br":0,
+                                "mandatory":true
+                            },
+                            {
+                                "name":"Light Mortar Team",
+                                "cost":12,
+                                "br":1,
+                                "w":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Marksman",
+                                "cost":10,
+                                "br":1,
+                                "scout":1,
+                                "unique":true
+                            },
+                            {
+                                "name":"Anti-Tank Team",
+                                "cost":9,
+                                "br":1,
+                                "unique":true
+                            }
+                       ]
+                     },
+                     {
+                         "name":"Reserve Rifle Squad",
+                         "cost":10,
+                         "br":1,
+                         "s":1,
+                         "options":[
+                           {
+                                 "name":"Experience",
+                                 "choices":[
+                                     {"text":"Inexperienced","np":true},
+                                     {"text":"Regulars","cost":4, "br":1}
+                                 ]
+                           }
+                         ]
+                     },
+
+                     {
+                          "name":"Workers' Militia Platoon",
+                          "cost":48,
+                          "br":5,
+                          'multiplier':2,
+                          "sub_text":"Platoon Components",
+                          "p":1,
+                          "sub_units":[
+                             {
+                                 "name":"Command Squad",
+                                 "br":0,
+                                 "mandatory":true,
+                                 "officer":true
+                             } ,
+                             {
+                                 "name":"Workers' Militia Squad",
+                                 "count":4,
+                                 "br":0,
+                                 "mandatory":true,
+                                 "options":[
+                                       {
+                                             "name":"Extra Men",
+                                             "choices":[
+                                                 {"text":"No extra men"},
+                                                 {"text":"One extra man","cost":2},
+                                                 {"text":"Two extra men","cost":4},
+                                                 {"text":"Three extra men","cost":6},
+                                                 {"text":"Four extra men","cost":8}
+                                             ]
+                                       }
+                                   ]
+                             },
+                             {
+                                 "name":"Anti-Tank Team",
+                                 "cost":7,
+                                 "br":1,
+                                 "unique":true
+                             },
+                             {
+                                 "name":"Light Machine Gun Team",
+                                 "cost":5,
+                                 "br":1,
+                                 "unique":true
+                             }
+                        ]
+                      },
+                    {
+                        "name":"Workers' Militia Squad",
+                        "cost":10,
+                        "br":1,
+                        "s":1,
+                        "options":[
+                              {
+                                    "name":"Extra Men",
+                                    "choices":[
+                                        {"text":"No extra men"},
+                                        {"text":"One extra man","cost":2},
+                                        {"text":"Two extra men","cost":4},
+                                        {"text":"Three extra men","cost":6},
+                                        {"text":"Four extra men","cost":8}
+                                    ]
+                              }
+                          ]
+                    }
+                ]
+            },
+            {
+                "name":"Tank Units",
+                "allows":'[6,7,8,9]',
+                "requires":false,
+                "entries":[
+                    {
+                        "name":"Tank",
+                        "cost":17,
+                        "multiplier":1,
+                        "br":2,
+                        "restricted":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                  {"text":"T-60","v":71},
+                                  {"text":"T-70","v":72,"cost":4},
+                                  {"text":"T-34","v":75,"cost":15,"br":1},
+                                  {"text":"KV-1","v":70,"cost":31,"br":1}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Artillery Units",
+                "allows":[10],
+                "requires":false,
+                "entries":[
+                     {
+                         "name":"Forward Observer Team",
+                         "cost":18,
+                         "br":1,
+                         "unique":true
+                     },
+                     {
+                         "name":"Pre-Registered Target Point",
+                         "cost":20,
+                         "br":0
+                     },
+                    {
+                        "name":"Off-Table Mortar Fire",
+                        "cost":54,
+                        "br":0,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"2 82mm mortars","w":34},
+                                    {"text":"2 120mm mortars","cost":18,"w":3}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Off-Table Artillery Fire",
+                        "cost":70,
+                        "br":0,
+                        "restricted":true,
+                        "options":[
+                            {
+                                "name":"Composition",
+                                "choices":[
+                                    {"text":"2 76.2mm L52 Guns","w":45},
+                                    {"text":"2 122mm L46 Howitzers","cost":55,"w":48}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Defences",
+                "allows":null,
+                "requires":false,
+                "entries":[
+                  {
+                      "name":"Improvised Barricades",
+                      "cost":5,
+                      "br":0
+                  },
+                  {
+                      "name":"Machine Gun Dug-out",
+                      "cost":32,
+                      "br":1
+                  },
+                  {
+                      "name":"Machine Gun Pillbox",
+                      "cost":54,
+                      "br":1,
+                      "unique":true
+                  },
+                  {
+                      "name":"Mortar Pit",
+                      "cost":32,
+                      "br":1
+                  },
+                  {
+                      "name":"Fortified Building",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"Foxholes",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Trenches",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Minefield",
+                      "cost":15,
+                      "br":0
+                  },
+                  {
+                      "name":"Sniper Hideout",
+                      "cost":15,
+                      "br":0
+                  },
+                  {
+                      "name":"Barbed Wire",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"AT Gun Dug-out",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"AT Gun Bunker",
+                      "cost":30,
+                      "br":0,
+                      "unique":true
+                  },
+                  {
+                      "name":"Artillery Observation Point",
+                      "cost":26,
+                      "unique":true,
+                      "br":1
+                  },
+                  {
+                      "name":"Command Bunker",
+                      "cost":20,
+                      "br":3,
+                      "restricted":true,
+                      "unique":true
+                  },
+                  {
+                      "name":"Booby Trapped Building",
+                      "cost":25,
+                      "br":0
+                  },
+                  {
+                      "name":"Improvised Road Block",
+                      "cost":5,
+                      "br":0
+                  },
+                  {
+                      "name":"Anti-Tank Ditch/Embankment",
+                      "cost":20,
+                      "br":0,
+                      "restricted":true
+                  },
+                  {
+                      "name":"Cellar Shelter",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Collapsed Tunnel",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Bulwark Building",
+                      "cost":80,
+                      "unique":true
+                  },
+                  {
+                      "name":"Unstable Building",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Dug-In T-34",
+                      "cost":50,
+                      "br":3
+                  },
+                  {
+                      "name":"Dug-In T-70",
+                      "cost":35,
+                      "br":2
+                  },
+                  {
+                      "name":"Hidden Cellar",
+                      "cost":25,
+                      "br":0
+                  },
+                  {
+                      "name":"Anti-Tank Team Hideout",
+                      "cost":26,
+                      "br":1
+                  },
+                  {
+                      "name":"Light Machine Gun Dug-out",
+                      "cost":22,
+                      "br":1
+                  },
+                ]
+            },
+        {
+            "name":"Reconnaissance Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Sniper",
+                    "cost":10,
+                    "br":1,
+                    "scout":1,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"1 sniper"},
+                                {"text":"1 sniper + 1 spotter","cost":5}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Sniper Ace",
+                    "cost":15,
+                    "br":2,
+                    "scout":1,
+                    "unique":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"1 Sniper Ace"},
+                                {"text":"1 Sniper Ace + 1 Spotter","cost":5}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Infantry Foot Patrol",
+                    "cost":18,
+                    "br":3,
+                    "scout":1
+                },
+                {
+                    "name":"Infiltration Team",
+                    "cost":20,
+                    "br":1,
+                    "scout":1
+                }
+            ]
+        },
+        {
+            "name":"Engineer Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Sapper Squad",
+                    "cost":33,
+                    "br":3,
+                    "s":1,
+                    "options":[
+                        {
+                            "name":"Flame-thrower",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"Flame-thrower","cost":10}
+                            ]
+                        },
+                        {
+                            "name":"Mine sweeper",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"Mine sweeper","cost":5}
+                            ]
+                        },
+                        {
+                            "name":"Demo charge",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"Demo charge","cost":5}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Sapper Demolition Team",
+                    "cost":14,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Demolition charges",
+                            "choices":[
+                                {"text":"One demolition charge"},
+                                {"text":"Two demolition charges","cost":5}
+                            ]
+                        }
+                      ]
+                },
+                {
+                    "name":"Flamethrower Tank",
+                    "cost":56,
+                    "br":3,
+                    "restricted":true,
+                    "unique":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"KV-8 Tank","v":408}
+                            ]
+                        }
+                      ]
+                }
+            ]
+        },
+        {
+            "name":"Logistics Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Combat Medic",
+                    "cost":8,
+                    "br":0
+                },
+                {
+                    "name":"Stretcher Party",
+                    "cost":10,
+                    "br":1,
+                    "options":[
+                        {
+                        "name":"Composition",
+                        "choices":[
+                            {"text":"2 men or women"}
+                        ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Forward Aid Post",
+                    "cost":20,
+                    "br":5,
+                    "restricted":true,
+                    "unique":true,
+                    "options":[
+                        {
+                        "name":"Composition",
+                        "choices":[
+                            {"text":"4 men with a tent"}
+                        ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Specialist Support Units",
+            "allows":null,
+            "requires":true,
+            "entries":[
+
+
+
+                {
+                    "name":"Anti-Aircraft Vehicle",
+                    "cost":28,
+                    "br":1,
+                    "restricted":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"Gaz truck with quad Maxim MGs","v":91}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Anti Tank Gun",
+                    "cost":28,
+                    "br":2,
+                    "unique":true,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"1 x 76.2mm L54 Anti Tank Guns","w":45}
+                            ]
+                        },
+                        {
+                            "name":"Loader team",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"Loader team","cost":10}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Anti-Aircraft DshK MG",
+                    "cost":25,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"Dshk HMG with 3 crew","w":156}
+                            ]
+                        },
+                        {
+                            "name":"Loader team",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"3-man loader team","cost":10}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"37mm Towed Anti-Aircraft Gun",
+                    "cost":36,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"37mm AA gun with 3 crew","w":156}
+                            ]
+                        },
+                        {
+                            "name":"Loader team",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"3-man loader team","cost":10}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Tunnel Access",
+                    "cost":10,
+                    "br":0
+                }
+            ]
+        },
+        {
+            "name":"Additional Fire Support",
+            "allows":null,
+            "requires":true,
+            "entries":[
+                {
+                    "name":"Off-Table Artillery Request",
+                    "cost":5,
+                    "br":0,
+                    "options":[
+                        {
+                            "name":"Target Priority",
+                            "choices":[
+                                {"text":"3rd (5+)"},
+                                {"text":"2nd (4+)","cost":5},
+                                {"text":"1st (3+)","cost":15}
+                            ]
+                        }
+                    ]
+                },
+              {
+                  "name":"Counter-Battery Fire Mission",
+                  "cost":10,
+                  "br":0
+              },
+              {
+                  "name":"Timed 82mm Mortar Barrage",
+                  "w":34,
+                  "cost":5,
+                  "br":0
+              },
+              {
+                  "name":"Timed 76.2mm Barrage",
+                  "w":162,
+                  "cost":10,
+                  "br":0
+              },
+            {
+                "name":"Timed 122mm Barrage",
+                "w":47,
+                "cost":20,
+                "br":0
+            },
+            {
+                "name":"Timed 152mm Barrage",
+                "w":49,
+                "cost":30,
+                "br":0
+            },
+            {
+                "name":"Timed Katyusha Barrage",
+                "w":51,
+                "cost":40,
+                "br":0
+            },
+            {
+                "name":"Night Bomber Air Strike",
+                "cost":5,
+                "br":0
+            }
+        ]
+      }
+    ]
     }
 ]
