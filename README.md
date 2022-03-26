@@ -12,6 +12,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+26/03/2022 - _Added Stalingrad / Hungarian Light Field Division_<br>
+26/03/2022 - _Added Stalingrad / Hungarian Armoured Division_<br>
 25/03/2022 - _Liberally applied the Scout rule to Recon units_<br>
 25/03/2022 - _Added Stalingrad / Defenders of Stalingrad_<br>
 24/03/2022 - _Added Stalingrad / Russian Tank Corps_<br>

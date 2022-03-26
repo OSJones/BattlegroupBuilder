@@ -71131,7 +71131,7 @@ var forces = [
                             "choices":[
                                 {"text":"3rd (5+)"},
                                 {"text":"2nd (4+)","cost":5},
-                                {"text":"1st (2+)","cost":15}
+                                {"text":"1st (3+)","cost":15}
                             ]
                         }
                     ]
