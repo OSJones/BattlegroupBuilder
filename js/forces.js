@@ -42388,7 +42388,8 @@ var forces = [
                     {
                         "name":"Desperate Defence",
                         "cost":15,
-                        "br":"+D6",
+                        //"br":"+D6",
+                        "br":"D6",
                         "unique":true
                     }
                 ]
@@ -43308,7 +43309,8 @@ var forces = [
                     {
                         "name":"Desperate Defence",
                         "cost":15,
-                        "br":"+D6",
+                        //"br":"+D6",
+                        "br":"D6",
                         "unique":true
                     }
                 ]
@@ -55232,7 +55234,8 @@ var forces = [
                     {
                         "name":"Desperate Defence",
                         "cost":15,
-                        "br":"+D6",
+                        //"br":"+D6",
+                        "br":"D6",
                         "unique":true
                     }
                 ]
@@ -56229,7 +56232,8 @@ var forces = [
                     {
                         "name":"Desperate Defence",
                         "cost":15,
-                        "br":"+D6",
+                        //"br":"+D6",
+                        "br":"D6",
                         "unique":true
                     }
                 ]
@@ -84388,7 +84392,7 @@ var forces = [
                   {
                       "name":"Desperate Defence",
                       "cost":15,
-                      "br":"+D6",
+                      "br":"D6",
                       "unique":true
                   }
               ]
