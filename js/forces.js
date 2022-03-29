@@ -75296,7 +75296,7 @@ var forces = [
                                 "name":"Transport",
                                 "choices":[
                                     {"text":"None"},
-                                    {"text":"1 SdKfz 251/10 and 3 SdKfz 251/1","cost":26,"br":4,"unique":true,"v":[41,37],"vc":[1,3]}
+                                    {"text":"1 SdKfz 251/10 and 3 SdKfz 251/1","cost":26,"br":4,"unique":true,"v":"[41,37]","vc":"[1,3]"}
                                 ]
                             }
                         ],
@@ -76260,7 +76260,7 @@ var forces = [
                             "name":"Transport",
                             "choices":[
                                 {"text":"None"},
-                                {"text":"1 SdKfz 251/10 and 3 SdKfz 251/1","cost":26,"br":4,"unique":true,"v":[41,37],"vc":[1,3]}
+                                {"text":"1 SdKfz 251/10 and 3 SdKfz 251/1","cost":26,"br":4,"unique":true,"v":"[41,37]","vc":"[1,3]"}
                             ]
                         }
                     ],
@@ -81271,7 +81271,7 @@ var forces = [
                               "name":"Transport",
                               "choices":[
                                   {"text":"None"},
-                                  {"text":"1 x Light Truck, 3 x Medium truck","cost":14,"v":[316,91],"vc":[1,3]}
+                                  {"text":"1 x Light Truck, 3 x Medium trucks","cost":14,"v":"[316,91]","vc":"[1,3]"}
                               ]
                           }
                       ],
