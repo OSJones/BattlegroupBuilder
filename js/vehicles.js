@@ -2996,6 +2996,14 @@ var vehicles = [
     'mg':true,
     'ammo':true
 },
+{
+    'id':409,
+    'name':'Semoventa M40 47/32',
+    'armour':true,
+    'weapons':[166],
+    'mg':true,
+    'ammo':true
+},
 
 // greg to-do, landing craft
 {

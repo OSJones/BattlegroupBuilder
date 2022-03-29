@@ -2009,6 +2009,22 @@ var weapons = {
         'strength':['','','','','']
     }
     ]
-}
+  },
+  166:{
+    'name':'47mmL42',
+    'stats':[
+    {
+        'type':'HE [VL]',
+        'effect':'',
+        'strength':['','','','','']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['','','','','']
+    }
+    ]
+  }
+
 
 }
