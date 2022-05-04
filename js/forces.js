@@ -33,7 +33,7 @@ var forces = [
                                 {"text":"Panzer III J","cost":6,"v":404},
                                 {"text":"Panzer IV G","cost":26,"v":8},
                                 {"text":"Panzer IV H","cost":32,"v":9},
-                                {"text":"Tiger","cost":62,"v":11}
+                                {"text":"Tiger","cost":61,"v":11}
                             ]
                         }
                     ]
