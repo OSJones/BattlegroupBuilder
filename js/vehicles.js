@@ -3004,6 +3004,45 @@ var vehicles = [
     'mg':true,
     'ammo':true
 },
+{
+    'id':410,
+    'name':'Crusader III',
+    'armour':true,
+    'weapons':[59],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':411,
+    'name':'Bishop',
+    'armour':true,
+    'weapons':[73],
+    'ammo':true
+},
+{
+    'id':412,
+    'name':'Marmon Herrington III',
+    'armour':true,
+    'mg':true,
+    'weapons':[137],
+    'ammo':true,
+},
+{
+    'id':413,
+    'name':'Marmon Herrington III A',
+    'armour':true,
+    'mg':true,
+    'ammo':true,
+},
+{
+    'id':414,
+    'name':'Matilda Scorpion',
+    'armour':true,
+    'weapons':[58],
+    'mg':true,
+    'ammo':true,
+    'special':'Unreliable',
+},
 
 // greg to-do, landing craft
 {
