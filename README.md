@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+04/05/2022 - _Changed Kursk / German Panzer Division HQ unit_<br>
 29/03/2022 - _Added Stalingrad / Italian Battlegroup_<br>
 28/03/2022 - _Added Stalingrad / Rumanian Battlegroup_<br>
 26/03/2022 - _Added Stalingrad / Hungarian Light Field Division_<br>

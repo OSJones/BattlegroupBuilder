@@ -20,7 +20,7 @@ var forces = [
                 "entries":[
                 {
                     "name":"Forward Headquarters",
-                    "cost":28,
+                    "cost":24, //28,
                     "br":3,
                     "unique":true,
                     "officer":true,
@@ -29,8 +29,11 @@ var forces = [
                             "name":"Transport",
                             "choices":[
                                 {"text":"SdKfz 251/3","v":39},
-                                {"text":"Panzer IV/H","cost":28,"v":9},
-                                {"text":"Panther A or G","cost":62,"v":11}
+                                {"text":"Panzer II F","cost":0,"v":13},
+                                {"text":"Panzer III J","cost":6,"v":404},
+                                {"text":"Panzer IV G","cost":26,"v":8},
+                                {"text":"Panzer IV H","cost":32,"v":9},
+                                {"text":"Tiger","cost":62,"v":11}
                             ]
                         }
                     ]
