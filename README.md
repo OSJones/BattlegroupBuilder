@@ -12,6 +12,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+05/05/2022 - _Corrected Tobruk / British Armoured Division - Crusader Platoon cost_<br>
+05/05/2022 - _Corrected Overlord / US Infantry Division - Mortar team options_<br>
 05/05/2022 - _Added Torch / British Infantry Division Battlegroup - Tunisia_<br>
 05/05/2022 - _Added Torch / British Infantry Division Battlegroup_<br>
 05/05/2022 - _Added Torch / British Armoured Division Battlegroup - Tunisia_<br>

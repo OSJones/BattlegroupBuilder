@@ -14388,19 +14388,21 @@ var forces = [
                                 "unique":true,
                                 "options":[
                                     {
-                                        "name":"Loader Team",
+                                        "name":"Composition",
                                         "choices":[
                                             {"text":"None"},
-                                            {"text":"3-man loader team","cost":10}
-                                        ]
-                                    },
-                                    {
-                                        "name":"Mount",
-                                        "choices":[
-                                            {"text":"None"},
-                                            {"text":"M3 Half-Track mount","cost":8,"v":148}
+                                            {"text":"3-man loader team","cost":10},
+                                            {"text":"Mount in a jeep","cost":2,"v":163},
                                         ]
                                     }
+                                     ,
+                                    // {
+                                    //     "name":"Mount",
+                                    //     "choices":[
+                                    //         {"text":"None"},
+                                    //         {"text":"M3 Half-Track mount","cost":8,"v":148}
+                                    //     ]
+                                    // }
                                 ]
                             },
                             {
@@ -54119,9 +54121,9 @@ var forces = [
                                 "name":"Composition",
                                 "choices":[
                                     {"text":"3x Crusader I","v":322},
-                                    {"text":"2x Crusader I and 1x Crusader II","v":"[322,323]","vc":"[2,1]"},
-                                    {"text":"1x Crusader I and 2x Crusader II","v":"[322,323]","vc":"[1,2]"},
-                                    {"text":"3x Crusader II","v":323}
+                                    {"text":"2x Crusader I and 1x Crusader II","v":"[322,323]","vc":"[2,1]","cost":6},
+                                    {"text":"1x Crusader I and 2x Crusader II","v":"[322,323]","vc":"[1,2]","cost":12},
+                                    {"text":"3x Crusader II","v":323,"cost":18}
                                 ]
                             }
                         ]
@@ -89180,7 +89182,7 @@ var forces = [
                               ]
                           }
                       ]
-                  },                  
+                  },
                   {
                       "name":"Portee Anti-Tank Gun",
                       "cost":14,
