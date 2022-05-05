@@ -12,6 +12,9 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+05/05/2022 - _Added Torch / British Infantry Division Battlegroup - Tunisia_<br>
+05/05/2022 - _Added Torch / British Infantry Division Battlegroup_<br>
+05/05/2022 - _Added Torch / British Armoured Division Battlegroup - Tunisia_<br>
 04/05/2022 - _Added Torch / British Armoured Division Battlegroup_<br>
 04/05/2022 - _Changed Kursk / German Panzer Division HQ unit_<br>
 29/03/2022 - _Added Stalingrad / Italian Battlegroup_<br>

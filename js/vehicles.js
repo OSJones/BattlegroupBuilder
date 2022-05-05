@@ -3043,7 +3043,45 @@ var vehicles = [
     'ammo':true,
     'special':'Unreliable',
 },
-
+{
+    'id':415,
+    'name':'M3 GMC',
+    'armour':true,
+    'weapons':[12],
+    'ammo':true,
+    'open':true
+},
+{
+    'id':416,
+    'name':'M31 ARV',
+    'armour':true,
+    'special':'repair, recovery'
+},
+{
+    'id':417,
+    'name':'Valentine VIII',
+    'armour':true,
+    'weapons':[59],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':418,
+    'name':'Churchill II',
+    'armour':true,
+    'weapons':[58],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':419,
+    'name':'Churchill I',
+    'armour':true,
+    'weapons':[58,140],
+    'mg':true,
+    'special':'Unreliable',
+    'ammo':true
+},
 // greg to-do, landing craft
 {
 }
