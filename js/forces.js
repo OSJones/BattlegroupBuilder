@@ -54123,7 +54123,7 @@ var forces = [
                                     {"text":"3x Crusader I","v":322},
                                     {"text":"2x Crusader I and 1x Crusader II","v":"[322,323]","vc":"[2,1]","cost":6},
                                     {"text":"1x Crusader I and 2x Crusader II","v":"[322,323]","vc":"[1,2]","cost":12},
-                                    {"text":"3x Crusader II","v":323,"cost":18}
+                                    {"text":"3x Crusader II","v":323,"cost":18}                                    
                                 ]
                             }
                         ]
