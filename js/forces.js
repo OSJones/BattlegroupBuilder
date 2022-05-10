@@ -30393,7 +30393,7 @@ var forces = [
                         "name":"Carrier Team",
                         "cost":24,
                         "br":1,
-                        "scout":true, //OJ
+                        "scout":true,
                         "options":[
                             {
                                 "name":"Transport",
@@ -54123,7 +54123,7 @@ var forces = [
                                     {"text":"3x Crusader I","v":322},
                                     {"text":"2x Crusader I and 1x Crusader II","v":"[322,323]","vc":"[2,1]","cost":6},
                                     {"text":"1x Crusader I and 2x Crusader II","v":"[322,323]","vc":"[1,2]","cost":12},
-                                    {"text":"3x Crusader II","v":323,"cost":18}                                    
+                                    {"text":"3x Crusader II","v":323,"cost":18}
                                 ]
                             }
                         ]
@@ -67688,7 +67688,7 @@ var forces = [
                                     {"text":"Panzer III H","v":369,"cost":6},
                                     {"text":"Panzer IV D","v":96,"cost":6},
                                     {"text":"Panzer IV E","v":7,"cost":8},
-                                    {"text":"Panzer 38(t)","v":279,"cost":22}  // OJ - can't mix 38(t) with Panzer III
+                                    {"text":"Panzer 38(t)","v":279,"cost":22}  // greg - can't mix 38(t) with Panzer III
                                 ]
                             }
                         ]
@@ -88365,6 +88365,151 @@ var forces = [
                                   {"text":"Regular"},
                                   {"text":"Veterans","cost":8,"br":1,"restricted":true},
                                   {"text":"Veteran Assault Troops (Gurkha)","cost":13,"br":1,"restricted":true}
+                              ]
+                          }
+                      ]
+                  },
+
+                  {
+                      "name":"Airborne Infantry Platoon",
+                      "cost":132,
+                      "br":14,
+                      "restricted":true,
+                      'multiplier':4,
+                      "sub_text":"Platoon Components",
+                      "p":1,
+                      "options":[
+                          {
+                              "name":"Troop Quality",
+                              "choices":[
+                                  {"text":"Veteran"},
+                                  {"text":"Elite","cost":40, "br":4}
+                              ]
+                          }
+                      ],
+                      "sub_units":[
+                          {
+                              "name":"Command Section",
+                              "br":0,
+                              "mandatory":true,
+                              "officer":true,
+                              "options":[
+                                  {
+                                      "name":"AT grenades",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"Anti-tank grenades","cost":5}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Rifle Sections",
+                              "count":3,
+                              "br":0,
+                              "mandatory":true,
+                              "options":[
+                                  {
+                                      "name":"AT grenades",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"Anti-tank grenades","cost":5}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Bren Guns",
+                                      "choices":[
+                                          {"text":"1 Bren Gun"},
+                                          {"text":"2 Bren Guns","cost":2}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Weapon",
+                                      "choices":[
+                                          {"text":"Rifles", "np":true},
+                                          {"text":"Replace rifles with SMGs"}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Light Mortar Team",
+                              "br":0,
+                              "w":60,
+                              "mandatory":true,
+                              "unique":true
+                          },
+                          {
+                              "name":"Combat Medic",
+                              "cost":9,
+                              "br":0
+                          },
+                          {
+                              "name":"Heavy Machine Gun team",
+                              "cost":25,
+                              "br":1,
+                              "unique":true,
+                              "options":[
+                                  {
+                                      "name":"Loaders",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Medium Mortar Team",
+                              "cost":27,
+                              "br":1,
+                              "w":61,
+                              "unique":true,
+                              "options":[
+                                  {
+                                      "name":"Loaders",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Airborne Infantry Section",
+                      "cost":31,
+                      "br":3,
+                      "s":1,
+                      "restricted":true,
+                      "options":[
+                          {
+                              "name":"Troop Quality",
+                              "choices":[
+                                  {"text":"Veteran"},
+                                  {"text":"Elite","cost":10, "br":1}
+                            ]
+                          },
+                          {
+                              "name":"AT grenades",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Anti-tank grenades","cost":5}
+                              ]
+                          },
+                          {
+                              "name":"Bren Guns",
+                              "choices":[
+                                  {"text":"1 Bren Gun"},
+                                  {"text":"2 Bren Guns","cost":2}
+                              ]
+                          },
+                          {
+                              "name":"Weapon",
+                              "choices":[
+                                  {"text":"Rifles", "np":true},
+                                  {"text":"Replace rifles with SMGs"}
                               ]
                           }
                       ]
