@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+10/05/2022 - _Added Torch / Deutsches Afrikakorps Battlegroup_<br>
 10/05/2022 - _Corrected Torch / British Infantry Division Tunisia - Airborne units_<br>
 05/05/2022 - _Corrected Tobruk / British Armoured Division - Crusader Platoon cost_<br>
 05/05/2022 - _Corrected Overlord / US Infantry Division - Mortar team options_<br>

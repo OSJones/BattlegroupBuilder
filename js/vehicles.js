@@ -3082,6 +3082,42 @@ var vehicles = [
     'special':'Unreliable',
     'ammo':true
 },
+{
+    'id':420,
+    'name':'SdKfz 253',
+    'armour':true,
+    'open':true
+},
+{
+    'id':421,
+    'name':'SdKfz 254',
+    'armour':true,
+    'open':true
+},
+{
+    'id':422,
+    'name':'Grille auf Pz II',
+    'armour':true,
+    'open':true,
+    'weapons':[25],
+    'special':'Unreliable',
+    'ammo':true
+},
+{
+    'id':423,
+    'name':'Horch Heavy car',
+    'hits':true,
+    'capacity':5
+},
+{
+    'id':424,
+    'name':'SdKfz 6 auf 36(r) \'Diana\'',
+    'armour':true,
+    'open':true,
+    'weapons':[162],
+    'ammo':true
+},
+
 // greg to-do, landing craft
 {
 }
