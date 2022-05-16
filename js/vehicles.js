@@ -3117,6 +3117,22 @@ var vehicles = [
     'weapons':[162],
     'ammo':true
 },
+{
+    'id':425,
+    'name':'StuG III F8',
+    'armour':true,
+    'weapons':[13],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':426,
+    'name':'T30 HMC (75mm)',
+    'armour':true,
+    'weapons':[65],
+    'mg':false,
+    'ammo':true
+},
 
 // greg to-do, landing craft
 {

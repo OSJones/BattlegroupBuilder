@@ -2024,7 +2024,26 @@ var weapons = {
         'strength':['','','','','']
     }
     ]
+  },
+  167:{
+    'name':'75mm LG40 recoilless gun',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'3/4+',
+        'strength':['2','2','2','2','2']
+    }
+    ]
+  },
+  168:{
+      'name':'105mm LG40 recoilless gun',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'5/3+',
+          'strength':['3','3','3','3','3']
+      }
+      ]
   }
-
 
 }
