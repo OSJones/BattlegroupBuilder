@@ -91388,6 +91388,7 @@ var forces = [
               {
                   "name":"Dispirited Enemy (French only)",
                   "cost":15,
+                  "br":0,
                   "unique":true
               }
               ]
