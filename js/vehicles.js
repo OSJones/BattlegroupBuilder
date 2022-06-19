@@ -3000,7 +3000,7 @@ var vehicles = [
     'id':409,
     'name':'Semoventa M40 47/32',
     'armour':true,
-    'weapons':[113],
+    'weapons':[166],
     'mg':true,
     'ammo':true
 },
@@ -3132,35 +3132,6 @@ var vehicles = [
     'weapons':[65],
     'mg':false,
     'ammo':true
-},
-{
-    'id':427,
-    'name':'Semoventa M41 75/18',
-    'armour':true,
-    'weapons':[169],
-    'mg':true,
-    'ammo':true
-},
-{
-    'id':428,
-    'name':'Heavy car',
-    'hits':true,
-    'capacity':5
-},
-{
-    'id':429,
-    'name':'Breda 61',
-    'hits':true,
-    'capacity':12
-},
-{
-    'id':430,
-    'name':'SPA AS42',
-    'hits':true,
-    'armour':false,
-    'mg':true,
-    'hp':"3",
-    'movement':'8;24',
 },
 
 // greg to-do, landing craft
