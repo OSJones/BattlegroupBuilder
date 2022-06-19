@@ -75735,6 +75735,9 @@ var forces = [
                             {
                                 "name":"Composition",
                                 "choices":[
+                                    // {"text":"3 Panzer II Cs","v":287},
+                                    // {"text":"2 Panzer II Cs, 1 Panzer II F","cost":2,"vc":"[2,1]","v":"[287,13]"},
+                                    // {"text":"1 Panzer II C, 2 Panzer II Fs","cost":4,"vc":"[1,2]","v":"[287,13]"},
                                     {"text":"3 Panzer II/Fs","v":13},
                                     {"text":"4 Panzer II/Fs","cost":22,"vc":4,"v":13,"br":2},
                                     {"text":"5 Panzer II/Fs","cost":44,"vc":5,"v":13,"br":4}
@@ -75750,133 +75753,53 @@ var forces = [
                         "br":9,
                         "officer":true,
                         "options":[
-                            {
-                                "name":"Composition",
-                                "choices":[
-
-                                    {"text":"3 Panzer III G","v":289},
-                                    {"text":"2 Panzer III G, 1 Panzer III H","cost":5,"vc":"[2,1]","v":"[289,369]"},
-                                    {"text":"1 Panzer III G, 2 Panzer III H","cost":10,"vc":"[1,2]","v":"[289,369]"},
-                                    {"text":"2 Panzer III G, 1 Panzer III J (lang)","cost":14,"vc":"[2,1]","v":"[289,404]"},
-                                    {"text":"1 Panzer III G, 2 Panzer III J (lang)","cost":28,"vc":"[1,2]","v":"[289,404]"},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang)","cost":19,"vc":"[1,1,1]","v":"[289,369,404]"},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang)","cost":19,"vc":"[1,1,1]","v":"[289,369,404]"},
-                                    {"text":"1 Panzer III G, 2 Panzer III L","cost":28,"vc":"[2,1]","v":"[289,2]","restricted":true},
-                                    {"text":"2 Panzer III G, 1 Panzer III L","cost":14,"vc":"[2,1]","v":"[289,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III L","cost":28,"vc":"[1,2]","v":"[289,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 1 Panzer III L","cost":19,"vc":"[1,1,1]","v":"[289,369,2]","restricted":true},
-                                    {"text":"2 Panzer III G, 1 Panzer III J (lang)","cost":14,"vc":"[2,1]","v":"[289,404]"},
-                                    {"text":"1 Panzer III G, 1 Panzer III J (lang), 1 Panzer III L","cost":28,"vc":"[1,1,1]","v":"[289,404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III J (lang)","cost":28,"vc":"[1,2]","v":"[289,404]"},
-                                    {"text":"1 Panzer III H, 2 Panzer III L","cost":33,"vc":"[2,1]","v":"[369,2]","restricted":true},
-                                    {"text":"2 Panzer III H, 1 Panzer III J (lang)","cost":24,"vc":"[2,1]","v":"[369,404]"},
-                                    {"text":"1 Panzer III H, 2 Panzer III J (lang)","cost":33,"vc":"[1,2]","v":"[369,404]"},
-                                    {"text":"2 Panzer III H, 1 Panzer III L","cost":24,"vc":"[2,1]","v":"[369,2]","restricted":true},
-                                    {"text":"1 Panzer III H, 2 Panzer III L","cost":33,"vc":"[1,2]","v":"[369,2]","restricted":true},
-                                    {"text":"3 Panzer III H","cost":15,"v":369},
-                                    {"text":"2 Panzer III H, 1 Panzer III J (lang)","cost":24,"vc":"[2,1]","v":"[369,404]"},
-                                    {"text":"1 Panzer III H, 2 Panzer III J (lang)","cost":33,"vc":"[1,2]","v":"[369,404]"},
-                                    {"text":"1 Panzer III H, 1 Panzer III J (lang), 1 Panzer III L","cost":33,"vc":"[1,1,1]","v":"[369,404,2]","restricted":true},
-                                    {"text":"3 Panzer III J (lang)","cost":42,"v":404},
-                                    {"text":"2 Panzer III J (lang), 1 Panzer III L","cost":42,"vc":"[2,1]","v":"[404,2]","restricted":true},
-                                    {"text":"1 Panzer III J (lang), 2 Panzer III L","cost":42,"vc":"[2,1]","v":"[404,2]","restricted":true},
-                                    {"text":"3 Panzer III L","cost":42,"v":2,"restricted":true},
-
-                                    // 4 tanks
-                                    {"text":"4 Panzer III G","cost":35,"vc":4,"v":289,"br":3},
-                                    {"text":"3 Panzer III G, 1 Panzer III H","cost":40,"vc":"[3,1]","br":3,"v":"[289,369]"},
-                                    {"text":"2 Panzer III G, 2 Panzer III H","cost":45,"vc":"[2,2]","br":3,"v":"[289,369]"},
-                                    {"text":"1 Panzer III G, 3 Panzer III H","cost":50,"vc":"[1,3]","br":3,"v":"[289,369]"},
-                                    {"text":"2 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang)","cost":54,"br":3,"vc":"[2,1,1]","v":"[289,369,404]"},
-                                    {"text":"1 Panzer III G, 2 Panzer III H, 1 Panzer III J (lang)","cost":59,"br":3,"vc":"[1,2,1]","v":"[289,369,404]"},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 2 Panzer III J (lang)","cost":68,"br":3,"vc":"[1,1,2]","v":"[289,369,404]"},
-                                    {"text":"3 Panzer III G, 1 Panzer III J (lang)","cost":49,"vc":"[3,1]","br":3,"v":"[289,404]"},
-                                    {"text":"2 Panzer III G, 2 Panzer III J (lang)","cost":63,"vc":"[2,2]","br":3,"v":"[289,404]"},
-                                    {"text":"1 Panzer III G, 3 Panzer III J (lang)","cost":77,"vc":"[1,3]","br":3,"v":"[289,404]"},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang), 1 Panzer III L","cost":68,"br":3,"vc":"[1,1,1,1]","v":"[289,369,404,2]","restricted":true},
-                                    {"text":"2 Panzer III G, 1 Panzer III H, 1 Panzer III L","cost":54,"vc":"[2,1,1]","br":3,"v":"[289,369,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III H, 1 Panzer III L","cost":59,"vc":"[1,2,1]","br":3,"v":"[289,369,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 2 Panzer III L","cost":68,"vc":"[1,1,2]","br":3,"v":"[289,369,2]","restricted":true},
-                                    {"text":"2 Panzer III G, 1 Panzer III J (lang), 1 Panzer III L","cost":63,"vc":"[2,1,1]","br":3,"v":"[289,404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III J (lang), 1 Panzer III L","cost":77,"vc":"[1,2,1]","br":3,"v":"[289,404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III J (lang), 2 Panzer III L","cost":77,"br":3,"vc":"[1,1,2]","v":"[289,404,2]","restricted":true},
-                                    {"text":"3 Panzer III G, 1 Panzer III L","cost":49,"vc":"[3,1]","br":3,"v":"[289,2]","restricted":true},
-                                    {"text":"2 Panzer III G, 2 Panzer III L","cost":63,"vc":"[2,2]","br":3,"v":"[404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 3 Panzer III L","cost":77,"br":3,"vc":"[1,3]","v":"[289,2]","restricted":true},
-                                    {"text":"4 Panzer III H","cost":55,"vc":4,"v":369,"br":3},
-                                    {"text":"3 Panzer III H, 1 Panzer III J (lang)","cost":64,"vc":"[3,1]","br":3,"v":"[369,404]"},
-                                    {"text":"2 Panzer III H, 2 Panzer III J (lang)","cost":73,"vc":"[2,2]","br":3,"v":"[369,404]"},
-                                    {"text":"1 Panzer III H, 3 Panzer III J (lang)","cost":82,"vc":"[1,3]","br":3,"v":"[369,404]"},
-                                    {"text":"2 Panzer III H, 1 Panzer III J (lang), 1 Panzer III L","cost":73,"br":3,"vc":"[2,1,1]","v":"[369,404,2]","restricted":true},
-                                    {"text":"1 Panzer III H, 2 Panzer III J (lang), 1 Panzer III L","cost":82,"br":3,"vc":"[1,2,1]","v":"[369,404,2]","restricted":true},
-                                    {"text":"1 Panzer III H, 1 Panzer III J (lang), 2 Panzer III L","cost":82,"br":3,"vc":"[1,1,2]","v":"[369,404,2]","restricted":true},
-                                    {"text":"3 Panzer III H, 1 Panzer III L","cost":64,"vc":"[3,1]","br":3,"v":"[369,2]","restricted":true},
-                                    {"text":"2 Panzer III H, 2 Panzer III L","cost":73,"vc":"[2,2]","br":3,"v":"[404,2]","restricted":true},
-                                    {"text":"1 Panzer III H, 3 Panzer III L","cost":82,"br":3,"vc":"[1,3]","v":"[404,2]","restricted":true},
-                                    {"text":"4 Panzer III J (lang)","cost":91,"vc":4,"v":404,"br":3},
-                                    {"text":"3 Panzer III J (lang), 1 Panzer III L","cost":91,"vc":"[3,1]","br":3,"v":"[404,2]","restricted":true},
-                                    {"text":"2 Panzer III J (lang), 2 Panzer III L","cost":91,"vc":"[2,2]","br":3,"v":"[404,2]","restricted":true},
-                                    {"text":"1 Panzer III J (lang), 3 Panzer III L","cost":91,"br":3,"vc":"[1,3]","v":"[404,2]","restricted":true},
-                                    {"text":"4 Panzer III L","cost":91,"vc":4,"v":2,"br":3,"restricted":true},
-
-                                    // 5 tanks
-                                    {"text":"5 Panzer III G","cost":70,"vc":5,"v":289,"br":6},
-                                    {"text":"4 Panzer III G, 1 Panzer III H","cost":75,"br":6,"vc":"[4,1]","v":"[289,369]"},
-                                    {"text":"3 Panzer III G, 2 Panzer III H","cost":80,"br":6,"vc":"[3,2]","v":"[289,369]"},
-                                    {"text":"2 Panzer III G, 3 Panzer III H","cost":85,"br":6,"vc":"[2,3]","v":"[289,369]"},
-                                    {"text":"1 Panzer III G, 4 Panzer III H","cost":90,"br":6,"vc":"[1,4]","v":"[289,369]"},
-                                    {"text":"3 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang)","cost":89,"vc":"[3,1,1]","v":"[289,369,404]","br":6},
-                                    {"text":"2 Panzer III G, 2 Panzer III H, 1 Panzer III J (lang)","cost":94,"vc":"[2,2,1]","v":"[289,369,404]","br":6},
-                                    {"text":"1 Panzer III G, 3 Panzer III H, 1 Panzer III J (lang)","cost":99,"vc":"[1,3,1]","v":"[289,369,404]","br":6},
-                                    {"text":"2 Panzer III G, 1 Panzer III H, 2 Panzer III J (lang)","cost":103,"vc":"[2,1,2]","v":"[289,369,404]","br":6},
-                                    {"text":"1 Panzer III G, 2 Panzer III H, 2 Panzer III J (lang)","cost":108,"vc":"[1,2,2]","v":"[289,369,404]","br":6},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 3 Panzer III J (lang)","cost":117,"vc":"[1,1,3]","v":"[289,369,404]","br":6},
-                                    {"text":"4 Panzer III G, 1 Panzer III J (lang)","cost":84,"vc":"[4,1]","v":"[289,404]","br":6},
-                                    {"text":"3 Panzer III G, 2 Panzer III J (lang)","cost":98,"vc":"[3,2]","v":"[289,404]","br":6},
-                                    {"text":"2 Panzer III G, 3 Panzer III J (lang)","cost":112,"vc":"[2,3]","v":"[289,404]","br":6},
-                                    {"text":"1 Panzer III G, 4 Panzer III J (lang)","cost":126,"vc":"[1,4]","v":"[289,404]","br":6},
-                                    {"text":"2 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang), 1 Panzer III L","cost":103,"br":6,"vc":"[2,1,1,1]","v":"[289,369,404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III H, 1 Panzer III J (lang), 1 Panzer III L","cost":108,"br":6,"vc":"[1,2,1,1]","v":"[289,369,404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 2 Panzer III J (lang), 1 Panzer III L","cost":117,"br":6,"vc":"[1,1,2,1]","v":"[289,369,404,2]","restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 1 Panzer III J (lang), 2 Panzer III L","cost":117,"br":6,"vc":"[1,1,1,2]","v":"[289,369,404,2]","restricted":true},
-                                    {"text":"3 Panzer III G, 1 Panzer III H, 1 Panzer III L","cost":94,"vc":"[3,1,1]","v":"[289,369,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III G, 2 Panzer III H, 1 Panzer III L","cost":99,"vc":"[2,2,1]","v":"[289,369,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III G, 1 Panzer III H, 2 Panzer III L","cost":108,"vc":"[2,1,2]","v":"[289,369,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III H, 2 Panzer III L","cost":113,"vc":"[1,2,2]","v":"[289,369,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 3 Panzer III H, 1 Panzer III L","cost":113,"vc":"[1,3,1]","v":"[289,369,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III H, 3 Panzer III L","cost":122,"vc":"[1,1,3]","v":"[289,369,2]","br":6,"restricted":true},
-                                    {"text":"3 Panzer III G, 1 Panzer III J (lang), 1 Panzer III L","cost":98,"vc":"[3,1,1]","v":"[289,404,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III G, 2 Panzer III J (lang), 1 Panzer III L","cost":112,"vc":"[2,2,1]","v":"[289,404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 3 Panzer III J (lang), 1 Panzer III L","cost":124,"vc":"[1,3,1]","v":"[289,404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 2 Panzer III J (lang), 2 Panzer III L","cost":124,"vc":"[1,2,2]","v":"[289,404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 1 Panzer III J (lang), 3 Panzer III L","cost":124,"vc":"[1,1,3]","v":"[289,404,2]","br":6,"restricted":true},
-                                    {"text":"4 Panzer III G, 1 Panzer III L","cost":84,"vc":"[4,1]","v":"[289,2]","br":6,"restricted":true},
-                                    {"text":"3 Panzer III G, 2 Panzer III L","cost":98,"vc":"[3,2]","v":"[289,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III G, 3 Panzer III L","cost":112,"vc":"[2,3]","v":"[289,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III G, 4 Panzer III L","cost":126,"vc":"[1,4]","v":"[289,2]","br":6,"restricted":true},
-                                    {"text":"5 Panzer III H","cost":95,"vc":5,"v":369,"br":6},
-                                    {"text":"4 Panzer III H, 1 Panzer III J (lang)","cost":104,"vc":"[4,1]","v":"[369,404]","br":6},
-                                    {"text":"3 Panzer III H, 2 Panzer III J (lang)","cost":113,"vc":"[3,2]","v":"[369,404]","br":6},
-                                    {"text":"2 Panzer III H, 3 Panzer III J (lang)","cost":122,"vc":"[2,3]","v":"[369,404]","br":6},
-                                    {"text":"1 Panzer III H, 4 Panzer III J (lang)","cost":131,"vc":"[1,4]","v":"[369,404]","br":6},
-                                    {"text":"3 Panzer III H, 1 Panzer III J (lang), 1 Panzer III L","cost":113,"vc":"[3,1,1]","v":"[369,404,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III H, 2 Panzer III J (lang), 1 Panzer III L","cost":122,"vc":"[2,2,1]","v":"[369,404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III H, 3 Panzer III J (lang), 1 Panzer III L","cost":131,"vc":"[1,3,1]","v":"[369,404,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III H, 1 Panzer III J (lang), 2 Panzer III L","cost":122,"vc":"[2,1,2]","v":"[369,404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III H, 2 Panzer III J (lang), 2 Panzer III L","cost":131,"vc":"[1,2,2]","v":"[369,404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III H, 1 Panzer III J (lang), 3 Panzer III L","cost":131,"vc":"[1,1,3]","v":"[369,404,2]","br":6,"restricted":true},
-                                    {"text":"4 Panzer III H, 1 Panzer III L","cost":104,"vc":"[4,1]","v":"[369,2]","br":6,"restricted":true},
-                                    {"text":"3 Panzer III H, 2 Panzer III L","cost":113,"vc":"[3,2]","v":"[369,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III H, 3 Panzer III L","cost":122,"vc":"[2,3]","v":"[369,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III H, 4 Panzer III L","cost":131,"vc":"[1,4]","v":"[369,2]","br":6,"restricted":true},
-                                    {"text":"5 Panzer III J (lang)","cost":140,"vc":5,"v":404,"br":6},
-                                    {"text":"4 Panzer III J (lang), 1 Panzer III L","cost":140,"vc":"[4,1]","v":"[404,2]","br":6,"restricted":true},
-                                    {"text":"3 Panzer III J (lang), 2 Panzer III L","cost":140,"vc":"[3,2]","v":"[404,2]","br":6,"restricted":true},
-                                    {"text":"2 Panzer III J (lang), 3 Panzer III L","cost":140,"vc":"[2,3]","v":"[404,2]","br":6,"restricted":true},
-                                    {"text":"1 Panzer III J (lang), 4 Panzer III L","cost":140,"vc":"[1,4]","v":"[404,2]","br":6,"restricted":true},
-                                    {"text":"5 Panzer III L","cost":140,"vc":5,"v":2,"br":6,"restricted":true}
-                                  ]
-                              }
+                                {
+                                  "name":"Composition - Tank 1",
+                                  "choices":[
+                                      {"text":"Panzer III G","v":289},
+                                      {"text":"Panzer III H (or J)","cost":5,"v":369},
+                                      {"text":"Panzer III J (lang)","cost":14,"v":404},
+                                      {"text":"Panzer III L","cost":14,"v":2,"restricted":true}
+                                    ]
+                                },
+                                {
+                                  "name":"Composition - Tank 2",
+                                  "choices":[
+                                      {"text":"Panzer III G","v":289},
+                                      {"text":"Panzer III H (or J)","cost":5,"v":369},
+                                      {"text":"Panzer III J (lang)","cost":14,"v":404},
+                                      {"text":"Panzer III L","cost":14,"v":2,"restricted":true}
+                                    ]
+                                },
+                                {
+                                  "name":"Composition - Tank 3",
+                                  "choices":[
+                                      {"text":"Panzer III G","v":289},
+                                      {"text":"Panzer III H (or J)","cost":5,"v":369},
+                                      {"text":"Panzer III J (lang)","cost":14,"v":404},
+                                      {"text":"Panzer III L","cost":14,"v":2,"restricted":true}
+                                    ]
+                                },
+                                {
+                                  "name":"Composition - Tank 4",
+                                  "choices":[
+                                      {"text":"No fourth tank"},
+                                      {"text":"Panzer III G","cost":35,"v":289,"br":3},
+                                      {"text":"Panzer III H (or J)","cost":40,"v":369,"br":3},
+                                      {"text":"Panzer III J (lang)","cost":49,"v":404,"br":3},
+                                      {"text":"Panzer III L","cost":49,"v":2,"restricted":true,"br":3}
+                                    ]
+                                },
+                                {
+                                  "name":"Composition - Tank 5",
+                                  "choices":[
+                                      {"text":"No fifth tank"},
+                                      {"text":"Panzer III G","cost":35,"v":289,"br":3},
+                                      {"text":"Panzer III H (or J)","cost":40,"v":369,"br":3},
+                                      {"text":"Panzer III J (lang)","cost":49,"v":404,"br":3},
+                                      {"text":"Panzer III L","cost":49,"v":2,"restricted":true,"br":3}
+                                    ]
+                                }
                         ]
                     },
                     {
@@ -75888,41 +75811,44 @@ var forces = [
                         "unique":true,
                         "officer":true,
                         "options":[
-                            {
-                                "name":"Composition",
-                                "choices":[
-
-                                    {"text":"3 Panzer IV E","v":7},
-                                    {"text":"2 Panzer IV E, 1 Panzer IV F1","cost":2,"vc":"[2,1]","v":"[7,7]"},
-                                    {"text":"1 Panzer IV E, 2 Panzer IV F1","cost":4,"vc":"[1,2]","v":"[7,7]"},
-                                    {"text":"3 Panzer IV F1","cost":6,"v":7},
-                                    {"text":"2 Panzer IV E, 1 Panzer IV F2","cost":14,"vc":"[2,1]","v":"[7,405]"},
-                                    {"text":"1 Panzer IV E, 1 Panzer IV F1, 1 Panzer IV F2","cost":16,"vc":"[1,1,1]","v":"[7,7,405]"},
-                                    {"text":"2 Panzer IV F1, 1 Panzer IV F2","cost":18,"vc":"[2,1]","v":"[7,405]"},
-
-                                    {"text":"4 Panzer IV E","cost":42,"vc":4,"v":76,"br":3},
-                                    {"text":"3 Panzer IV E, 1 Panzer IV F1","cost":44,"vc":"[3,1]","v":"[7,7]","br":3},
-                                    {"text":"2 Panzer IV E, 2 Panzer IV F1","cost":46,"vc":"[2,2]","v":"[7,7]","br":3},
-                                    {"text":"1 Panzer IV E, 3 Panzer IV F1","cost":48,"vc":"[1,3]","v":"[7,7]","br":3},
-                                    {"text":"4 Panzer IV F1","cost":50,"vc":4,"v":7,"br":3},
-                                    {"text":"3 Panzer IV E, 1 Panzer IV F2","cost":56,"vc":"[3,1]","v":"[7,405]","br":3},
-                                    {"text":"2 Panzer IV E, 1 Panzer IV F1, 1 Panzer IV F2","cost":58,"vc":"[2,1,1]","v":"[7,7,405]","br":3},
-                                    {"text":"1 Panzer IV E, 2 Panzer IV F1, 1 Panzer IV F2","cost":60,"vc":"[1,2,1]","v":"[7,7,405]","br":3},
-                                    {"text":"3 Panzer IV F1, 1 Panzer IV F2","cost":62,"vc":"[3,1]","v":"[7,405]","br":3},
-
-                                    {"text":"5 Panzer IV IV E","cost":84,"vc":5,"v":7,"br":6},
-                                    {"text":"4 Panzer IV IV E, 1 Panzer IV F1","cost":86,"vc":"[4,1]","v":"[7,7]","br":6},
-                                    {"text":"3 Panzer IV IV E, 2 Panzer IV F1","cost":88,"vc":"[3,2]","v":"[7,7]","br":6},
-                                    {"text":"2 Panzer IV IV E, 3 Panzer IV F1","cost":90,"vc":"[2,3]","v":"[7,7]","br":6},
-                                    {"text":"1 Panzer IV IV E, 4 Panzer IV F1","cost":92,"vc":"[1,4]","v":"[7,7]","br":6},
-                                    {"text":"5 Panzer IV F1","cost":94,"vc":5,"v":7,"br":6},
-                                    {"text":"4 Panzer IV IV E, 1 Panzer IV F2","cost":98,"vc":"[4,1]","v":"[7,405]","br":6},
-                                    {"text":"3 Panzer IV IV E, 1 Panzer IV F1, 1 Panzer IV F2","cost":100,"vc":"[3,1,1]","v":"[7,7,405]","br":6},
-                                    {"text":"2 Panzer IV IV E, 2 Panzer IV F1, 1 Panzer IV F2","cost":102,"vc":"[2,2,1]","v":"[7,7,405]","br":6},
-                                    {"text":"1 Panzer IV IV E, 3 Panzer IV F1, 1 Panzer IV F2","cost":104,"vc":"[1,3,1]","v":"[7,7,405]","br":6},
-                                    {"text":"4 Panzer IV F1, 1 Panzer IV F2","cost":106,"vc":"[4,1]","v":"[7,405]","br":6}
-                                  ]
-                              }
+                                  {
+                                    "name":"Composition - Tank 1",
+                                    "choices":[
+                                        {"text":"Panzer IV E","v":7},
+                                        {"text":"Panzer IV F1","cost":2,"v":7},
+                                        {"text":"Panzer IV F2","cost":14,"v":405}
+                                      ]
+                                  },
+                                  {
+                                    "name":"Composition - Tank 2",
+                                    "choices":[
+                                        {"text":"Panzer IV E","v":7},
+                                        {"text":"Panzer IV F1","cost":2,"v":7}
+                                      ]
+                                  },
+                                  {
+                                    "name":"Composition - Tank 3",
+                                    "choices":[
+                                        {"text":"Panzer IV E","v":7},
+                                        {"text":"Panzer IV F1","cost":2,"v":7}
+                                      ]
+                                  },
+                                  {
+                                    "name":"Composition - Tank 4",
+                                    "choices":[
+                                        {"text":"No fourth tank"},
+                                        {"text":"Panzer IV E","v":42,"br":3},
+                                        {"text":"Panzer IV F1","cost":44,"v":7,"br":3}
+                                      ]
+                                  },
+                                  {
+                                    "name":"Composition - Tank 5",
+                                    "choices":[
+                                        {"text":"No fifth tank"},
+                                        {"text":"Panzer IV E","v":42,"br":3},
+                                        {"text":"Panzer IV F1","cost":44,"v":7,"br":3}
+                                      ]
+                                  }
                         ]
                     },
                     {
@@ -76065,7 +75991,7 @@ var forces = [
                         ]
                     },
                     {
-                        "name":"150mm L12 Infantry Gun", // (sIG33)
+                        "name":"150mm L12 Infantry Gun", // (sIG33)",
                         "cost":54,
                         "br":2,
                         "w":25,
