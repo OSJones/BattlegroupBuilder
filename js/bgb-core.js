@@ -14,7 +14,7 @@ function sub_timeout(sub_units, div) {
                     }, 1200);
         return dfd.promise();
 }
- 
+
 function army_size_string() { // todo check this costs in the book!
     var cost =  parseInt($('#force_cost').text(),10);
     if (cost <= 350 ) {
@@ -398,6 +398,7 @@ function render_entries(entries, sub_entries, async) {
                 text = text + "' data-scout='"+entries[i].scout;
             if (entries[i].restricted)
                 text = text + "' data-restricted='true";
+                //alert(JSON.stringify(text));
             if (entries[i].unique)
                 text = text + "' data-unique='true";
             if (entries[i].p)

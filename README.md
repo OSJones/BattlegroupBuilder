@@ -10,7 +10,7 @@ The ruleset is written by Warwick Kinrade and published by Iron Fist Publishing 
 
 You will need a copy of the rulebook and one of the theatre supplements as this army builder doesn't show any stats or rules.
 
- 
+
 **Changelog:**<br>
 20/05/2022 - _Added Torch / Italian Armoured Division Battlegroup_<br>
 16/05/2022 - _Added Torch / Defence of Tunisia Battlegroup_<br>
