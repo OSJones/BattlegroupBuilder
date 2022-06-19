@@ -12,6 +12,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+19/06/2022 - _GitHub.IO was unable to resolve to jQuery.com for Javascript references. Re-pointed to Google APIs instead_<br>
+20/05/2022 - _Added Torch / Italian Armoured Division Battlegroup_<br>
 16/05/2022 - _Added Torch / Defence of Tunisia Battlegroup_<br>
 10/05/2022 - _Added Torch / Deutsches Afrikakorps Battlegroup_<br>
 10/05/2022 - _Corrected Torch / British Infantry Division Tunisia - Airborne units_<br>
