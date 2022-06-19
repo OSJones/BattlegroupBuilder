@@ -3117,7 +3117,7 @@ var vehicles = [
     'weapons':[162],
     'ammo':true
 },
-{
+{ 
     'id':425,
     'name':'StuG III F8',
     'armour':true,

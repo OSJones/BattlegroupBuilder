@@ -19,6 +19,7 @@ var weapons = {
         }
         ]
     },
+
     2:{
         'name':'80mm mortar',
         'stats':[
