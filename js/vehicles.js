@@ -3162,6 +3162,53 @@ var vehicles = [
     'hp':"3",
     'movement':'8;24',
 },
+{
+    'id':431,
+    'name':'M3 Stuart',
+    'armour':true,
+    'weapons':[56],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':432,
+    'name':'M3 Lee',
+    'armour':true,
+    'weapons':[56,57],
+    'mg':true,
+    'ammo':[14,5]
+},
+{
+    'id':433,
+    'name':'T19 HMC (105mm)',
+    'armour':true,
+    'weapons':[76],
+    'mg':false,
+    'ammo':true
+},
+{
+    'id':434,
+    'name':'Bulldozer',
+    'hits':true,
+    'armour':false,
+    'hp':"3",
+},
+{
+    'id':435,
+    'name':'M13',
+    'open':true,
+    'armour':true,
+    'mg':true
+},
+{
+    'id':436,
+    'name':'M6 GMC Portee\'d 37mm',
+    'armour':false,
+    'hp':"2",
+    'weapons':[56],
+    'ammo':true,
+    'open':true
+},
 
 // greg to-do, landing craft
 {
