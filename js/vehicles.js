@@ -3205,6 +3205,7 @@ var vehicles = [
     'name':'M6 GMC Portee\'d 37mm',
     'armour':false,
     'hp':"2",
+    'hits':true,
     'weapons':[56],
     'ammo':true,
     'open':true
