@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+30/06/2022 - _Added Torch / French March Division Battlegroup_<br>
 21/06/2022 - _Added Torch / American Infantry Division Battlegroup_<br>
 20/06/2022 - _Added Torch / American Armoured Division Battlegroup_<br>
 19/06/2022 - _GitHub.IO was unable to resolve to jQuery.com for Javascript references. Re-pointed to Google APIs instead_<br>

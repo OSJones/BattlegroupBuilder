@@ -2054,5 +2054,75 @@ var weapons = {
         'strength':['3','3','3','3','3']
       }
       ]
+    },
+  170:{
+    'name':'25mmL72 S.A. Mle gun',
+    'stats':[
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['3','3','2','1','1']
+      }
+      ]
+  },
+  171:{
+    'name':'25mmL77 S.A. Mle gun',
+    'stats':[
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['3','3','2','1','1']
+      }
+      ]
+  },
+  172:{
+    'name':'37mmL22 (SA-16)',
+    'stats':[
+    {
+        'type':'HE [VL]',
+        'effect':'2/5+',
+        'strength':['1','1','1','1','1']
+    }
+    ]
+  },
+  173:{
+    'name':'47mmL53 SA37 APX',
+    'stats':[
+    {
+        'type':'HE [VL]',
+        'effect':'3/5+',
+        'strength':['2','2','2','2','2']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['5','5','4','3','2']
+    }
+    ]
+  },
+  174:{
+    'name':'25mmL60 M39',
+    'stats':[
+    {
+        'type':'HE',
+        'effect':'-',
+        'strength':['1','1','1','1','1']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['2','2','1','1','1']
+    }
+    ]
+  },
+  175:{
+    'name':'155mmL38',
+    'stats':[
+    {
+        'type':'HE [M]',
+        'effect':'7/3+',
+        'strength':['6','6','6','6','6']
+    }
+    ]
   }
 }

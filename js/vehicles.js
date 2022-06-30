@@ -3210,6 +3210,46 @@ var vehicles = [
     'ammo':true,
     'open':true
 },
+{
+    'id':437,
+    'name':'FT-17',
+    'armour':true,
+    'weapons':[112],
+    'mg':false,
+    'ammo':true
+},
+{
+    'id':438,
+    'name':'Somua S-35',
+    'armour':true,
+    'weapons':[113],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':439,
+    'name':'Renault D-1',
+    'armour':true,
+    'weapons':[113],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':440,
+    'name':'Laffly 50AM',
+    'armour':true,
+    'weapons':[112],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':441,
+    'name':'Schneider P16',
+    'armour':true,
+    'weapons':[112],
+    'mg':true,
+    'ammo':true
+},
 
 // greg to-do, landing craft
 {
