@@ -2124,5 +2124,51 @@ var weapons = {
         'strength':['6','6','6','6','6']
     }
     ]
+  },
+  176:{
+    'name':'Wz.35 Anti-Tank Rifle',
+    'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['2','1']
+        }
+    ]
+  },
+  177:{
+    'name':'20mmL60',
+    'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['2','2','1','1','1']
+        }
+    ]
+  },
+  178:{
+    'name':'100mmL24 Skoda Howitzer',
+    'stats':[
+    {
+        'type':'HE [M]',
+        'effect':'4/3+',
+        'strength':['3','3','3','3','3']
+    }
+    ]
+  },
+  179:{
+    'name':'47mmL45',
+    'stats':[
+    {
+        'type':'HE',
+        'effect':'3/5+',
+        'strength':['2','2','2','2','2']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['4','4','3','2','1']
+    }
+    ]
   }
+
 }

@@ -98763,5 +98763,1003 @@ var forces = [
               ]
           }
       ]
+  },
+  {
+      "id":85,
+      "name":"Polish Battlegroup",
+      "group":"Battlegroup Blitzkrieg",
+      "infantry":[
+          [[1,0],[0,2]],
+          [[0,1],[0,4]],
+          [[0,2],[0,6]],
+          [[0,3],[0,9]]
+      ],
+      "sections":[
+          {
+              "name":"Forward Headquarters Units",
+              "allows":'[8,10]',
+              "requires":false,
+              "entries":[
+              {
+                  "name":"Forward Headquarters",
+                  "cost":23,
+                  "br":3,
+                  "unique":true,
+                  "officer":true,
+                  "options":[
+                      {
+                          "name":"Transport",
+                          "choices":[
+                              {"text":"None"},
+                              {"text":"Polski Fiat 508 Car","cost":2,"v":442}
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "name":"Forward Signals Unit",
+                  "cost":18,
+                  "br":1,
+                  "unique":true,
+                  "options":[
+                      {
+                          "name":"Transport",
+                          "choices":[
+                              {"text":"Medium Radio Truck","v":91},
+                              {"text":"Radio Van","v":92}
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "name":"Wire Team",
+                  "br":0,
+                  "cost":7
+              },
+              {
+                  "name":"Motorcycle Dispatch Rider",
+                  "br":0,
+                  "v":50,
+                  "cost":12
+              }
+              ]
+          },
+          {
+              "name":"Infantry Units",
+              "allows":'[6,7,9]',
+              "requires":false,
+              "entries":[
+                  {
+                      "name":"Infantry Platoon",
+                      "cost":102,
+                      "br":7,
+                      "p":1,
+                      'multiplier':4,
+                      "options":[
+                          {
+                              "name":"Experience",
+                              "choices":[
+                                  {"text":"Inexperienced"},
+                                  {"text":"Regulars","cost":31,"br":6,"unique":true}
+                              ]
+                          },
+                          {
+                              "name":"Transport",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Bicycles","cost":31},
+                                  {"text":"Polski Fiat 621 Trucks","v":443,"vc":4,"cost":16,"restricted":true},
+                                  {"text":"Wz.34 Half Tracks","v":444,"vc":7,"cost":35,"unique":true}
+                              ]
+                          },
+                      ],
+                      "sub_text":"Platoon Components",
+                      "sub_units":[
+                          {
+                              "name":"Platoon Command Squad",
+                              "br":0,
+                              "mandatory":true,
+                              "officer":true,
+                              "options":[
+                                  {
+                                      "name":"Options",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"Wz.35 Anti-Tank Rifle","cost":5,"w":176}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Rifle Group",
+                              "count":3,
+                              "br":0,
+                              "mandatory":true,
+                          },
+                          {
+                              "name":"LMG Group",
+                              "count":3,
+                              "br":0,
+                              "mandatory":true,
+                          },
+                          {
+                              "name":"Combat Medic",
+                              "cost":7,
+                              "br":0,
+                              "unique":true
+                          },
+                          {
+                              "name":"Light Mortar Team",
+                              "cost":14,
+                              "br":1,
+                              "w":60,
+                              "options":[
+                                  {
+                                      "name":"Loader team",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Heavy Machine Gun team",
+                              "cost":16,
+                              "br":1,
+                              "unique":true,
+                              "options":[
+                                  {
+                                      "name":"Loader team",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Transport",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"'Taczanka' horse-drawn wagon","cost":4}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Anti-Tank Rifle Team",
+                              "cost":8,
+                              "br":1,
+                              "w":176,
+                              "unique":true
+                          },
+                          {
+                              "name":"Anti-tank Gun",
+                              "cost":17,
+                              "br":2,
+                              "unique":true,
+                              "options":[
+                                  {
+                                      "name":"Gun type",
+                                      "choices":[
+                                          {"text":"Bofors 37mmL45","w":156}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Loader team",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Tow",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"Horse and Limber Tow","cost":2},
+                                          {"text":"Polski Fiat 621 Truck","cost":4,"v":443}
+                                      ]
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Infantry Squad",
+                      "cost":30,
+                      "br":2,
+                      "s":1,
+                      "options":[
+                          {
+                              "name":"Transport",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Bicycles","cost":10}
+                              ]
+                          }
+                      ]
+                  },
+
+
+
+
+                  {
+                      "name":"Cavalry Platoon",
+                      "cost":48,
+                      "br":4,
+                      "p":1,
+                      'multiplier':4,
+                      "options":[
+                          {
+                              "name":"Anti-Tank Rifle",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Equip one section with AT Rifle","cost":5,"w":176}
+                              ]
+                          }
+                      ],
+                      "sub_text":"Platoon Components",
+                      "sub_units":[
+                          {
+                              "name":"Platoon Command Squad",
+                              "br":0,
+                              "mandatory":true,
+                              "officer":true
+                          },
+                          {
+                              "name":"Cavalry Section",
+                              "count":3,
+                              "br":0,
+                              "mandatory":true,
+                          },
+                          {
+                              "name":"LMG Section",
+                              "cost":8,
+                              "br":1,
+                              "unique":true
+                          },
+                          {
+                              "name":"Light Mortar Team",
+                              "cost":14,
+                              "br":1,
+                              "w":60,
+                              "options":[
+                                  {
+                                      "name":"Loader team",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Heavy Machine Gun team",
+                              "cost":16,
+                              "br":1,
+                              "unique":true,
+                              "options":[
+                                  {
+                                      "name":"Loader team",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Transport",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"'Taczanka' horse-drawn wagon","cost":4}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"Anti-tank Gun",
+                              "cost":17,
+                              "br":2,
+                              "unique":true,
+                              "options":[
+                                  {
+                                      "name":"Gun type",
+                                      "choices":[
+                                          {"text":"Bofors 37mmL45","w":156}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Loader team",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"3-man loader team","cost":10}
+                                      ]
+                                  },
+                                  {
+                                      "name":"Tow",
+                                      "choices":[
+                                          {"text":"None"},
+                                          {"text":"Horse and Limber Tow","cost":2}
+                                      ]
+                                  }
+                              ]
+                          },
+                          {
+                              "name":"TKS Tankette (MG)",
+                              "cost":10,
+                              "br":1,
+                              "v":299,
+                              "unique":true
+                          },
+                      ]
+                  },
+                  {
+                      "name":"Cavalry Section",
+                      "cost":12,
+                      "br":1,
+                      "s":1
+                  }
+              ]
+          },
+          {
+              "name":"Tank Units",
+              "allows":'[6,7,8,9]',
+              "requires":false,
+              "entries":[
+                  {
+                      "name":"Tankette Platoon",
+                      "cost":30,
+                      "br":3,
+                      "vc":3,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"3 TKS Tankettes","v":299},
+                                  {"text":"4 TKS Tankettes","v":299,"vc":4,"cost":10,"br":1},
+                                  {"text":"5 TKS Tankettes","v":299,"vc":5,"cost":20,"br":2},
+
+                                  {"text":"2 TKS Tankettes, 1 TKS with 20mm","v":"[299,445]","vc":"[2,1]","cost":2,"restricted":true},
+                                  {"text":"3 TKS Tankettes, 1 TKS with 20mm","v":"[299,445]","vc":"[3,1]","cost":12,"restricted":true,"br":1},
+                                  {"text":"4 TKS Tankettes, 1 TKS with 20mm","v":"[299,445]","vc":"[4,1]","cost":22,"restricted":true,"br":2},
+
+                                  {"text":"1 TKS Tankettes, 2 TKS with 20mm","v":"[299,445]","vc":"[1,2]","cost":4,"restricted":true},
+                                  {"text":"2 TKS Tankettes, 2 TKS with 20mm","v":"[299,445]","vc":"[2,2]","cost":14,"restricted":true,"br":1},
+                                  {"text":"3 TKS Tankettes, 2 TKS with 20mm","v":"[299,445]","vc":"[3,2]","cost":24,"restricted":true,"br":2},
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Vickers Light Tank Platoon",
+                      "cost":55,
+                      "br":6,
+                      "restricted":true,
+                      "vc":3,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"3 Vickers E Type A","v":446},
+                                  {"text":"4 Vickers E Type A","v":446,"vc":4,"cost":20,"br":2},
+                                  {"text":"5 Vickers E Type A","v":446,"vc":5,"cost":40,"br":4},
+
+                                  {"text":"2 Vickers E Type A, 1 Vickers E Type B","v":"[446,447]","vc":"[2,1]","cost":8,"restricted":true},
+                                  {"text":"3 Vickers E Type A, 1 Vickers E Type B","v":"[446,447]","vc":"[3,1]","cost":28,"restricted":true,"br":2},
+                                  {"text":"4 Vickers E Type A, 1 Vickers E Type B","v":"[446,447]","vc":"[4,1]","cost":48,"restricted":true,"br":4}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"FT-17 Tank Platoon",
+                      "cost":35,
+                      "br":6,
+                      "vc":3,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                {"text":"3 FT-17 (MG) Tank","v":448},
+                                {"text":"4 FT-17 (MG) Tank","v":448,"vc":4,"cost":12,"br":2},
+                                {"text":"5 FT-17 (MG) Tank","v":448,"vc":5,"cost":24,"br":4},
+
+                                {"text":"2 FT-17 (MG) Tank, 1 FT-17 37mm Tank","v":"[446,437]","vc":"[2,1]","cost":4},
+                                {"text":"3 FT-17 (MG) Tank, 1 FT-17 37mm Tank","v":"[446,437]","vc":"[3,1]","cost":16,"br":2},
+                                {"text":"4 FT-17 (MG) Tank, 1 FT-17 37mm Tank","v":"[446,437]","vc":"[4,1]","cost":28,"br":4},
+
+                                {"text":"1 FT-17 (MG) Tank, 2 FT-17 37mm Tank","v":"[446,437]","vc":"[1,2]","cost":8},
+                                {"text":"2 FT-17 (MG) Tank, 2 FT-17 37mm Tank","v":"[446,437]","vc":"[2,2]","cost":20,"br":2},
+                                {"text":"3 FT-17 (MG) Tank, 2 FT-17 37mm Tank","v":"[446,437]","vc":"[3,2]","cost":32,"br":4},
+
+                                {"text":"1 FT-17 (MG) Tank, 3 FT-17 37mm Tank","v":"[446,437]","vc":"[1,3]","cost":24,"br":2},
+                                {"text":"2 FT-17 (MG) Tank, 3 FT-17 37mm Tank","v":"[446,437]","vc":"[2,3]","cost":36,"br":4},
+                                {"text":"1 FT-17 (MG) Tank, 4 FT-17 37mm Tank","v":"[446,437]","vc":"[1,4]","cost":40,"br":4},
+
+                                {"text":"3 FT-17 37mm Tank","v":437,"vc":3,"cost":12},
+                                {"text":"4 FT-17 37mm Tank","v":437,"vc":4,"cost":28},
+                                {"text":"5 FT-17 37mm Tank","v":437,"vc":5,"cost":44},
+
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Tank",
+                      "cost":10,
+                      "br":1,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"TKS Tankette","v":299},
+                                  {"text":"TKS Tankette with 20mm","v":445,"cost":2,"restricted":true},
+                                  {"text":"Vickers E Type A","cost":10,"v":446,"br":1,"restricted":true},
+                                  {"text":"Vickers E Type B","cost":18,"v":447,"br":1,"restricted":true},
+                                  {"text":"FT-17 (MG)","cost":2,"v":448,"br":1},
+                                  {"text":"FT-17 37mm","v":437,"cost":6,"br":1}
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name":"Artillery Units",
+              "allows":[10],
+              "requires":false,
+              "entries":[
+                  {
+                      "name":"Forward Observer Team",
+                      "cost":16,
+                      "br":1,
+                      "options":[
+                          {
+                              "name":"Transport",
+                              "choices":[
+                                  {"text":"Polski Fiat 508 Car","v":442}
+                              ]
+                          },
+                      ]
+                  },
+                  {
+                      "name":"Timed 75mm Barrage",
+                      "w":12,
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Towed Artillery Gun",
+                      "cost":28,
+                      "br":2,
+                      "options":[
+                          {
+                              "name":"Gun",
+                              "choices":[
+                                  {"text":"75mmL36 Schneider 1897 Gun","w":12},
+                                  {"text":"75mmL30 Putilov 1926/02 Gun","w":57},
+                                  {"text":"100mmL25 Skoda Howitzer","w":178,"cost":10}
+                              ]
+                          },
+                          {
+                              "name":"Loader team",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"One 3-man loader team","cost":10}
+                              ]
+                          },
+                          {
+                              "name":"Tow",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Horse and Limber Tow","cost":2},
+                                  {"text":"C4P Half Track Tow","cost":4,"v":449},
+                                  {"text":"C2P Tractor Tow","cost":5,"v":450}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Off-Table Mortar Fire",
+                      "cost":54,
+                      "br":0,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"2 81mm mortars","w":61},
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Off-Table Artillery Fire",
+                      "cost":70,
+                      "br":0,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"2 75mmL36 Guns",'w':12},
+                                  {"text":"2 75mmL30 Guns",'w':57}
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name":"Defences",
+              "allows":null,
+              "requires":false,
+              "entries":[
+                  {
+                      "name":"Improvised Barricades",
+                      "cost":5,
+                      "br":0
+                  },
+                  {
+                      "name":"Machine Gun Dug-out",
+                      "cost":32,
+                      "br":1
+                  },
+                  {
+                      "name":"Machine Gun Pillbox",
+                      "cost":54,
+                      "br":1,
+                      "restricted":true
+                  },
+                  {
+                      "name":"Mortar Pit",
+                      "cost":32,
+                      "br":1
+                  },
+                  {
+                      "name":"Fortified Building",
+                      "cost":30,
+                      "br":0
+                  },
+                  {
+                      "name":"Foxholes",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Barbed Wire",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Trenches",
+                      "cost":10,
+                      "br":0
+                  },
+                  {
+                      "name":"Minefield",
+                      "cost":15,
+                      "restricted":true,
+                      "br":0
+                  },
+                  {
+                      "name":"AT Gun Dug-out",
+                      "cost":20,
+                      "br":0
+                  },
+                  {
+                      "name":"Artillery Observation Post",
+                      "cost":26,
+                      "br":1,
+                      "unique":true
+                  },
+                  {
+                      "name":"Command Bunker",
+                      "cost":20,
+                      "br":3,
+                      "unique":true,
+                      "restricted":true
+                  },
+                  {
+                      "name":"Communications Bunker",
+                      "cost":15,
+                      "br":1,
+                      "unique":true,
+                      "restricted":true
+                  },
+                  {
+                      "name":"Booby-Trapped Building",
+                      "cost":25,
+                      "br":0
+                  },
+                  {
+                      "name":"Improvised Road Block",
+                      "cost":5,
+                      "br":0
+                  },
+                  {
+                      "name":"Tank Traps",
+                      "cost":10,
+                      "br":0
+                  }
+              ]
+          },
+          {
+              "name":"Reconnaissance Support Units",
+              "allows":null,
+              "requires":true,
+              "entries":[
+                  {
+                      "name":"Sniper",
+                      "cost":10,
+                      "br":1,
+                      "scout":1,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"1 sniper"},
+                                  {"text":"1 sniper + 1 spotter","cost":5}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Infantry Foot Patrol",
+                      "cost":35,
+                      "br":2,
+                      "scout":1,
+                      "s":1,
+                      "options":[
+                          {
+                              "name":"Transport",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Bicycles","cost":10}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Cavalry Patrol",
+                      "cost":17,
+                      "br":1,
+                      "scout":1,
+                      "s":1,
+                      "options":[
+                          {
+                              "name":"Anti-Tank Rifle",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Anti-Tank Rifle","cost":5,"w":176}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Cavalry Reconnaissance Command",
+                      "cost":20,
+                      "unique":true,
+                      "scout":1,
+                      "officer":1,
+                      "br":2
+                  },
+                  {
+                      "name":"Tankette",
+                      "cost":15,
+                      "scout":1,
+                      "br":1,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"TKS Tankette","v":299},
+                                  {"text":"TKS Tankette 20mm","cost":2,"v":445,"restricted":true}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Armoured Car",
+                      "cost":10,
+                      "scout":1,
+                      "br":1,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"Wz.34 (MG) Armoured Car","v":451},
+                                  {"text":"Wz.34 37mm Armoured Car","v":452,"cost":4},
+                                  {"text":"Wz.39 Ursus Armoured Car","v":453,"cost":12}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Recce Command",
+                      "cost":32,
+                      "scout":1,
+                      "officer":true,
+                      "unique":true,
+                      "br":2,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"Wz.39 Ursus Armoured Car","v":453}
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name":"Engineer Support Units",
+              "allows":null,
+              "requires":true,
+              "entries":[
+                  {
+                      "name":"Engineer Squad",
+                      "cost":40,
+                      "br":2,
+                      "s":1,
+                      "options":[
+                          {
+                              "name":"Transport",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Polski Fiat 621 Truck","cost":4,"v":443}
+                              ]
+                          },
+                          {
+                              "name":"Mine sweeper",
+                              "choices":[
+                                  {"text":"None","np":true},
+                                  {"text":"Mine sweeper","cost":5}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Light Bridging Unit",
+                      "cost":18,
+                      "br":2,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"Polski Fiat 621 with Bridge","v":443}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Flamethrower Teams",
+                      "cost":30,
+                      "br":2,
+                      "options":[
+                          {
+                              "name":"Transport",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Polski Fiat 621 Truck","cost":4,"v":443}
+                              ]
+                          }
+                      ]
+                  },
+              ]
+          },
+          {
+              "name":"Logistics Support Units",
+              "allows":null,
+              "requires":true,
+              "entries":[
+                  {
+                      "name":"Supply Column",
+                      "cost":6,
+                      "br":1,
+                      "unique":true,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"1 horse-drawn wagon"},
+                                  {"text":"2 horse-drawn wagons","cost":2},
+                                  {"text":"3 horse-drawn wagons","cost":4},
+
+                                  {"text":"2 horse-drawn wagons, 1 Polski Fiat 621 Truck","cost":6,"v":443,"vc":1},
+                                  {"text":"1 horse-drawn wagon, 1 Polski Fiat 621 Truck","cost":4,"v":443,"vc":1},
+                                  {"text":"1 horse-drawn wagon, 2 Polski Fiat 621 Trucks","cost":8,"v":443,"vc":2},
+
+                                  {"text":"1 Polski Fiat 621 Truck","cost":2,"v":443,"vc":1},
+                                  {"text":"2 Polski Fiat 621 Trucks","cost":6,"v":443,"vc":2},
+                                  {"text":"3 Polski Fiat 621 Trucks","cost":10,"v":443,"vc":3},
+
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Transport Column",
+                      "cost":16,
+                      "br":1,
+                      "unique":true,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"4 Polski Fiat 621 Trucks","v":443,"vc":4},
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Forward Aid Post",
+                      "cost":20,
+                      "br":5,
+                      "restricted":true,
+                      "unique":true
+                  },
+                  {
+                      "name":"Stretcher Party",
+                      "cost":10,
+                      "br":1
+                  },
+                  {
+                      "name":"Ambulance",
+                      "cost":16,
+                      "br":2,
+                      "restricted":true,
+                      "v":91
+                  }
+              ]
+          },
+          {
+              "name":"Specialist Support Units",
+              "allows":null,
+              "requires":true,
+              "entries":[
+
+                  {
+                      "name":"Towed Anti-Aircraft Gun",
+                      "cost":34,
+                      "br":1,
+                      "restricted":true,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"40mm Bofors L60 Bofors AA Gun","w":63}
+                              ]
+                          },
+                          {
+                              "name":"Loader team",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"3-man loader team","cost":10}
+                              ]
+                          },
+                          {
+                              "name":"Tow",
+                              "choices":[
+                                  {"text":"None"},
+                                  {"text":"Polski Fiat 621 Tow","cost":4,"v":443},
+                                  {"text":"C2P Artillery Tractor Tow","cost":5,"v":450}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Tank",
+                      "cost":20,
+                      "br":2,
+                      "restricted":true,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"7TP (MG)","v":454},
+                                  {"text":"7TP 37mm","v":455,"cost":4},
+                                  {"text":"Renault R35","cost":2,"v":204}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"Tank Hunter",
+                      "cost":12,
+                      "br":2,
+                      "restricted":true,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"TKD with 47mm Gun","v":456}
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "name":"7TP Platoon",
+                      "cost":75,
+                      "br":6,
+                      "restricted":true,
+                      "options":[
+                          {
+                              "name":"Composition",
+                              "choices":[
+                                  {"text":"3 x 7TP (MG)","v":454,"vc":3},
+                                  {"text":"2 x 7TP (MG), 1 x 7TP 37mm","v":"[454,455]","vc":"[2,1]","cost":4},
+                                  {"text":"1 x 7TP (MG), 2 x 7TP 37mm","v":"[454,455]","vc":"[1,2]","cost":8},
+                                  {"text":"3 x 7TP 37mm","v":455,"vc":3,"cost":12}
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name":"Additional Fire Support",
+              "allows":null,
+              "requires":true,
+              "entries":[
+                  {
+                      "name":"Off-Table Artillery Request",
+                      "cost":5,
+                      "br":0,
+                      "options":[
+                          {
+                              "name":"Target Priority",
+                              "choices":[
+                                  {"text":"3rd (6+)"},
+                                  {"text":"2nd (5+)","cost":5},
+                                  {"text":"1st (4+)","cost":15}
+                              ]
+                          }
+                      ]
+                  },
+              {
+                  "name":"Pre-Registered Target Point",
+                  "cost":20,
+                  "br":0
+              },
+              {
+                  "name":"Counter-Battery Fire Mission",
+                  "cost":10,
+                  "br":0
+              },
+              {
+                  "name":"Timed 105mm Barrage",
+                  "cost":20,
+                  "w":22,
+                  "br":0
+              },
+              {
+                  "name":"Off-Table Artillery Fire",
+                  "w":178,
+                  "cost":85,
+                  "br":0,
+                  "options":[
+                      {
+                          "name":"Composition",
+                          "choices":[
+                              {"text":"2 x 100mmL24 Skoda Howitzers"}
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "name":"Off-Table Artillery Fire",
+                  "w":22,
+                  "cost":90,
+                  "br":0,
+                  "options":[
+                      {
+                          "name":"Composition",
+                          "choices":[
+                              {"text":"2 x 105mmL28 Schneider Cannons"}
+                          ]
+                      }
+                  ]
+              }
+              ]
+          }
+      ]
   }
 ]

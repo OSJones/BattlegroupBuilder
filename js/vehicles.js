@@ -2190,7 +2190,7 @@ var vehicles = [
     'name':'TKS',
     'armour':true,
     'mg':true,
-    'movement':'9;12',
+    'movement':'8;12',
     'weapon':'mg_hull'
 },
 {
@@ -3216,6 +3216,7 @@ var vehicles = [
     'armour':true,
     'weapons':[112],
     'mg':false,
+    'movement':'3;6',
     'ammo':true
 },
 {
@@ -3248,6 +3249,122 @@ var vehicles = [
     'armour':true,
     'weapons':[112],
     'mg':true,
+    'ammo':true
+},
+{
+    'id':442,
+    'name':'Polski Fiat 508 Car',
+    'hits':true,
+    'capacity':3
+},
+{
+    'id':443,
+    'name':'Polski Fiat 621 Truck',
+    'hits':true,
+    'capacity':12
+},
+{
+    'id':444,
+    'name':'Wz.34 Half Track',
+    'armour':true,
+    'weapons':[112],
+    'mg':false,
+    'ammo':true
+},
+{
+    'id':445,
+    'name':'TKS with 20mm Gun',
+    'armour':true,
+  //  'weapons':[113],
+    'weapons':[177],
+    'mg':false,
+    'movement':'8;12',
+    'ammo':true
+},
+{
+    'id':446,
+    'name':'Vickers E Type A',
+    'armour':true,
+    'mg':true,
+    'movement':'7;11',
+},
+{
+    'id':447,
+    'name':'Vickers E Type B',
+    'armour':true,
+    'mg':true,
+    'movement':'7;11',
+    'weapons':[113],
+    'ammo':true
+},
+{
+    'id':448,
+    'name':'FT-17 (MG)',
+    'armour':true,
+    'mg':true,
+    'movement':'3;6',
+},
+{
+    'id':449,
+    'name':'Wz.34 C4P Half-Track',
+    'hits':true,
+    'movement':'12;16',
+    'capacity':12
+},
+{
+    'id':450,
+    'name':'C2P Artillery Tractor',
+    'hits':true,
+    'movement':'8;10',
+},
+{
+    'id':451,
+    'name':'Wz 34 Armoured Car',
+    'armour':true,
+    'mg':false,
+    'movement':'12;16',
+    'weapons':[112],
+    'ammo':true
+},
+{
+    'id':452,
+    'name':'Wz 34 (MG) Armoured Car',
+    'armour':true,
+    'mg':true,
+    'movement':'12;16',
+},
+{
+    'id':453,
+    'name':'Wz 39 Ursus',
+    'armour':true,
+    'mg':true,
+    'movement':'12;16',
+    'weapons':[112],
+    'ammo':true
+},
+{
+    'id':454,
+    'name':'7TP (MG)',
+    'armour':true,
+    'mg':true,
+    'movement':'8;12',
+},
+{
+    'id':425,
+    'name':'7TP 37mm',
+    'armour':true,
+    'mg':true,
+    'movement':'8;12',
+    'weapons':[37],
+    'ammo':true
+},
+{
+    'id':456,
+    'name':'TKD with 47mm',
+    'armour':true,
+    'mg':false,
+    'movement':'8;12',
+    'weapons':[179],
     'ammo':true
 },
 
