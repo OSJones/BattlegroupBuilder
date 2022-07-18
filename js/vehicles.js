@@ -435,7 +435,7 @@ var vehicles = [
 },
 {
     'id':57,
-    'name':'Krüpp Protze',
+    'name':'Krüpp Protze Kfz70',
     'hits':true,
     'capacity':8
 },
@@ -3350,7 +3350,7 @@ var vehicles = [
     'movement':'8;12',
 },
 {
-    'id':425,
+    'id':455,
     'name':'7TP 37mm',
     'armour':true,
     'mg':true,
@@ -3365,6 +3365,88 @@ var vehicles = [
     'mg':false,
     'movement':'8;12',
     'weapons':[179],
+    'ammo':true
+},
+{
+    'id':457,
+    'name':'Panzer III E Panzerbefehlswagen',
+    'armour':true,
+    'mg':true
+},
+{
+    'id':458,
+    'name':'Panzer IV D',
+    'armour':true,
+    'weapons':[11],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':459,
+    'name':'Krüpp Protze Kfz69',
+    'hits':true,
+    'capacity':0
+},
+{
+    'id':460,
+    'name':'Panzer I Brückenleger',
+    'armour':true,
+},
+{
+    'id':461,
+    'name':'Panzer I munitions-schlepper',
+    'armour':true
+},
+{
+    'id':462,
+    'name':'\'Bunkerflak\'',
+    'armour':true,
+    'weapons':[19],
+    'mg':false,
+    'ammo':true
+},
+{
+    'id':463,
+    'name':'Kfz 13',
+    'armour':true,
+    'mg':true,
+},
+{
+    'id':464,
+    'name':'Steyr ADGZ',
+    'armour':true,
+    'weapons':[4],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':465,
+    'name':'Panzer III D',
+    'armour':true,
+    'weapons':[123],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':466,
+    'name':'Panzer III E',
+    'armour':true,
+    'weapons':[123],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':467,
+    'name':'Kfz 14',
+    'armour':true,
+    'mg':false,
+},
+{
+    'id':468,
+    'name':'Panzer IV A-C',
+    'armour':true,
+    'weapons':[11],
+    'mg':true,
     'ammo':true
 },
 

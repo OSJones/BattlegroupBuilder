@@ -12,6 +12,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+18/07/2022 - _Added Blitzkrieg / German (1939) Battlegroup_<br>
+14/07/2022 - _Added Blitzkrieg / German Panzer Division (1940) Battlegroup_<br>
 07/07/2022 - _Added Blitzkrieg / Polish Battlegroup_<br>
 30/06/2022 - _Added Torch / French March Division Battlegroup_<br>
 21/06/2022 - _Added Torch / American Infantry Division Battlegroup_<br>

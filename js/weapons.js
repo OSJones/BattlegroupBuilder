@@ -1190,8 +1190,8 @@ var weapons = {
         'stats':[
         {
             'type':'HE [L]',
-            'effect':'',
-            'strength':['','','','','']
+            'effect':'3/4+',
+            'strength':['2','2','2','2','2']
         }
         ]
     },
@@ -2169,6 +2169,15 @@ var weapons = {
         'strength':['4','4','3','2','1']
     }
     ]
-  }
-
+  },
+  180:{
+    'name':'75mmL12 Infantry Gun',
+    'stats':[
+    {
+      'type':'HE [L]',
+      'effect':'3/4+',
+      'strength':['2','2','2','2','2']
+    }
+    ]
+  },
 }
