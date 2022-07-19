@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+19/07/2022 - _Added Blitzkrieg / German Infantry Division (1940) Battlegroup_<br>
 19/07/2022 - _Cleared up use of 90mmL53 guns between Italian and US Battlegroups_<br>
 18/07/2022 - _Added Blitzkrieg / German (1939) Battlegroup_<br>
 14/07/2022 - _Added Blitzkrieg / German Panzer Division (1940) Battlegroup_<br>
