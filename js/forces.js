@@ -15157,7 +15157,7 @@ var forces = [
                             {
                                 "name":"Composition",
                                 "choices":[
-                                    {"text":"90mm AA gun","w":0} //greg this needs sorting via guild forum
+                                    {"text":"90mm AA gun","w":136}
                                 ]
                             },
                             {
@@ -26788,7 +26788,7 @@ var forces = [
                             {
                                 "name":"Composition",
                                 "choices":[
-                                    {"text":"90mm AA with 4 crew"}
+                                    {"text":"90mm AA with 4 crew","w":136}
                                 ]
                             },
                             {
@@ -40551,7 +40551,7 @@ var forces = [
                             {
                                 "name":"Composition",
                                 "choices":[
-                                    {"text":"90mm AA gun","w":0} //greg this needs sorting via guild forum
+                                    {"text":"90mm AA gun","w":136}
                                 ]
                             },
                             {
@@ -44674,14 +44674,14 @@ var forces = [
                     "cost":64,
                     "br":2,
                     "v":61,
-                    "w":135,
+                    "w":121,
                     "unique":true,
                     "restricted":true,
                     "options":[
                         {
                             "name":"Composition",
                             "choices":[
-                                {"text":"Lancia truck with 90mmL53","w":130,"v":61,"cost":1}
+                                {"text":"Lancia truck with 90mmL53"}
                             ]
                         }
                     ]
@@ -95547,14 +95547,14 @@ var forces = [
                   "name":"Heavy Anti-Aircraft Gun",
                   "cost":55,
                   "br":2,
-                  "w":136,
+                  "w":121,
                   "restricted":true,
                   "unique":true,
                   "options":[
                       {
                           "name":"Composition",
                           "choices":[
-                              {"text":"90mmL56 Cannon with 4 crew"}
+                              {"text":"90mmL53 Cannon with 4 crew"}
                           ]
                       },
                       {
@@ -95640,7 +95640,7 @@ var forces = [
                           "choices":[
                               {"text":"Medium truck with 20mmL65","w":129,"v":91},
                               {"text":"Heavy truck with 75mmL46","w":132,"v":61,"cost":21,"br":1},
-                              {"text":"Heavy truck with 90mmL53","w":136,"v":61,"cost":39,"br":1}
+                              {"text":"Heavy truck with 90mmL53","w":121,"v":61,"cost":39,"br":1}
                           ]
                       }
                   ]
@@ -100918,7 +100918,7 @@ var forces = [
                   "w":26,
                   "cost":20,
                   "br":0
-              },            
+              },
               {
                   "name":"Timed Ju-87 Air Strike",
                   "cost":15,

@@ -1466,7 +1466,7 @@ var weapons = {
         ]
     },
     121:{
-        'name':'90mmL53',
+        'name':'90mmL53',  // Italian
         'stats':[
         {
             'type':'HE [M]',
@@ -1651,7 +1651,7 @@ var weapons = {
         ]
     },
     136:{
-        'name':'90mmL53',
+        'name':'90mmL53', // US
         'stats':[
             {
                 'type':'HE [M]',
@@ -1661,7 +1661,7 @@ var weapons = {
             {
                 'type':'AP',
                 'effect':'-',
-                'strength':['9','9','8','7','6','5']
+                'strength':['10','10','9','8','7','6'] // FOTR
             }
         ]
     },
