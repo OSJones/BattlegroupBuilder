@@ -3449,6 +3449,26 @@ var vehicles = [
     'mg':true,
     'ammo':true
 },
+{
+    'id':469,
+    'name':'Matilda I',
+    'mg':true,
+    'armour':true,
+},
+{
+    'id':470,
+    'name':'A13',
+    'armour':true,
+    'mg':true,
+    'ammo':true,
+    'weapons':[58],
+},
+{
+    'id':471,
+    'name':'Guy Mk I',
+    'mg':true,
+    'armour':true,
+},
 
 // greg to-do, landing craft
 {

@@ -2181,4 +2181,34 @@ var weapons = {
     }
     ]
   },
+  181:{
+    'name':'25mmL77',
+    'stats':[
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['3','3','2','1','1']
+    }
+    ]
+  },
+  182:{
+    'name':'8\" Howitzer',
+    'stats':[
+    {
+        'type':'HE [H]',
+        'effect':'7/2+',
+        'strength':['8','8','8','8','8','8']
+    }
+    ]
+  },
+  183:{
+    'name':'9.2\" Howitzer',
+    'stats':[
+    {
+        'type':'HE [H]',
+        'effect':'9/2+',
+        'strength':['9','9','9','9','9','9']
+    }
+    ]
+  }
 }
