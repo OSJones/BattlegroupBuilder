@@ -12,6 +12,9 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+01/08/2022 - _Corrected support options for US Infantry Division Artillery Battery in Overlord and Wacht Am Rhein_<br>
+01/08/2022 - _Added weapon for US Infantry Division 105mmL18 Infantry Gun in Overlord and Wacht Am Rhein_<br>
+01/08/2022 - _Corrected Pak36 (Stielgranate) weapon reference_<br>
 20/07/2022 - _Added Blitzkrieg / British Expeditionary Force Battlegroup_<br>
 19/07/2022 - _Added Blitzkrieg / German Infantry Division (1940) Battlegroup_<br>
 19/07/2022 - _Cleared up use of 90mmL53 guns between Italian and US Battlegroups_<br>
