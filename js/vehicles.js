@@ -3233,6 +3233,7 @@ var vehicles = [
     'armour':true,
     'weapons':[113],
     'mg':true,
+    'movement':'4;6',
     'ammo':true
 },
 {
@@ -3469,7 +3470,185 @@ var vehicles = [
     'mg':true,
     'armour':true,
 },
-
+{
+    'id':472,
+    'name':'AMR-35',
+    'armour':true,
+    'mg':true,
+    'movement':'4;6',
+},
+{
+    'id':473,
+    'name':'H-35',
+    'armour':true,
+    'weapons':[112],
+    'mg':true,
+    'movement':'8;12',
+    'ammo':true
+},
+{
+    'id':474,
+    'name':'H-39',
+    'armour':true,
+    'weapons':[112],
+    'mg':true,
+    'movement':'8;12',
+    'ammo':true
+},
+{
+    'id':475,
+    'name':'R-40',
+    'armour':true,
+    'weapons':[185],
+    'mg':false,
+    'movement':'9;13',
+    'ammo':true
+},
+{
+    'id':476,
+    'name':'AMC-35',
+    'armour':true,
+    'weapons':[113],
+    'mg':false,
+    'movement':'9;13',
+    'ammo':true
+},
+{
+    'id':477,
+    'name':'Renault D-2',
+    'armour':true,
+    'weapons':[113],
+    'mg':true,
+    'movement':'5;7',
+    'ammo':true
+},
+{
+    'id':478,
+    'name':'Lorraine Carrier 37L',
+    'armour':true,
+    //'weapons':[173],
+    'mg':false,
+    'movement':'8;11',
+    'ammo':true
+},
+{
+    'id':479,
+    'name':'Citroen U23 Truck',
+    'hits':true,
+    'capacity':12
+},
+{
+    'id':480,
+    'name':'Laffly S15 Heavy Car',
+    'hits':true,
+    'capacity':4
+},
+{
+    'id':481,
+    'name':'Laffly S20TL Truck',
+    'hits':true,
+    'capacity':12
+},
+{
+    'id':482,
+    'name':'Renault AHS Truck',
+    'hits':true,
+    'capacity':12
+},
+{
+    'id':483,
+    'name':'P19 Kegresse Half Track',
+    'hits':true,
+    'capacity':10
+},
+{
+    'id':484,
+    'name':'Unic P107 Half Track',
+    'hits':true,
+    'capacity':6+1,
+    //'weapons':[188]
+},
+{
+    'id':485,
+    'name':'P19 Kegresse Tank Hunter',
+    'weapons':[170],
+    'hits':true,
+    'capacity':0
+},
+{
+    'id':486,
+    'name':'Laffly W15TCC Tank Hunter',
+    'weapons':[173],
+    'hits':true,
+    'capacity':0
+},
+{
+    'id':487,
+    'name':'Somua MCG Prime Mover',
+    'hits':true
+},
+{
+    'id':488,
+    'name':'Somua MCG Recovery',
+    'hits':true
+},
+{
+    'id':489,
+    'name':'Somua MCL5 Recovery',
+    'hits':true
+},
+{
+    'id':490,
+    'name':'FCM-36',
+    'armour':true,
+    'weapons':[112],
+    'mg':true,
+    'movement':'4;6',
+    'ammo':true
+},
+{
+    'id':491,
+    'name':'Lorraine Carrier 38L',
+    'armour':true,
+    'mg':false,
+    'movement':'8;11'
+},
+{
+    'id':492,
+    'name':'Char-B',
+    'armour':true,
+    'weapons':[186,187],
+    'mg':true,
+    'movement':'6;9',
+    'ammo':true
+},
+{
+    'id':493,
+    'name':'Char-B1 bis',
+    'armour':true,
+    'weapons':[186,187],
+    'mg':true,
+    'movement':'6;9',
+    'ammo':true
+},
+{
+    'id':494,
+    'name':'Char-2C',
+    'armour':true,
+    'weapons':[188],
+    'mg':true,
+    'movement':'3;4',
+    'ammo':true
+},
+{
+    'id':495,
+    'name':'Lorraine Carrier 37L CC with 47mmL53',
+    'armour':true,
+    'weapons':[173],
+    'mg':false,
+    'movement':'8;11',
+    'ammo':true
+},
 // greg to-do, landing craft
 {
 }

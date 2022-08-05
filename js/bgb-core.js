@@ -6,6 +6,7 @@
  */
 
 
+
 var sizes = [350, 750, 1500, 3000,99999];
 function sub_timeout(sub_units, div) {
     var dfd = jQuery.Deferred();
@@ -14,6 +15,7 @@ function sub_timeout(sub_units, div) {
                     }, 1200);
         return dfd.promise();
 }
+
 
 function army_size_string() { // todo check this costs in the book!
     var cost =  parseInt($('#force_cost').text(),10);
@@ -100,6 +102,15 @@ function requires_match(item, requires) {
     return true;
 }
 
+function httpGet(theUrl) {
+     var xmlHttp = new XMLHttpRequest();
+     xmlHttp. open( "GET", theUrl, false ); // false for synchronous request.
+     xmlHttp. send( null );
+ return xmlHttp.responseText;
+}
+
+
+
 // DROP DOWN WITH FORCE SELECTION incl TOP BAR  ----->
 // maybe make it get which value from a select?
 function render_name(force) {
@@ -114,7 +125,72 @@ function render_name(force) {
         }
         text = text + "<option value=" + forces[i].id;
         if (force.id == forces[i].id)
+        {
+
+            //recreateTallyCounters();  // One-off Tally Creation
+            //resetTallyCounters();   // To reset tally to zero after testing
+
             text = text + " selected";
+            callbackindex = (forces[i].group + "_A5_" + forces[i].name);
+            callbackindex = callbackindex.replace(/ /gi,"_");
+
+            // Removing special characters that countapi prohibits from being used as key names, i.e. outside ^[A-Za-z0-9_\-.]{3,64}$
+
+            // 7. SS-Division „Prinz Eugen“
+            if (callbackindex.search("Eugen") > 0)
+            {
+                callbackindex = "Dispatches_A5_7_SS_Division"
+            }
+            if (callbackindex == "Dispatches_A5_7._SS-Division_„Prinz_Eugen“")
+            {
+                callbackindex = "Dispatches_A5_7_SS_Division"
+            }
+            if (callbackindex == "Battlegroup_Rulebook_A5_12._SS-Panzer-Division_„Hitlerjugend“")
+            {
+                callbackindex = "Rulebook_A5_12_SS_Panzer_Division"
+            }
+            if (callbackindex == "Battlegroup_Tobruk_A5_132nd_Armoured_Division_„Ariete“")
+            {
+                callbackindex = "Tobruk_A5_132nd_Armoured_Division"
+            }
+            if (callbackindex == "Battlegroup_Tobruk_A5_British_Infantry_Division_(East_Africa)")
+            {
+                callbackindex = "Tobruk_A5_British_Infantry_Division_East_Africa"
+            }
+            if (callbackindex == "Battlegroup_Tobruk_A5_Italian_Infantry_Division_(East_Africa)")
+            {
+                callbackindex = "Tobruk_A5_Italian_Infantry_Division_East_Africa"
+            }
+            if (callbackindex == "Battlegroup_Blitzkrieg_A5_German_Panzer_Division_(1940)")
+            {
+                callbackindex = "Blitzkrieg_A5_German_Panzer_Division_1940"
+            }
+            if (callbackindex == "Battlegroup_Blitzkrieg_A5_German_Infantry_Division_(1940)")
+            {
+                callbackindex = "Blitzkrieg_A5_German_Infantry_Division_1940"
+            }
+            if (callbackindex == "Battlegroup_Blitzkrieg_A5_German_Battlegroup_(1939)")
+            {
+                callbackindex = "Blitzkrieg_A5_German_Battlegroup_1939"
+            }
+            else
+            {
+                callbackindex = callbackindex.replace("Battlegroup_","");
+            }
+
+            callbackindex = callbackindex.replace(/-/gi,"_");
+            callbackindex = callbackindex.replace(".","");
+            callbackindex = callbackindex.replace("ä","a");
+            callbackindex = callbackindex.replace("ß","B");
+            //window.alert(callbackindex);
+
+            pagereturn = httpGet('https://api.countapi.xyz/hit/osjones.github.io/' + callbackindex);
+            startofvalue = pagereturn.search("value")+7;
+            endofvalue = pagereturn.search("}")-startofvalue;
+            pagereturn = pagereturn.substr(startofvalue,endofvalue);
+            //window.alert(callbackindex + " = " + pagereturn);
+
+        }
         text=text+">"+forces[i].name+"</option>";
     }
     if (/Mobi|Android/i.test(navigator.userAgent))

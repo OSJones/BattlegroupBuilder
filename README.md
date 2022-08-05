@@ -12,6 +12,10 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+05/08/2022 - _Added Blitzkrieg / French Light Division_<br>
+05/08/2022 - _Added Blitzkrieg / French Armoured Division_<br>
+04/08/2022 - _Added Blitzkrieg / French Light Mechanised Division_<br>
+04/08/2022 - _Added code for tallying different Battlegroup selections from the drop-down_<br>
 01/08/2022 - _Corrected support options for US Infantry Division Artillery Battery in Overlord and Wacht Am Rhein_<br>
 01/08/2022 - _Added weapon for US Infantry Division 105mmL16 Infantry Gun in Overlord and Wacht Am Rhein_<br>
 01/08/2022 - _Corrected Pak36 (Stielgranate) weapon reference_<br>
