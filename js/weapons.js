@@ -2296,4 +2296,59 @@ var weapons = {
     }
     ]
   },
+  191:{
+      'name':'47mmL34',
+      'stats':[
+      {
+          'type':'HE [VL]',
+          'effect':'3/5+',
+          'strength':['2','2','2','2','2']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['4','4','3','2','1']
+      }
+      ]
+  },
+  192:{
+      'name':'76mm mortar',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['2','2','2','2','2','2']
+      }
+      ]
+  },
+  193:{
+      'name':'94mmL50',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'5/4+',
+          'strength':['4','4','4','4','4']
+      }
+      ]
+  },
+  194:{
+      'name':'155mmL32',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'7/3+',
+          'strength':['6','6','6','6','6']
+      }
+      ]
+  },
+  195:{
+      'name':'120mmL37',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'6/3+',
+          'strength':['5','5','5','5','5']
+      }
+      ]
+  },
 }

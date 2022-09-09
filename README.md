@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+09/09/2022 - _Added Blitzkrieg / Belgian Light Division_<br>
 05/08/2022 - _Added Blitzkrieg / French Light Division_<br>
 05/08/2022 - _Added Blitzkrieg / French Armoured Division_<br>
 04/08/2022 - _Added Blitzkrieg / French Light Mechanised Division_<br>

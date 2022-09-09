@@ -3642,13 +3642,97 @@ var vehicles = [
 },
 {
     'id':495,
-    'name':'Lorraine Carrier 37L CC with 47mmL53',
+    'name':'Lorraine Carrier 37L CC with 47mmL',
     'armour':true,
     'weapons':[173],
     'mg':false,
     'movement':'8;11',
     'ammo':true
 },
+{
+    'id':496,
+    'name':'Brassel-Tal Heavy Truck',
+    'hits':true,
+    'movement':'6;24'
+},
+{
+    'id':497,
+    'name':'Vickers T15',
+    'armour':true,
+    'mg':true,
+    'movement':'12;18'
+},
+{
+    'id':498,
+    'name':'ACG-1',
+    'armour':true,
+    'weapons':[113],
+    'mg':true,
+    'movement':'9;13',
+    'ammo':true
+},
+{
+    'id':499,
+    'name':'T13 B1 or B2',
+    'armour':true,
+    'weapons':[113],
+    'mg':false,
+    'movement':'12;18',
+    'ammo':true
+},
+{
+    'id':500,
+    'name':'T13 B3',
+    'armour':true,
+    'weapons':[113],
+    'mg':false,
+    'movement':'12;18',
+    'ammo':true
+},
+{
+    'id':501,
+    'name':'VUDB Berliet',
+    'armour':true,
+    'capacity':6,
+    'movement':'12;16'
+},
+{
+    'id':502,
+    'name':'Armoured Marmon-Herrington',
+    'armour':true,
+    'movement':'6;24'
+},
+{
+    'id':503,
+    'name':'Carden Loyd Tractor',
+    'armour':true,
+    'movement':'10;15'
+},
+{
+    'id':504,
+    'name':'Marmon-Herrington Car',
+    'hits':true,
+    'movement':'6;24'
+},
+{
+    'id':505,
+    'name':'FN Kegresse',
+    'hits':true,
+    'movement':'12;18'
+},
+{
+    'id':506,
+    'name':'FN Tricar',
+    'hits':true,
+    'movement':'6;24'
+},
+{
+    'id':507,
+    'name':'Latil Tractor',
+    'hits':true,
+    'movement':'6;24'
+},
+
 // greg to-do, landing craft
 {
 }
