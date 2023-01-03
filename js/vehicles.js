@@ -3733,6 +3733,41 @@ var vehicles = [
     'movement':'6;24'
 },
 
+{
+    'id':508,
+    'name':'Landsverk M36',
+    'armour':true,
+    'weapons':[202],
+    'mg':true,
+    'movement':'9;14',
+    'ammo':true
+},
+{
+    'id':509,
+    'name':'Landsverk M38',
+    'armour':true,
+    'weapons':[202],
+    'mg':true,
+    'movement':'9;14',
+    'ammo':true
+},
+{
+    'id':510,
+    'name':'DAF 39',
+    'armour':true,
+    'weapons':[202],
+    'mg':true,
+    'movement':'8;12',
+    'ammo':true
+},
+{
+    'id':511,
+    'name':'Carden Loyd Tankette',
+    'armour':true,
+    'mg':true,
+    'movement':'6;10'
+},
+
 // greg to-do, landing craft
 {
 }

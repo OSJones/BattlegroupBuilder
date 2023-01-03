@@ -1602,7 +1602,7 @@ var weapons = {
         {
             'type':'AP',
             'effect':'',
-            'strength':['','']
+            'strength':['3','2']
         }
         ]
     },
@@ -1951,13 +1951,13 @@ var weapons = {
     'stats':[
     {
         'type':'HE [VL]',
-        'effect':'',
-        'strength':['','','','','']
+        'effect':'3/5+',
+        'strength':['2','2','2','2','2','2']
     },
     {
         'type':'AP',
         'effect':'-',
-        'strength':['','','','','']
+        'strength':['4','4','3','2','2','1']
     }
     ]
   },
@@ -2348,6 +2348,188 @@ var weapons = {
           'type':'HE [M]',
           'effect':'6/3+',
           'strength':['5','5','5','5','5']
+      }
+      ]
+  },
+  196:{
+      'name':'57mm 6-Veld gun',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'3/4+',
+          'strength':['2','2','2','2','2','2']
+      }
+      ]
+  },
+  197:{
+      'name':'75mm 7-Veld gun',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['2','2','2','2','2','2']
+      }
+      ]
+  },
+  198:{
+      'name':'84mm Krupp M1878 8-Staal',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/3+',
+          'strength':['3','3','3','3','3','3']
+      }
+      ]
+  },
+  199:{
+      'name':'105mm Howitzer 10-Veld',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'5/3+',
+          'strength':['3','3','3','3','3','3']
+      }
+      ]
+  },
+  200:{
+      'name':'120mm 12-Lang-12 Howitzer',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'5/4+',
+          'strength':['3','3','3','3','3','3']
+      }
+      ]
+  },
+  201:{
+      'name':'120mm 12-Lang-14 Howitzer',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'6/3+',
+          'strength':['3','3','3','3','3','3']
+      }
+      ]
+  },
+  202:{
+      'name':'37mmL45 Bofors',
+      'stats':[
+      {
+          'type':'HE [VL]',
+          'effect':'2/5+',
+          'strength':['1','1','1','1','1']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['4','3','2','2','1']
+      }
+      ]
+  },
+  203:{
+      'name':'57mm 6tl AA Gun',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'3/4+',
+          'strength':['2','2','2','2','2','-']
+      }
+      ]
+  },
+  204:{
+      'name':'75mm 7tl AA Gun',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['2','2','2','2','2','2']
+      }
+      ]
+  },
+  205:{
+      'name':'76mm 8tl AA Gun',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['2','2','2','2','2','-']
+      }
+      ]
+  },
+  206:{
+      'name':'20mm Oerlikon',
+      'stats':[
+      {
+          'type':'HE',
+          'effect':'-',
+          'strength':['1','1','1','1','1']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['2','2','1','1','1']
+      }
+      ]
+  },
+  207:{
+      'name':'75mm Vickers M1931 AA Gun',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['3','3','3','3','3','3']
+      }
+      ]
+  },
+  208:{
+      'name':'125mm Fortress Gun',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'6/4+',
+          'strength':['3','3','3','3','3','3']
+      }
+      ]
+  },
+  209:{
+      'name':'150mm L17 Howitzer',
+      'stats':[
+      {
+          // assumption that stats were swapped with 152mm Howitzer in Dispatches 3          
+          'type':'HE [H]',
+          'effect':'6/4+',
+          'strength':['4','4','4','4','4','4']
+      }
+      ]
+  },
+  210:{
+      'name':'150mm Fortress Gun',
+      'stats':[
+      {
+          'type':'HE [H]',
+          'effect':'7/3+',
+          'strength':['4','4','4','4','4','4']
+      }
+      ]
+  },
+  211:{
+      'name':'152mm Howitzer',
+      'stats':[
+      {
+          // assumption that stats were swapped with 150mm Howitzer in Dispatches 3
+          'type':'HE [H]',
+          'effect':'7/3+',
+          'strength':['5','5','5','5','5','5']
+      }
+      ]
+  },
+  212:{
+      'name':'81mm mortar',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['2','2','2','2','2','2']
       }
       ]
   },
