@@ -3767,7 +3767,209 @@ var vehicles = [
     'mg':true,
     'movement':'6;10'
 },
-
+{
+    'id':512,
+    'name':'Type 94 Tankette',
+    'armour':true,
+    'mg':true,
+    'movement':'9;12'
+},
+{
+    'id':513,
+    'name':'Type 97 Te-Ke',
+    'armour':true,
+    'weapons':[219],
+    'mg':true,
+    'movement':'9;13',
+    'ammo':true
+},
+{
+    'id':514,
+    'name':'Type 89 I-Go',
+    'armour':true,
+    'weapons':[221],
+    'mg':true,
+    'movement':'5;8',
+    'ammo':true
+},
+{
+    'id':515,
+    'name':'Type 95 Ha-Go',
+    'armour':true,
+    'weapons':[219],
+    'mg':true,
+    'movement':'10;14',
+    'ammo':true
+},
+{
+    'id':516,
+    'name':'Type 98 Ke-Ni',
+    'armour':true,
+    'weapons':[219],
+    'mg':true,
+    'movement':'11;15',
+    'ammo':true
+},
+{
+    'id':517,
+    'name':'Type 2 Ke-To',
+    'armour':true,
+    'weapons':[123],
+    'mg':true,
+    'movement':'11;15',
+    'ammo':true
+},
+{
+    'id':518,
+    'name':'Type 2 Ka-Mi',
+    'armour':true,
+    'weapons':[219],
+    'mg':true,
+    'movement':'8;11',
+    'ammo':true
+},
+{
+    'id':519,
+    'name':'Type 97 Chi-Ha',
+    'armour':true,
+    'weapons':[221],
+    'mg':true,
+    'movement':'9;12',
+    'ammo':true
+},
+{
+    'id':520,
+    'name':'Type 97 Shinhoto Chi-Ha',
+    'armour':true,
+    'weapons':[220],
+    'mg':true,
+    'movement':'9;12',
+    'ammo':true
+},
+{
+    'id':521,
+    'name':'Type 91 Sumi-Da',
+    'armour':true,
+    'mg':true,
+    'movement':'8;16',
+},
+{
+    'id':522,
+    'name':'Type 93',
+    'armour':true,
+    'mg':true,
+    'movement':'8;16',
+},
+{
+    'id':523,
+    'name':'Type 1 Ho-Ni I',
+    'armour':true,
+    'open':true,
+    'weapons':[227],
+    'movement':'9;12',
+    'ammo':true
+},
+{
+    'id':524,
+    'name':'Type 1 Ho-Ni II',
+    'armour':true,
+    'open':true,
+    'weapons':[229],
+    'movement':'9;12',
+    'ammo':true
+},
+{
+    'id':525,
+    'name':'Type 4 Ho-Ro',
+    'armour':true,
+    'open':true,
+    'weapons':[231],
+    'movement':'9;12',
+    'ammo':true
+},
+{
+    'id':526,
+    'name':'Type 96 SS-Ki',
+    'armour':true,
+    //'open':true,
+    //'weapons':[227],
+    'mg':true,
+    'movement':'8;12',
+    'ammo':true,
+    'weapon':'flamethrower_hull;mg_hull',
+    'special':'Bridging'
+},
+{
+    'id':527,
+    'name':'Type 1 Ho-Ki',
+    'armour':true,
+    'open':true,
+    'mg':true,
+    'movement':'9;13'
+},
+{
+    'id':528,
+    'name':'Type 1 Ho-Ha',
+    'armour':true,
+    'open':true,
+    'mg':true,
+    'movement':'12;16'
+},
+{
+    'id':529,
+    'name':'Type 98 So-Da',
+    'armour':true,
+    'movement':'10;14',
+},
+{
+    'id':530,
+    'name':'Type 95 Kurogane',
+    'hits':true,
+    'capacity':3,
+    'movement':'6;24'
+},
+{
+    'id':531,
+    'name':'Type 94 Truck',
+    'hits':true,
+    'capacity':12,
+    'movement':'6;24'
+},
+{
+    'id':532,
+    'name':'Type 97 Truck',
+    'hits':true,
+    'capacity':14,
+    'movement':'6;24'
+},
+{
+    'id':533,
+    'name':'Nissan 80/180 Truck',
+    'hits':true,
+    'capacity':16,
+    'movement':'6;24'
+},
+{
+    'id':534,
+    'name':'Type 94 Yo-Ke',
+    'hits':true,
+    //'capacity':12,
+    'movement':'9;12'
+},
+{
+    'id':535,
+    'name':'Type 98 Shi-Ke',
+    'hits':true,
+    //'capacity':12,
+    'movement':'9;12'
+},
+{
+    'id':536,
+    'name':'Type 98 Ro-Ke',
+    'hits':true,
+    //'capacity':12,
+    'movement':'9;12'
+},
 // greg to-do, landing craft
 {
 }

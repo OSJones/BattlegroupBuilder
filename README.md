@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+16/01/2023 - _Added Pacific War / Japanese Infantry Division_<br>
 03/01/2023 - _Added Dispatches / Royal Netherlands Army_<br>
 03/01/2023 - _Corrected Vehicle Reference to Matilda II tanks across battlegroup lists_<br>
 03/01/2023 - _Corrected cost of Valentine II tanks in Tobruk / British Infantry Division_<br>

@@ -2495,7 +2495,7 @@ var weapons = {
       'name':'150mm L17 Howitzer',
       'stats':[
       {
-          // assumption that stats were swapped with 152mm Howitzer in Dispatches 3          
+          // assumption that stats were swapped with 152mm Howitzer in Dispatches 3
           'type':'HE [H]',
           'effect':'6/4+',
           'strength':['4','4','4','4','4','4']
@@ -2532,5 +2532,250 @@ var weapons = {
           'strength':['2','2','2','2','2','2']
       }
       ]
+  },
+  213:{
+      'name':'20mmL70',
+      'stats':[
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['2','2','1','1','1']
+      }
+      ]
+  },
+  214:{
+      'name':'25mmL60',
+      'stats':[
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['2','2','1','1','1']
+      }
+      ]
+  },
+  215:{
+      'name':'90mm mortar',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'5/4+',
+          'strength':['2','2','2','2','2','2']
+      }
+      ]
+  },
+  216:{
+      'name':'150mm mortar',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'5/3+',
+          'strength':['4','4','4','4','4','4']
+      }
+      ]
+  },
+  217:{
+      'name':'320mm mortar',
+      'stats':[
+      {
+          'type':'HE [H]',
+          'effect':'10/2+',
+          'strength':['10','10','10','10','10','10']
+      }
+      ]
+  },
+  218:{
+      'name':'20mm AT Rifle',
+      'stats':[
+      {
+          'type':'AP',
+          'effect':'',
+          'strength':['2','1']
+      }
+      ]
+  },
+  219:{
+      'name':'37mmL36',
+      'stats':[
+      {
+          'type':'HE [VL]',
+          'effect':'2/5+',
+          'strength':['1','1','1','1','1']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['3','3','2','1','1']
+      }
+      ]
+  },
+  220:{
+    'name':'47mmL48',
+    'stats':[
+    {
+        'type':'HE [VL]',
+        'effect':'3/5+',
+        'strength':['2','2','2','2','2']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['5','5','4','3','2']
+    }
+    ]
+  },
+  221:{
+    'name':'57mmL18',
+    'stats':[
+    {
+        'type':'HE [VL]',
+        'effect':'4/5+',
+        'strength':['2','2','2','2','2']
+    },
+    {
+        'type':'AP',
+        'effect':'-',
+        'strength':['2','2','1','1','1']
+    }
+    ]
+  },
+  222:{
+    'name':'70mmL11',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'3/4+',
+        'strength':['2','2','2','2','2']
+    }
+    ]
+  },
+  223:{
+    'name':'70mmL11',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'3/4+',
+        'strength':['2','2','2','2','2']
+    }
+    ]
+  },
+  224:{
+    'name':'75mmL18',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'3/4+',
+        'strength':['2','2','2','2','2']
+    }
+    ]
+  },
+  225:{
+    'name':'75mmL21',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'4/4+',
+        'strength':['2','2','2','2','2']
+    }
+    ]
+  },
+  226:{
+    'name':'75mmL31',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'4/4+',
+        'strength':['2','2','2','2','2']
+    }
+    ]
+  },
+  227:{
+    'name':'75mmL38',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'4/4+',
+        'strength':['3','3','3','3','3']
+    }
+    ]
+  },
+  228:{
+    'name':'75mmL44',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'4/4+',
+        'strength':['4','4','4','4','4']
+    }
+    ]
+  },
+  229:{
+    'name':'105mmL24',
+    'stats':[
+    {
+        'type':'HE [M]',
+        'effect':'5/3+',
+        'strength':['3','3','3','3','3']
+    }
+    ]
+  },
+  230:{
+    'name':'120mmL45',
+    'stats':[
+    {
+        'type':'HE [M]',
+        'effect':'6/3+',
+        'strength':['4','4','4','4','4']
+    }
+    ]
+  },
+  231:{
+    'name':'150mmL14',
+    'stats':[
+    {
+        'type':'HE [M]',
+        'effect':'7/3+',
+        'strength':['5','5','5','5','5']
+    }
+    ]
+  },
+  232:{
+    'name':'150mmL40',
+    'stats':[
+    {
+        'type':'HE [M]',
+        'effect':'7/3+',
+        'strength':['4','4','4','4','4']
+    }
+    ]
+  },
+  233:{
+    'name':'8\"',
+    'stats':[
+    {
+        'type':'HE [H]',
+        'effect':'7/2+',
+        'strength':['7','7','7','7','7','7']
+    }
+    ]
+  },
+  234:{
+    'name':'200mmL40',
+    'stats':[
+    {
+        'type':'HE [H]',
+        'effect':'7/2+',
+        'strength':['7','7','7','7','7','7']
+    }
+    ]
+  },
+  235:{
+    'name':'200mm Rocket',
+    'stats':[
+    {
+        'type':'HE [H]',
+        'effect':'6/2+',
+        'strength':['5','5','5','5','5','5']
+    }
+    ]
   },
 }
