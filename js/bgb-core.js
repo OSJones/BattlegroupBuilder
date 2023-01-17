@@ -173,6 +173,10 @@ function render_name(force) {
             {
                 callbackindex = "Blitzkrieg_A5_German_Battlegroup_1939"
             }
+            if (callbackindex == "Battlegroup_Pacific_War_A5_Japanese_Island_Garrison_Kōfuku_Shinai")
+            {
+                callbackindex = "Pacific_War_A5_Japanese_Island_Garrison_Kofuku_Shinai"
+            }
             else
             {
                 callbackindex = callbackindex.replace("Battlegroup_","");
