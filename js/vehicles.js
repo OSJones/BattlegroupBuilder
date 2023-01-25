@@ -1271,7 +1271,8 @@ var vehicles = [
     'id':173,
     'name':'1/4 tonne amphibian',
     'hits':true,
-    'capacity':3
+    'capacity':3,
+    'special':'amphibious'
 },
 {
     'id':174,
@@ -3969,6 +3970,118 @@ var vehicles = [
     'hits':true,
     //'capacity':12,
     'movement':'9;12'
+},
+{
+    'id':537,
+    'name':'M3 Stuart \'Satan\'',
+    'armour':true,
+    'weapons':[56],
+    'mg':true,
+    'ammo':true,
+    'weapon':'flamethrower_hull;mg_hull'
+},
+{
+    'id':538,
+    'name':'M4 Sherman \'Zippo\'',
+    'armour':true,
+    'weapons':[68],
+    'mg':true,
+    'ammo':true,
+    'weapon':'flamethrower_coax;mg_hull'
+},
+{
+    'id':539,
+    'name':'LVT-1',
+    'hits':true,
+    'mg':true,
+    'capacity':18,
+    'special':'amphibious'
+},
+{
+    'id':540,
+    'name':'LVT-2',
+    'hits':true,
+    'mg':true,
+    'capacity':18,
+    'special':'amphibious'
+},
+{
+    'id':541,
+    'name':'Landing Craft Assault (LCA)',
+    'hits':true,
+    'capacity':26
+},
+{
+    'id':542,
+    'name':'Landing Craft Vehicle Personnel (LCVP)',
+    'hits':true,
+    'mg':true,
+    'capacity':30
+},
+{
+    'id':543,
+    'name':'Landing Craft Mechanised (LCM)',
+    'hits':true,
+    'capacity':80
+},
+{
+    'id':544,
+    'name':'Landing Craft Tank (LCT)',
+    'weapons':[58],
+    'hits':true,
+},
+{
+    'id':545,
+    'name':'Landing Craft Support (LCS)',
+    'hits':true,
+    'mg':true
+},
+{
+    'id':546,
+    'name':'Landing Craft Rocket (LCR)',
+    'weapons':[94],
+    'hits':true,
+},
+{
+    'id':547,
+    'name':'LVT(A)-2',
+    'armour':true,
+    'mg':true,
+    'special':'amphibious'
+},
+{
+    'id':548,
+    'name':'LVT-4',
+    'armour':true,
+    'mg':true,
+    'special':'amphibious'
+},
+{
+    'id':549,
+    'name':'LVT(A)-1',
+    'armour':true,
+    'weapons':[64],
+    'mg':true,
+    'ammo':true,
+    'special':'amphibious'
+},
+{
+    'id':550,
+    'name':'LVT(A)-4',
+    'armour':true,
+    'weapons':[65],
+    'mg':true,
+    'ammo':true,
+    'special':'amphibious'
+},
+{
+    'id':551,
+    'name':'LVT(A)-4 Flamethrower',
+    'armour':true,
+    //'weapons':[56],
+    'mg':true,
+    //'ammo':true,
+    'special':'amphibious;flamethrower_turret'
 },
 // greg to-do, landing craft
 {

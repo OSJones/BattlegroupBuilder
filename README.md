@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+25/01/2023 - _Added Pacific War / United States Marine Corps_<br>
 17/01/2023 - _Added Pacific War / Japanese Island Garrison - Kōfuku Shinai_<br>
 17/01/2023 - _Added Pacific War / Japanese Island Garrison_<br>
 16/01/2023 - _Added Pacific War / Japanese Infantry Division_<br>

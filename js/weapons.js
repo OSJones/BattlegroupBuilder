@@ -731,7 +731,7 @@ var weapons = {
         'stats':[
         {
             'type':'HE',
-            'effect':'5/3+',
+            'effect':'3/5+',
             'strength':['2','2','2','2','2']
         },
         {
@@ -852,7 +852,7 @@ var weapons = {
         ]
     },
     69:{
-        'name':'76mmL53 (3")',
+        'name':'76mmL53 (3\")',
         'stats':[
         {
             'type':'HE [L]',
@@ -942,7 +942,7 @@ var weapons = {
         ]
     },
     77:{
-        'name':'4.5"',
+        'name':'4.5\"',
         'stats':[
         {
             'type':'HE [M]',
@@ -952,7 +952,7 @@ var weapons = {
         ]
     },
     78:{
-        'name':'4.7" naval gun',
+        'name':'4.7\" naval gun',
         'stats':[
         {
             'type':'HE [M]',
@@ -962,7 +962,7 @@ var weapons = {
         ]
     },
     79:{
-        'name':'5" naval gun',
+        'name':'5\" naval gun',
         'stats':[
         {
             'type':'HE [M]',
@@ -972,7 +972,7 @@ var weapons = {
         ]
     },
     80:{
-        'name':'5.5"',
+        'name':'5.5\"',
         'stats':[
         {
             'type':'HE [M]',
@@ -982,7 +982,7 @@ var weapons = {
         ]
     },
     81:{
-        'name':'6" naval gun',
+        'name':'6\" naval gun',
         'stats':[
         {
             'type':'HE [M]',
@@ -1017,12 +1017,12 @@ var weapons = {
         {
             'type':'HE [M]',
             'effect':'7/3+',
-            'strength':['6','6','6','6','6']
+            'strength':['6','6','6','6','6','6']
         }
         ]
     },
     85:{
-        'name':'7.2"',
+        'name':'7.2\"',
         'stats':[
         {
             'type':'HE [H]',
@@ -1032,7 +1032,7 @@ var weapons = {
         ]
     },
     86:{
-        'name':'8" (230mmL50)',
+        'name':'8\" (230mmL50)',
         'stats':[
         {
             'type':'HE [H]',
@@ -1072,7 +1072,7 @@ var weapons = {
         ]
     },
     90:{
-        'name':'14" naval gun',
+        'name':'14\" naval gun',
         'stats':[
         {
             'type':'HE [H]',
@@ -1117,7 +1117,7 @@ var weapons = {
         ]
     },
     94:{
-        'name':'5" Rocket',
+        'name':'5\" Rocket',
         'stats':[
         {
             'type':'HE',
@@ -2777,5 +2777,50 @@ var weapons = {
         'strength':['5','5','5','5','5','5']
     }
     ]
+  },
+  236:{
+      'name':'57mmL46',
+      'stats':[
+      {
+          'type':'HE',
+          'effect':'3/5+',
+          'strength':['2','2','2','2','2']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['7','7','6','5','4']
+      }
+      ]
+  },
+  237:{
+      'name':'12\" naval gun',
+      'stats':[
+      {
+          'type':'HE [H]',
+          'effect':'11/2+',
+          'strength':['11','11','11','11','11','11']
+      }
+      ]
+  },
+  238:{
+      'name':'4.5\" Rocket',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'5/3+',
+          'strength':['4','4','4','4','4','4']
+      }
+      ]
+  },
+  239:{
+      'name':'60mm Mortar',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'3/5+',
+          'strength':['1','1','1','1','1','1']
+      }
+      ]
   },
 }
