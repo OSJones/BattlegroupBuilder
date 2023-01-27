@@ -4083,6 +4083,43 @@ var vehicles = [
     //'ammo':true,
     'special':'amphibious;flamethrower_turret'
 },
+{
+    'id':552,
+    'name':'Albion Heavy Truck',
+    'hits':true,
+    'capacity':12
+},
+{
+    'id':553,
+    'name':'M3 Honey \'Jalopy\'',
+    'armour':true,
+    'mg':true,
+    'open':true
+},
+{
+    'id':554,
+    'name':'Valentine Scorpion',
+    'weapons':[58],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':555,
+    'name':'Matilda Dozer',
+    'armour':true,
+    'weapons':[58],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':556,
+    'name':'Matilda \'Frog\'',
+    'armour':true,
+    //'weapons':[58],
+    'mg':true,
+    'ammo':true,
+    'special':'flamethrower_turret'
+},
 // greg to-do, landing craft
 {
 }

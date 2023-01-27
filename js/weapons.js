@@ -897,7 +897,7 @@ var weapons = {
         ]
     },
     73:{
-        'name':'25pdr',
+        'name':'25 pdr',
         'stats':[
         {
             'type':'HE [M]',
@@ -1087,7 +1087,7 @@ var weapons = {
         {
             'type':'AP',
             'effect':'-',
-            'strength':['']
+            'strength':['8']
         }
         ]
     },
@@ -2820,6 +2820,31 @@ var weapons = {
           'type':'HE [L]',
           'effect':'3/5+',
           'strength':['1','1','1','1','1','1']
+      }
+      ]
+  },
+  240:{
+      'name':'6\" Howitzer',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'7/3+',
+          'strength':['6','6','6','6','6']
+      }
+      ]
+  },
+  241:{
+      'name':'\'Short\' 25 pdr',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'4/3+',
+          'strength':['3','3','3','3','3']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['6','6','5','4','3']
       }
       ]
   },
