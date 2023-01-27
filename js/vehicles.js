@@ -4120,6 +4120,44 @@ var vehicles = [
     'ammo':true,
     'special':'flamethrower_turret'
 },
+{
+    'id':557,
+    'name':'Landing Craft Control (LCC)',
+    'hits':true,
+    'mg':true
+},
+{
+    'id':558,
+    'name':'Landing Craft Infantry (LCI)',
+    'hits':true,
+    'weapons':[35]
+},
+{
+    'id':559,
+    'name':'Landing Craft Gun (LCG)',
+    'hits':true,
+    'weapons':[78]
+},
+{
+    'id':560,
+    'name':'Landing Craft Flak (LCF)',
+    'hits':true,
+    'weapons':[58,35]
+},
+{
+    'id':561,
+    'name':'Landing Ship Tank (LST)',
+    'hits':true,
+    'weapons':[63,35]
+},
+{
+    'id':562,
+    'name':'Churchill IV Fascine',
+    'armour':true,
+    'weapons':[59],
+    'mg':true,
+    'ammo':true
+},
 // greg to-do, landing craft
 {
 }
