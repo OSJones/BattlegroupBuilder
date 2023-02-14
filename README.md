@@ -12,6 +12,12 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+14/02/2023 - _Added Westwall / German Panzer Brigade_<br>
+14/02/2023 - _Added Westwall / United States Armoured Division_<br>
+14/02/2023 - _Added Westwall / United States Infantry Division_<br>
+14/02/2023 - _Added Westwall / German Volksgrenadier Division_<br>
+14/02/2023 - _Added Westwall / German Infantry Division_<br>
+14/02/2023 - _Added Overlord / German Infantry Division_<br>
 27/01/2023 - _Updated Overlord / Allied Amphibious Vehicles_<br>
 27/01/2023 - _Added Pacific War / Australian Infantry Division_<br>
 27/01/2023 - _Added Pacific War / British Infantry Division_<br>

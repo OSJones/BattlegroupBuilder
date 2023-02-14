@@ -25,6 +25,7 @@ function callbackName_Overlord_A5_US_Infantry_Division(response) {document.getEl
 function callbackName_Overlord_A5_German_Panzer_Division(response) {document.getElementById('visits_Overlord_A5_German_Panzer_Division').innerText = response.value;}
 function callbackName_Overlord_A5_German_Fallschirmjager_Battlegroup(response) {document.getElementById('visits_Overlord_A5_German_Fallschirmjager_Battlegroup').innerText = response.value;}
 function callbackName_Overlord_A5_Luftwaffe_Field_Division(response) {document.getElementById('visits_Overlord_A5_Luftwaffe_Field_Division').innerText = response.value;}
+function callbackName_Overlord_A5_German_Infantry_Division(response) {document.getElementById('visits_Overlord_A5_German_Infantry_Division').innerText = response.value;}
 
 function callbackName_Fall_of_the_Reich_A5_British_Battlegroup(response) {document.getElementById('visits_Fall_of_the_Reich_A5_British_Battlegroup').innerText = response.value;}
 function callbackName_Fall_of_the_Reich_A5_Russian_Rifle_Battlegroup(response) {document.getElementById('visits_Fall_of_the_Reich_A5_Russian_Rifle_Battlegroup').innerText = response.value;}
@@ -121,6 +122,12 @@ function callbackName_Pacific_War_A5_United_States_Infantry_Division(response) {
 function callbackName_Pacific_War_A5_British_Infantry_Division(response) {document.getElementById('visits_Pacific_War_A5_British_Infantry_Division').innerText = response.value;}
 function callbackName_Pacific_War_A5_Australian_Infantry_Division(response) {document.getElementById('visits_Pacific_War_A5_Australian_Infantry_Division').innerText = response.value;}
 
+function callbackName_Westwall_A5_German_Infantry_Division(response) {document.getElementById('visits_Westwall_A5_German_Infantry_Division').innerText = response.value;}
+function callbackName_Westwall_A5_German_Volksgrenadier_Division(response) {document.getElementById('visits_Westwall_A5_German_Volksgrenadier_Division').innerText = response.value;}
+function callbackName_Westwall_A5_United_States_Infantry_Division(response) {document.getElementById('visits_Westwall_A5_United_States_Infantry_Division').innerText = response.value;}
+function callbackName_Westwall_A5_United_States_Armoured_Division(response) {document.getElementById('visits_Westwall_A5_United_States_Armoured_Division').innerText = response.value;}
+function callbackName_Westwall_A5_German_Panzer_Brigade(response) {document.getElementById('visits_Westwall_A5_German_Panzer_Brigade').innerText = response.value;}
+
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -161,7 +168,7 @@ function recreateTallyCounters()
       // pagereturn = httpGet('https://api.countapi.xyz/create?namespace=osjones.github.io&key=Fall_of_the_Reich_A5_Russian_Rifle_Battlegroup&enable_reset=1&value=0&update_lowerbound=-1&update_upperbound=1');
       // pagereturn = httpGet('https://api.countapi.xyz/create?namespace=osjones.github.io&key=Fall_of_the_Reich_A5_US_Armoured_Division&enable_reset=1&value=0&update_lowerbound=-1&update_upperbound=1');
       //
-      //pagereturn = httpGet('https://api.countapi.xyz/create?namespace=osjones.github.io&key=Rulebook_A5_12_SS_Panzer_Division&enable_reset=1&value=0&update_lowerbound=-1&update_upperbound=1');    
+      //pagereturn = httpGet('https://api.countapi.xyz/create?namespace=osjones.github.io&key=Rulebook_A5_12_SS_Panzer_Division&enable_reset=1&value=0&update_lowerbound=-1&update_upperbound=1');
       //pagereturn = httpGet('https://api.countapi.xyz/create?namespace=osjones.github.io&key=Rulebook_A5_Canadian_3rd_Infantry_Division_Battlegroup&enable_reset=1&value=0&update_lowerbound=-1&update_upperbound=1');
 
       //pagereturn = httpGet('https://api.countapi.xyz/create?namespace=osjones.github.io&key=Dispatches_A5_7_SS_Division&enable_reset=1&value=0&update_lowerbound=-1&update_upperbound=1');
@@ -288,6 +295,7 @@ function resetTallyCounters()
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Overlord_A5_German_Panzer_Division?value=0');
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Overlord_A5_German_Fallschirmjager_Battlegroup?value=0');
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Overlord_A5_Luftwaffe_Field_Division?value=0');
+      pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Overlord_A5_German_Infantry_Division?value=0');
 
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Fall_of_the_Reich_A5_British_Battlegroup?value=0');
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Fall_of_the_Reich_A5_Russian_Rifle_Battlegroup?value=0');
@@ -383,4 +391,10 @@ function resetTallyCounters()
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Pacific_War_A5_United_States_Infantry_Division?value=0');
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Pacific_War_A5_British_Infantry_Division?value=0');
       pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Pacific_War_A5_Australian_Infantry_Division?value=0');
+
+      pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Westwall_A5_German_Infantry_Division?value=0');
+      pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Westwall_A5_German_Volksgrenadier_Division?value=0');
+      pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Westwall_A5_United_States_Infantry_Division?value=0');
+      pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Westwall_A5_United_States_Armoured_Division?value=0');
+      pagereturn = httpGet('https://api.countapi.xyz/set/osjones.github.io/Westwall_A5_German_Panzer_Brigade?value=0');
 }
