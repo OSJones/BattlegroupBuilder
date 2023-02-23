@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+23/02/2023 - _Corrected Westwall / US Armoured entry for Hellcats_<br>
 14/02/2023 - _Added Westwall / German Panzer Brigade_<br>
 14/02/2023 - _Added Westwall / United States Armoured Division_<br>
 14/02/2023 - _Added Westwall / United States Infantry Division_<br>
