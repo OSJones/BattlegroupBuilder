@@ -188,10 +188,10 @@ function render_name(force) {
             callbackindex = callbackindex.replace("ß","B");
             //window.alert(callbackindex);
 
-            pagereturn = httpGet('https://api.countapi.xyz/hit/osjones.github.io/' + callbackindex);
-            startofvalue = pagereturn.search("value")+7;
-            endofvalue = pagereturn.search("}")-startofvalue;
-            pagereturn = pagereturn.substr(startofvalue,endofvalue);
+            //pagereturn = httpGet('https://api.countapi.xyz/hit/osjones.github.io/' + callbackindex);
+            //startofvalue = pagereturn.search("value")+7;
+            //endofvalue = pagereturn.search("}")-startofvalue;
+            //pagereturn = pagereturn.substr(startofvalue,endofvalue);
             //window.alert(callbackindex + " = " + pagereturn);
 
         }
