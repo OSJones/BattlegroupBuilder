@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+02/10/2023 - _Added options for Restricted:West in German DoTR Battlegroup_<br>
 28/04/2023 - _Removed all Page Views code due to delay with countapi reponses_<br>
 25/02/2023 - _Corrected Overlord / German entries for MG Team_<br>
 23/02/2023 - _Corrected Westwall / US Armoured entry for Hellcats_<br>
