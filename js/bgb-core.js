@@ -1290,6 +1290,21 @@ function print_vehicles(listV, listW) {
                 special = special + ", ";
             special = special + v.special;
         }
+
+        //OJ
+        if(v.capacity)
+           {
+           if (special.length > 0)
+           {
+            //special = special + ", Capacity " + v.capacity;
+            special = "Capacity " + v.capacity + ", " + special;
+           }
+           else {
+             special = "Capacity " + v.capacity;
+           }
+         }
+        //OJ
+
         text = text + special + "</td></tr>";
     }
     if (!first)

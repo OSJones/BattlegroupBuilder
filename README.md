@@ -12,6 +12,16 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+
+
+2023/11/10 : _Additional vehicle details added across all battlegroups_<br>
+2023/11/02 : _Added D6 BR for US Airborne and German Resistance Nest in <i>Overlord</i>_<br>
+2023/10/30 : _Added second profiles for KV-2, OT-26 and T-26 m31 MG in <i>Barbarossa</i>_<br>
+2023/10/30 : _Added second profile White Scout Car in <i>Kursk</i>_<br>
+2023/10/30 : _Added second profile for Komsomolyets tractor in <i>Stalingrad</i>_<br>
+2023/10/30 : _Added second profiles for Valentine III, Stuart, Bren Carrier, KV-1 and KV-1E in <i>Stalingrad</i>_<br>
+19/10/2023 - _Added 4.5" Rocket Launcher to Sherman Calliope in FoTR / American Battlegroup_<br>
+19/10/2023 - _Renamed US Armoured Division in FoTR to American Battlegroup_<br>
 16/10/2023 - _Set BR cost of dug in tanks for Stalingrad / Russian Tank Corps_<br>
 02/10/2023 - _Added options for Restricted:West in German DoTR Battlegroup_<br>
 28/04/2023 - _Removed all Page Views code due to delay with countapi reponses_<br>
