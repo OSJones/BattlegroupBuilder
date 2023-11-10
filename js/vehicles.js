@@ -578,7 +578,7 @@ var vehicles = [
     'mg':true
 },
 {
-    'id':69,
+    'id':69, 
     'name':'Panzer 35S 739(f)',
     'move':['10','14'],
     'armour':['L','M','N'],
