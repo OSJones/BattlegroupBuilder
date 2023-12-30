@@ -13,7 +13,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
-
+2023/12/30 : _Made some corrections to German Panzer Division in <i>Barbarossa</i>_<br>
 2023/11/10 : _Additional vehicle details added across all battlegroups_<br>
 2023/11/02 : _Added D6 BR for US Airborne and German Resistance Nest in <i>Overlord</i>_<br>
 2023/10/30 : _Added second profiles for KV-2, OT-26 and T-26 m31 MG in <i>Barbarossa</i>_<br>
