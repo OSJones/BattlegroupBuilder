@@ -109,7 +109,11 @@ function httpGet(theUrl) {
  return xmlHttp.responseText;
 }
 
-
+function getIgnoreRestrictionState(){
+      // return state of the Ignore Restriction checkbox
+      const cb = document.querySelector('#cheat');
+      return cb.checked;
+}
 
 // DROP DOWN WITH FORCE SELECTION incl TOP BAR  ----->
 // maybe make it get which value from a select?
@@ -200,7 +204,11 @@ function render_name(force) {
     if (/Mobi|Android/i.test(navigator.userAgent))
     text = text +"</select>O:&nbsp<p id='officer_count' style='display:inline; margin-right:20px;'>0</p>R:&nbsp<p id='restricted_count' style='display:inline; margin-right:20px;'>0</p>S:&nbsp<p id='scout_count' style='display:inline; margin-right:20px'>0</p>Cost:&nbsp<p style='display:inline' id='force_cost'>0</p></div><div style='display:inline; float:right'><div style=' margin-right:12px; display:inline; float=left'><button id='print' class='save_button'>&nbspPrint&nbsp</button><a class='save_button' style='float:left; margin-right:40px;' href='help.html'>&nbspHelp&nbsp</a><button id='load' class='save_button'>&nbspLoad&nbsp</button><button id='save' class='save_button'>&nbspSave&nbsp</button></div></div></div>";
     else
-    text = text +"</select>Officers:&nbsp<p id='officer_count' style='display:inline; margin-right:20px;'>0</p>Restricted:&nbsp<p id='restricted_count' style='display:inline; margin-right:20px;'>0</p>Scouts:&nbsp<p id='scout_count' style='display:inline; margin-right:20px'>0</p>Force cost:&nbsp<p style='display:inline' id='force_cost'>0</p></div><div style='display:inline; float:right'><div style=' margin-right:12px; display:inline; float=left'><button id='print' class='save_button'>&nbsp&nbspPrint&nbsp&nbsp</button><a class='save_button' style='float:left; margin-right:40px;' href='help.html'>&nbsp&nbspHelp&nbsp&nbsp</a><button id='load' class='save_button'>&nbsp&nbspLoad&nbsp&nbsp</button><button id='save' class='save_button'>&nbsp&nbspSave&nbsp&nbsp</button></div></div></div>";
+
+    // OJ - removed help button, added 'Ignore Restrictions' checkbox
+    //text = text +"</select>Officers:&nbsp<p id='officer_count' style='display:inline; margin-right:20px;'>0</p>Restricted:&nbsp<p id='restricted_count' style='display:inline; margin-right:20px;'>0</p>Scouts:&nbsp<p id='scout_count' style='display:inline; margin-right:20px'>0</p>Force cost:&nbsp<p style='display:inline' id='force_cost'>0</p></div><div style='display:inline; float:right'><div style=' margin-right:12px; display:inline; float=left'><button id='print' //class='save_button'>&nbsp&nbspPrint&nbsp&nbsp</button><a class='save_button' style='float:left; margin-right:40px;' href='help.html'>&nbsp&nbspHelp&nbsp&nbsp</a><button id='load' class='save_button'>&nbsp&nbspLoad&nbsp&nbsp</button><button id='save' class='save_button'>&nbsp&nbspSave&nbsp&nbsp</button></div></div></div>";
+    text = text +"</select>Officers:&nbsp<p id='officer_count' style='display:inline; margin-right:20px;'>0</p>Restricted:&nbsp<p id='restricted_count' style='display:inline; margin-right:20px;'>0</p>Scouts:&nbsp<p id='scout_count' style='display:inline; margin-right:20px'>0</p>Force cost:&nbsp<p style='display:inline' id='force_cost'>0</p></div><div style='display:inline; float:right'><div style=' margin-right:12px; display:inline; float=left'><button id='print' //class='save_button'>&nbsp&nbspPrint&nbsp&nbsp</button><input type='checkbox' id='cheat' name='cheat' value='yes'><label for='accept'> Ignore Restrictions? </label><button id='load' class='save_button'>&nbsp&nbspLoad&nbsp&nbsp</button><button id='save' class='save_button'>&nbsp&nbspSave&nbsp&nbsp</button></div></div></div>";
+
     return(text);
 }
 // <<----- DROP DOWN WITH FORCE SELECTION incl TOP BAR
@@ -211,6 +219,7 @@ function render_sections(force, async) {
     for(var i = 0; i < force['sections'].length; i++) {
         text = text + "<div class='group'><h3 class='section_title'>" + force['sections'][i].name+"</h3>";
         text = text + "<div data-allows='"+ force['sections'][i].allows +"' class='section ui-widget ";
+
         if (force.sections[i].requires)
             text = text + "ui-state-disabled' data-requires='true'";
         else
@@ -390,6 +399,14 @@ function simplify_requires(allows, requires){
 
 function allow_requires() {
     var requires = count_requires();
+
+    // OJ - if Restrictions ignored then auto pass
+    var checkRestrictions = false;
+    checkRestrictions = getIgnoreRestrictionState();
+    if (checkRestrictions === true) {
+          return true;
+    }
+
     if (requires.length === 0) // no requirements, auto pass
         return true;
     var allows = get_allows();
@@ -426,6 +443,7 @@ function allow_removed() {
 
 function allow_enables() {
     var allows = count_allows();
+
     for (var key in allows) {
         var section = $('#section_'+key);
         section.removeClass('ui-state-disabled');
@@ -712,7 +730,8 @@ function get_selected_entries() {
 }
 // returns 1 if not enough infantry and 2 if too many
 function enough_squads(squads, platoons, cost) {
-    // need to check force specific platoon restrictions
+
+      // need to check force specific platoon restrictions
     var forceId = parseInt($('#forceChoice').val(),10);
     var size = 0;
     rv = 0;
@@ -1291,7 +1310,6 @@ function print_vehicles(listV, listW) {
             special = special + v.special;
         }
 
-        //OJ
         if(v.capacity)
            {
            if (special.length > 0)
@@ -1303,7 +1321,6 @@ function print_vehicles(listV, listW) {
              special = "Capacity " + v.capacity;
            }
          }
-        //OJ
 
         text = text + special + "</td></tr>";
     }
