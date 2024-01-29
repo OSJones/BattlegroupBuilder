@@ -13,6 +13,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
+2024/01/29 : _Corrected options for Barbarossa: German Panzer Division - Panzerjäger Battery_<br>
+2024/01/29 : _Changed 'Ignore Restrictions' checkbox label to 'Ignore Warnings'_<br>
 2024/01/04 : _Added an <i>Ignore Restrictions</i> checkbox to bypass list build warnings; however pre-requisite Support Choice selections are still (temporarily) required in order to access the Support selections, e.g. an Infantry Unit selection to access Engineer Support Units_<br>
 2023/12/30 : _Made some corrections to German Panzer Division in <i>Barbarossa</i>_<br>
 2023/11/10 : _Additional vehicle details added across all battlegroups_<br>
