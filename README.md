@@ -13,6 +13,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
+2024/04/16 : _Corrected vehicle reference for M10 in Torch / American Armoured Division_<br>
 2024/01/29 : _Corrected options for Barbarossa: German Panzer Division - Panzerjäger Battery_<br>
 2024/01/29 : _Changed 'Ignore Restrictions' checkbox label to 'Ignore Warnings'_<br>
 2024/01/04 : _Added an <i>Ignore Restrictions</i> checkbox to bypass list build warnings; however pre-requisite Support Choice selections are still (temporarily) required in order to access the Support selections, e.g. an Infantry Unit selection to access Engineer Support Units_<br>
