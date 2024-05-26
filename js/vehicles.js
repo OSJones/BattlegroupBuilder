@@ -578,7 +578,7 @@ var vehicles = [
     'mg':true
 },
 {
-    'id':69, 
+    'id':69,
     'name':'Panzer 35S 739(f)',
     'move':['10','14'],
     'armour':['L','M','N'],
@@ -4034,7 +4034,7 @@ var vehicles = [
 },
 {
     'id':470,
-    'name':'A13',
+    'name':'A13 Cruiser Mk I',
     'move':['9','15'],
     'armour':['M','N','O'],
     'mg':true,
@@ -5080,6 +5080,16 @@ var vehicles = [
     'move':['6','24'],
     'hits':3,
     'capacity':0
+},
+{
+    'id':587,
+    'name':'A10 Cruiser Mk I',
+    'move':['5','8'],
+    'armour':['M','N','O'],
+    'special':'Unreliable',
+    'mg':true,
+    'ammo':true,
+    'weapons':[58],
 },
 // greg to-do, landing craft
 {
