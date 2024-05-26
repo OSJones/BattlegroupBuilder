@@ -13,7 +13,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
-2024/05/26 : _Added Military Miniature Press / Pacific 1941-42 - Japanese Infantry Battlegroup_<br>
+<!--2024/05/26 : _Added Military Miniature Press / Pacific 1941-42 - Japanese Infantry Battlegroup_<br>-->
 2024/05/26 : _Added missing Cruiser Tank Platoon to Blitzkrieg / British Expeditionary Force_<br>
 2024/04/16 : _Corrected vehicle reference for M10 in Torch / American Armoured Division_<br>
 2024/01/29 : _Corrected options for Barbarossa: German Panzer Division - Panzerjäger Battery_<br>
