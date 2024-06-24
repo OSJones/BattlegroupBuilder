@@ -5091,6 +5091,13 @@ var vehicles = [
     'ammo':true,
     'weapons':[58],
 },
+{
+    'id':588,
+    'name':'Repair Truck',
+    'move':['6','24'],
+    'hits':2,
+    'special':'Repair'
+},
 // greg to-do, landing craft
 {
 }
