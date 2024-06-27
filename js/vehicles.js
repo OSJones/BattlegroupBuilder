@@ -832,7 +832,7 @@ var vehicles = [
 },
 {
     'id':99,
-    'name':'Sherman \'Emcha\'',
+    'name':'Sherman \'Emcha\' 76mm',
     'move':['9','14'],
     'armour':['K','L','N'],
     'weapons':[69],
@@ -5097,6 +5097,15 @@ var vehicles = [
     'move':['6','24'],
     'hits':2,
     'special':'Repair'
+},
+{
+    'id':589,
+    'name':'Sherman \'Emcha\' 75mm',
+    'move':['9','14'],
+    'armour':['K','L','N'],
+    'weapons':[68],
+    'mg':true,
+    'ammo':true
 },
 // greg to-do, landing craft
 {
