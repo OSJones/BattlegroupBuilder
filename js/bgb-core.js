@@ -797,7 +797,7 @@ function update_cost() {
             else
                 officer_count = officer_count + $(this).data('officer');
         }
-        
+
         if ($(this).data('scout')) {
             if ($(this).data('scout') === true )
                 scout_count++;
@@ -823,7 +823,7 @@ function update_cost() {
     if (scoutd3s == 0)
       $('#scout_count').text(scout_count);
     else
-      $('#scout_count').text(scout_count + ' / +' + scoutd3s + 'D3');
+      $('#scout_count').text(scout_count + ' +' + scoutd3s + 'D3');
 
 
     var restricted = entries.filter(
