@@ -240,6 +240,7 @@ var weapons = {
         ]
     },
     18:{
+        // intentionally blank
     },
     19:{
         'name':'88mmL56 (FlaK36)',

@@ -13,6 +13,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
+2024/07/01 : _Added Bagration / German Panzer Division_<br>
 2024/07/01 : _Added Bagration / Russian Partisan Brigade_<br>
 2024/06/28 : _Added Bagration / Russian Mechanised Cavalry_<br>
 2024/06/27 : _Added Bagration / Russian Tank Corps_<br>
