@@ -557,8 +557,6 @@ function render_entries(entries, sub_entries, async) {
             if ( entries[i]['info'] )
                     text = text + "<div><span style='display:inline-block; width:100%; background-color:A8A800;'>"+entries[i]['info']+"</span></div>";
 
-
-
             text = text + "</div>";
         }
     }
@@ -780,27 +778,37 @@ function update_cost() {
     var cost = 0;
     var br=0;
     var d6s=0;
+    var scoutd3s=0;
     var entries = get_selected_entries();
     var officer_count = 0;
     var scout_count = 0;
     $(entries).each(function() {
         cost = cost + parseInt($(this).find('#cost').text(),10);
+
         var brEntry = $(this).find('#br').text();
         if ( brEntry == 'D6BR' )
             d6s++;
         else
             br = br + parseInt(brEntry,10);
+
         if ($(this).data('officer')) {
             if ($(this).data('officer') === true )
                 officer_count++;
             else
                 officer_count = officer_count + $(this).data('officer');
         }
+        
         if ($(this).data('scout')) {
             if ($(this).data('scout') === true )
                 scout_count++;
             else
-                scout_count = scout_count + $(this).data('scout');
+                {
+                  // Added code here to handle the '+D3' to Scouts from Local Sympathisers in Bagration / Partisan Brigade
+                  if ($(this).data('scout') === '+D3')
+                      scoutd3s++;
+                  else
+                      scout_count = scout_count + $(this).data('scout');
+                }
         }
     });
 
@@ -810,7 +818,13 @@ function update_cost() {
         $('#force_cost').text(cost + ' / ' + br + '+'+d6s+'D6 br');
 
     $('#officer_count').text(officer_count);
-    $('#scout_count').text(scout_count);
+
+    // Added code here to handle the '+D3' to Scouts from Local Sympathisers in Bagration / Partisan Brigade
+    if (scoutd3s == 0)
+      $('#scout_count').text(scout_count);
+    else
+      $('#scout_count').text(scout_count + ' / +' + scoutd3s + 'D3');
+
 
     var restricted = entries.filter(
         function() {
