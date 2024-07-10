@@ -1928,12 +1928,12 @@ var weapons = {
       ]
     },
   159:{
-      'name':'75mm Field Gun',
+      'name':'75mmL36 Field Gun',
       'stats':[
           {
-              'type':'HE [L]',
-              'effect':'2/5+',
-          'strength':['','','','','']
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['3','3','3','3','3']
           }
       ]
     },
