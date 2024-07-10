@@ -5076,7 +5076,7 @@ var vehicles = [
 },
 {
     'id':586,
-    'name':'Medium Radio Truck',
+    'name':'Medium Radio Truck',  // Based on Opel Blitz
     'move':['6','24'],
     'hits':3,
     'capacity':0
@@ -5106,6 +5106,76 @@ var vehicles = [
     'weapons':[68],
     'mg':true,
     'ammo':true
+},
+{
+    'id':590,
+    'name':'T-26s',
+    'move':['5','10'],
+    'armour':['N','O','O'],
+    'weapons':[38],
+    'ammo':true,
+    'mg':true,
+},
+{
+    'id':591,
+    'name':'Panzer I ausf F',
+    'move':['8','12'],
+    'armour':['O','O','O'],
+    'mg':true,
+},
+{
+    'id':592,
+    'name':'Panzer II VK1601',
+    'move':['7','10'],
+    'armour':['I','K','M'],
+    'weapons':[4],
+    'ammo':true,
+    'mg':true,
+},
+{
+    'id':593,
+    'name':'SdKfz 231',
+    'move':['8','24'],
+    'armour':['N','O','O'],
+    'weapons':[4],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':594,
+    'name':'PzSpWg 201(h)',
+    'move':['8','24'],
+    'armour':['O','O','O'],
+    'weapons':[95],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':595,
+    'name':'PzSpWg 202(h) 37mm',
+    'move':['8','24'],
+    'armour':['N','O','O'],
+    'weapons':[123],
+    'ammo':true,
+    'mg':true
+},
+{
+    'id':596,
+    'name':'PzSpWg 202(h) 20mm',
+    'move':['8','24'],
+    'armour':['N','O','O'],
+    'weapons':[177],
+    'ammo':true,
+    'mg':true
+},
+{
+    // Can't find any stats in Bagration so taking a guess.
+    'id':597,
+    'name':'Armoured Medium Truck (Opel Blitz)',
+    'move':['6','24'],
+    'armour':['O','O','O'],
+    'hits':3,
+    'capacity':12
 },
 // greg to-do, landing craft
 {
