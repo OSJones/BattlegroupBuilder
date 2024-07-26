@@ -5177,6 +5177,24 @@ var vehicles = [
     'hits':3,
     'capacity':12
 },
+{
+    'id':598,
+    'name':'leSPW U304(f) PaK36',
+    'move':['10','14'],
+    'armour':['O','O','O'],
+    'open':true,
+    'weapons':[7],
+    'ammo':true
+},
+{
+    'id':599,  // missing from Overlord: D-Day, other variants all have weapons
+    'name':'Zugkraftwagen S307(f) tow',
+    'move':['9','13'],
+    'armour':['O','O','O'],
+    'open':true,
+    //'special':'Bridging',
+    'mg':true
+},
 // greg to-do, landing craft
 {
 }

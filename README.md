@@ -13,6 +13,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
+2024/07/10 : _Updated Overlord / German 21. Panzer Division - corrected some vehicles_<br>
 2024/07/10 : _Added Bagration / German 5th Panzer Division (Borisov Campaign)_<br>
 2024/07/10 : _Added Bagration / Finnish Infantry Division_<br>
 2024/07/10 : _Added Bagration / German Security Division_<br>
