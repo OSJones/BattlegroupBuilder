@@ -13,7 +13,10 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**<br>
 
-2024/07/10 : _Corrected Barbarossa / German Panzer Division - added missing Armoured Cars to Recce_<br>
+2024/09/11 : _Corrected Barbarossa / Russian Battlegroups - Command Chaos_<br>
+2024/09/11 : _Corrected Barbarossa / Russian Battlegroups - BA-10 weapon_<br>
+2024/09/11 : _Corrected Barbarossa / German Panzer Division - Panzer 35(t) Squadron_<br>
+2024/09/10 : _Corrected Barbarossa / German Panzer Division - added missing Armoured Cars to Recce_<br>
 2024/07/10 : _Updated Overlord / German 21. Panzer Division - corrected some vehicles_<br>
 2024/07/10 : _Added Bagration / German 5th Panzer Division (Borisov Campaign)_<br>
 2024/07/10 : _Added Bagration / Finnish Infantry Division_<br>

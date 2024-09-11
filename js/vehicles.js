@@ -681,7 +681,7 @@ var vehicles = [
     'name':'BA-10',
     'move':['8','24'],
     'armour':['N','O','O'],
-    'weapons':[37],
+    'weapons':[38],
     'mg':true,
     'ammo':true
 },

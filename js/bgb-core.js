@@ -492,6 +492,9 @@ function render_entries(entries, sub_entries, async) {
                 text = text + "' data-sub_entry='true";
             if (entries[i].officer)
                 text = text + "' data-officer='"+entries[i].officer;
+
+
+
             if (entries[i].scout)
                 text = text + "' data-scout='"+entries[i].scout;
             if (entries[i].restricted)
@@ -817,7 +820,18 @@ function update_cost() {
     else
         $('#force_cost').text(cost + ' / ' + br + '+'+d6s+'D6 br');
 
-    $('#officer_count').text(officer_count);
+
+    // This is to present the variable Officer number for Russian battlegroups in Barbarossa
+    // OJ
+    var force_id = $('#main').data('bg_id');
+    if ((force_id==62) || (force_id==63))
+    {
+      $('#officer_count').text(army_size_CommandChaos_officers($('#force_cost').text));
+    }
+    else {
+      $('#officer_count').text(officer_count);
+    }
+
 
     // Added code here to handle the '+D3' to Scouts from Local Sympathisers in Bagration / Partisan Brigade
     if (scoutd3s == 0)
@@ -1099,8 +1113,36 @@ function changeForce(){
     update_accordion();
     update_selectable();
 }
+
+function army_size_CommandChaos_officers() {
+    // This is to represent the effects of Command Chaos in Barbarossa
+    var cost =  parseInt($('#force_cost').text(),10);
+    if (cost <= 350 ) {
+        return '+1';
+    }
+    if (cost <= 750 ) {
+        return '+1D3';
+    }
+    if (cost <= 1500 ) {
+        return '+1D6';
+    }
+    return '+2D6';
+}
+
 function print_header(force) {
-    var text = "<div style='margin:0px auto; width:60%;'><h3 class='p_title p_h3' style='display:inline; padding:auto;'>"+ force.name + "</h3><h4 class='p_+h4' style='display:inline; float:right; margin:0px 10px;'>(Officers: "+$('#officer_count').text()+", Scouts: "+$('#scout_count').text()+")  Army Size: "+army_size_string()+"</h4><h4 class='p_+h4' style='display:inline; float:right; margin:0px;'>"+$('#force_cost').text()+"</div>";
+
+    // This is to present the variable Officer number for Russian battlegroups in Barbarossa
+    // OJ
+    if ((force.id==62) || (force.id==63))
+    {
+        var text = "<div style='margin:0px auto; width:60%;'><h3 class='p_title p_h3' style='display:inline; padding:auto;'>"+ force.name + "</h3><h4 class='p_+h4' style='display:inline; float:right; margin:0px 10px;'>(Officers: "+army_size_CommandChaos_officers($('#force_cost').text())+", Scouts: "+$('#scout_count').text()+")  Army Size: "+army_size_string()+"</h4><h4 class='p_+h4' style='display:inline; float:right; margin:0px;'>"+$('#force_cost').text()+"</div>";
+    }
+    else
+    {
+        var text = "<div style='margin:0px auto; width:60%;'><h3 class='p_title p_h3' style='display:inline; padding:auto;'>"+ force.name + "</h3><h4 class='p_+h4' style='display:inline; float:right; margin:0px 10px;'>(Officers: "+$('#officer_count').text()+", Scouts: "+$('#scout_count').text()+")  Army Size: "+army_size_string()+"</h4><h4 class='p_+h4' style='display:inline; float:right; margin:0px;'>"+$('#force_cost').text()+"</div>";
+    }
+
+
     return text;
 }
 function print_with_sub(entry){
