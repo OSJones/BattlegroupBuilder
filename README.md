@@ -12,7 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
-
+2025/04/24 : _Corrected 75mmL43 gun entry_<br>
 2025/02/23 : _Corrected Bagration / Russian Partisan Battlegroup - Corrected Dispirited Enemy_<br>
 2024/09/11 : _Corrected Barbarossa / Russian Battlegroups - Command Chaos_<br>
 2024/09/11 : _Corrected Barbarossa / Russian Battlegroups - BA-10 weapon_<br>
