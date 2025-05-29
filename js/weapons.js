@@ -1556,9 +1556,14 @@ var weapons = {
         'name':'75mmL30',
         'stats':[
         {
-            'type':'HE [L]',
-            'effect':'',
-            'strength':['','','','','']
+            'type':'HE',
+            'effect':'3/4+',
+            'strength':['3','3','3','3','3']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['5','5','4','3','2']
         }
         ]
     },
