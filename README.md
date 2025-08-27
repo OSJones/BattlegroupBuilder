@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+2025/08/27 : _Corrected Pacific War / Japanese Infantry Division entries_<br>
 2025/05/29 : _Corrected 75mmL30 gun entry_<br>
 2025/04/24 : _Corrected 75mmL43 gun entry_<br>
 2025/02/23 : _Corrected Bagration / Russian Partisan Battlegroup - Corrected Dispirited Enemy_<br>

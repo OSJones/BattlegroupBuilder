@@ -111201,6 +111201,11 @@ var forces = [
               "requires":false,
               "entries":[
                   {
+                      "name":"Sniper Hideout",
+                      "cost":15,
+                      "br":0
+                  },
+                  {
                       "name":"Well Concealed",
                       "cost":25,
                       "br":0,
@@ -111637,7 +111642,7 @@ var forces = [
                           {
                               "name":"Composition",
                               "choices":[
-                                  {"text":"Type 88 75mmL44 AA Gun","v":228}
+                                  {"text":"Type 88 75mmL44 AA Gun","w":228}
                               ]
                           },
                           {
@@ -111665,7 +111670,7 @@ var forces = [
                           {
                               "name":"Composition",
                               "choices":[
-                                  {"text":"Type 1 47mmL48 Anti-Tank Gun","v":220}
+                                  {"text":"Type 1 47mmL48 Anti-Tank Gun","w":220}
                               ]
                           },
                           {
@@ -111803,6 +111808,11 @@ var forces = [
               {
                   "name":"Timed \'Oscar\' Air Strike",
                   "cost":10,
+                  "br":0
+              },
+              {
+                  "name":"Timed G4M \'Betty\' Air Strike",
+                  "cost":20,
                   "br":0
               }
               ]
