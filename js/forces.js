@@ -111202,7 +111202,8 @@ var forces = [
               "entries":[
                   {
                       "name":"Sniper Hideout",
-                      "cost":15,
+                      "cost":18,
+                      "scout":1,
                       "br":0
                   },
                   {
