@@ -12,6 +12,9 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+2025/12/13 : _Added Italy / British Infantry Division - Highland_<br>
+2025/12/13 : _Added Italy / British Infantry Division - Lowland_<br>
+2025/12/13 : _Cleaned up references to Churchill AVRE Bridgelayer_<br>
 2025/08/27 : _Corrected Pacific War / Japanese Infantry Division entries_<br>
 2025/05/29 : _Corrected 75mmL30 gun entry_<br>
 2025/04/24 : _Corrected 75mmL43 gun entry_<br>

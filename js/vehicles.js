@@ -5195,6 +5195,32 @@ var vehicles = [
     //'special':'Bridging',
     'mg':true
 },
+{
+    'id':600,
+    'name':'Churchill NA75',
+    'move':['5','8'],
+    'armour':['I','J','J'],
+    'weapons':[68],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':601,
+    'name':'Otter',
+    'move':['8','24'],
+    'armour':['O','O','O'],
+    'mg':true
+},
+{
+    'id':602,
+    'name':'Churchill AVRE Bridgelayer',
+    'move':['5','8'],
+    'armour':['I','J','J'],
+    'weapons':[89],
+    'mg':true,
+    'special':'Bridging',
+    'ammo':true
+},
 // greg to-do, landing craft
 {
 }
