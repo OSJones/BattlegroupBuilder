@@ -492,13 +492,10 @@ function render_entries(entries, sub_entries, async) {
                 text = text + "' data-sub_entry='true";
             if (entries[i].officer)
                 text = text + "' data-officer='"+entries[i].officer;
-
-
-
             if (entries[i].scout)
                 text = text + "' data-scout='"+entries[i].scout;
             if (entries[i].restricted)
-                text = text + "' data-restricted='true";
+                text = text + "' data-restricted='true";                
             if (entries[i].unique)
                 text = text + "' data-unique='true";
             if (entries[i].p)
