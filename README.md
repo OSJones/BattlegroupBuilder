@@ -12,6 +12,8 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+2025/12/15 : _Added Italy / American Infantry Division - Highland_<br>
+2025/12/15 : _Added Italy / American Infantry Division - Lowland_<br>
 2025/12/14 : _Added Italy / British Armoured Division_<br>
 2025/12/13 : _Added Italy / British Infantry Division - Highland_<br>
 2025/12/13 : _Added Italy / British Infantry Division - Lowland_<br>
