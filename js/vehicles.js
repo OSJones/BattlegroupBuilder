@@ -5221,6 +5221,79 @@ var vehicles = [
     'special':'Bridging',
     'ammo':true
 },
+{
+    'id':603,
+    'name':'M15/42',
+    'move':['8','12'],
+    'armour':['K','M','N'],
+    'ammo':true,
+    'weapons':[242],
+    'mg':true
+},
+{
+    'id':604,
+    'name':'L6/40',
+    'move':['9','13'],
+    'armour':['L','O','O'],
+    'ammo':true,
+    'weapons':[129],
+    'mg':true
+},
+{
+    'id':605,
+    'name':'P26/40',
+    'move':['8','12'],
+    'armour':['J','L','M'],
+    'ammo':true,
+    'weapons':[243],
+    'mg':true
+},
+{
+    'id':606,
+    'name':'Semoventa M42 75/34',
+    'move':['6','11'],
+    'armour':['K','M','O'],
+    'weapons':[243],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':607,
+    'name':'Semoventa M43 105/25',
+    'move':['6','11'],
+    'armour':['I','L','O'],
+    'weapons':[244],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':608,
+    'name':'P26 Panzerturm',
+    'move':['0','0'],
+    'armour':['J','L','L'],
+    'weapons':[243],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':609,
+    'name':'Autoblinda-43',
+    'move':['9','14'],
+    'armour':['N','O','O'],
+    'mg':true,
+    'ammo':true,
+    'weapons':[129],
+    'movement':'8;12',
+},
+{
+    'id':610,
+    'name':'Lince',
+    'move':['8','12'],
+    'armour':['N','O','O'],
+    'mg':true,
+    'open':true,
+    'movement':'8;12',
+},
 // greg to-do, landing craft
 {
 }

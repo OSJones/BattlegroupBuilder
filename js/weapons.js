@@ -2854,5 +2854,64 @@ var weapons = {
       }
       ]
   },
-
+  242:{
+      'name':'47mmL40',
+      'stats':[
+          {
+              'type':'HE [VL]',
+              'effect':'3/5+',
+              'strength':['2','2','2','2','2']
+          },
+          {
+              'type':'AP',
+              'effect':'-',
+              'strength':['5','5','4','3','2']
+          }
+          ]
+  },
+  243:{
+      'name':'75mmL34',
+      'stats':[
+      {
+          'type':'HE [L]',
+          'effect':'4/4+',
+          'strength':['3','3','3','3','3']
+      },
+      {
+          'type':'AP',
+          'effect':'-',
+          'strength':['5','5','4','3','2']
+      }
+      ]
+  },
+  244:{
+      'name':'105mmL25',
+      'stats':[
+      {
+          'type':'HE [M]',
+          'effect':'5/5+',
+          'strength':['4','4','4','4','4']
+      }
+      ]
+  },
+  245:{
+      'name':'75mmL30 Italian',
+      'stats':[
+      {
+          'type':'HE',
+          'effect':'4/4+',
+          'strength':['3','3','3','3','3']
+      }
+      ]
+  },
+  246:{
+    'name':'75mmL19 Mountain Gun',
+    'stats':[
+    {
+        'type':'HE [L]',
+        'effect':'4/4+',
+        'strength':['3','3','3','3','3']
+      }
+      ]
+    },
 }
