@@ -5294,6 +5294,33 @@ var vehicles = [
     'open':true,
     'movement':'8;12',
 },
+{
+    'id':611,
+    'name':'Elefant',
+    'move':['6','9'],
+    'armour':['A','J','N'],
+    'weapons':[20],
+    'ammo':true
+},
+{
+    'id':612,
+    'name':'Semoventa M43 75/46',
+    'move':['6','11'],
+    'armour':['I','L','O'],
+    'weapons':[247],
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':613,
+    'name':'Panzerjaeger Bren',
+    'move':['10','15'],
+    'armour':['O','O','O'],
+    'open':true,
+    'ammo':true,
+    'weapons':[108],
+    'special':'Multiple Hits',
+},
 // greg to-do, landing craft
 {
 }
