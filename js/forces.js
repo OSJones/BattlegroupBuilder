@@ -152604,7 +152604,7 @@ var forces = [
                     ]
                 },
                 {
-                    "name":"Assault Gun (1945))",
+                    "name":"Assault Gun (1945)",
                     "cost":34,
                     "br":3,
                     "restricted":true,
@@ -153273,7 +153273,7 @@ var forces = [
                         "name":"Composition",
                         "choices":[
                             {"text":"Hetzer","v":249},
-                            {"text":"Panzerjaeger Bren","cost":-28,"br":-2,"v":613},                  
+                            {"text":"Panzerjaeger Bren","cost":-28,"br":-2,"v":613},
                         ]
                     }
                 ]
