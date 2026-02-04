@@ -152559,8 +152559,8 @@ var forces = [
                         {
                             "name":"Composition",
                             "choices":[
-                                {"text":"Panzer III N","v":8,"restricted":true},
-                                {"text":"Panzer III L","v":8},
+                                {"text":"Panzer III N","v":4,"restricted":true},
+                                {"text":"Panzer III L","v":2},
                                 {"text":"Panzer IV G","v":8,"cost":12},
                                 {"text":"Panzer IV H","cost":18,"v":9},
                                 {"text":"Panther A or G","cost":52,"v":187,"restricted":true},

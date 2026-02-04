@@ -12,6 +12,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 
 **Changelog:**<br>
+2026/02/04 : _Corrected Panzer III tanks in Italy / German Panzer Grenadier Division_<br>
 2025/12/17 : _Added Italy / German Panzer Grenadier Division_<br>
 2025/12/16 : _Added Italy / German Defence Line - Highland_<br>
 2025/12/16 : _Added Italy / German Defence Line - Lowland_<br>
