@@ -152623,7 +152623,6 @@ var forces = [
                     "multiplier":3,
                     "vc":3,
                     "v":2,
-
                     "br":9,
                     "officer":true,
                     "unique":true,
@@ -152631,9 +152630,9 @@ var forces = [
                         {
                             "name":"Composition",
                             "choices":[
-                                {"text":"3 Panzer III L"},
-                                {"text":"4 Panzer III L","cost":38,"vc":4,"br":3},
-                                {"text":"5 Panzer III L","cost":76,"vc":5,"br":6}
+                                {"text":"3 Panzer III L","v":2},
+                                {"text":"4 Panzer III L","cost":38,"vc":4,"br":3,"v":2},
+                                {"text":"5 Panzer III L","cost":76,"vc":5,"br":6,"v":2}
                             ]
                         }
                     ]
