@@ -152622,7 +152622,7 @@ var forces = [
                     "cost":105,
                     "multiplier":3,
                     "vc":3,
-                    "v":8,
+                    "v":2,
                     "br":9,
                     "officer":true,
                     "unique":true,
