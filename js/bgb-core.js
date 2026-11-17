@@ -695,8 +695,16 @@ function load_item(item, depth, panel) {
 }
 
 function load( string ) {
-    render_force(decode(string[0]), false);
-    split_and_load(string.slice(1), 0);
+
+    // OJ - changed the bg_id to three digits instead of one encoding
+    var force = string[0] + string[1] + string[2];
+    //alert(force);
+    render_force(force, false);
+    split_and_load(string.slice(3), 0);
+
+    //original
+    //render_force(decode(string[0]), false);
+    //split_and_load(string.slice(1), 0);
 }
 
 function render() {
@@ -1062,23 +1070,23 @@ function emptyPage() {
     $('#main').empty();
     $('.sub_div').remove();
 }
-// function saveDialog(text){
-//    //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='http://www.battlegroupbuilder.com?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
-//
-//    // code for testing load/save locally
-//    $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='file:///C:/Users/owenj/Documents/BattlegroupBuilder/index.html?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
-//
-//    //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
-//
-//
-//    $('#save_div').dialog({title:'Save String', modal:true,
-//        buttons: {
-//            Close: function () {
-//                $( this ).dialog( "close" );
-//            }
-//        }
-//    });
-// }
+function saveDialog(text){
+   //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='http://www.battlegroupbuilder.com?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+
+   // code for testing load/save locally
+   $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='file:///C:/Users/owenj/Documents/BattlegroupBuilder/index.html?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+
+   //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+
+
+   $('#save_div').dialog({title:'Save String', modal:true,
+       buttons: {
+           Close: function () {
+               $( this ).dialog( "close" );
+           }
+       }
+   });
+}
 function loadDialog() {
     $('#load_div').dialog({title:"Load Force", modal:true,
     buttons: {
@@ -1100,7 +1108,17 @@ function loadDialog() {
 
 function save() {
     var text = [];
-    text.push(encode($('#main').data('bg_id')));
+
+    // original
+    //text.push(encode($('#main').data('bg_id')));
+
+    // OJ versionn - changed to use three fixed characters for the force ID
+    var string = ($('#main').data('bg_id'));
+    //alert(string);
+    var lengthX = string + '';
+    var lengthY = lengthX.padStart(3,"0");
+    text.push(lengthY);
+
     var sections = $('.section').not('.ui-state-disabled');
     for (var i=0; i<sections.length; i++)
         text = text.concat(save_section(sections[i], 0));
