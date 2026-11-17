@@ -1071,12 +1071,15 @@ function emptyPage() {
     $('.sub_div').remove();
 }
 function saveDialog(text){
+
+   // original hosting
    //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='http://www.battlegroupbuilder.com?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 
    // code for testing load/save locally
-   $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='file:///C:/Users/owenj/Documents/BattlegroupBuilder/index.html?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+   //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='file:///C:/Users/owenj/Documents/BattlegroupBuilder/index.html?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 
-   //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+   // code for the Github hosting
+   $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 
 
    $('#save_div').dialog({title:'Save String', modal:true,
@@ -1112,7 +1115,7 @@ function save() {
     // original
     //text.push(encode($('#main').data('bg_id')));
 
-    // OJ versionn - changed to use three fixed characters for the force ID
+    // OJ version - changed to use three fixed characters for the force ID
     var string = ($('#main').data('bg_id'));
     //alert(string);
     var lengthX = string + '';
