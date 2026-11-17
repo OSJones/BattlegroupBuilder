@@ -1291,7 +1291,7 @@ var weapons = {
             'strength':['8']
         }
         ]
-    },
+    }, 
     108:{
         'name':'Panzerschreck',
         'stats':[

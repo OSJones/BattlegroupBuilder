@@ -1066,9 +1066,9 @@ function emptyPage() {
 //    //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='http://www.battlegroupbuilder.com?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 //
 //    // code for testing load/save locally
-//    //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='file:///C:/Users/owenj/Documents/BattlegroupBuilder/index.html?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+//    $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='file:///C:/Users/owenj/Documents/BattlegroupBuilder/index.html?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 //
-//    $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
+//    //$('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 //
 //
 //    $('#save_div').dialog({title:'Save String', modal:true,
