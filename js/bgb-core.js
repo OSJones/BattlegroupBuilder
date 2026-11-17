@@ -1081,7 +1081,6 @@ function saveDialog(text){
    // code for the Github hosting
    $('#save_div').html("<div class='ui-widget-content ui-corner-all' style='margin-bottom:8px;'><p>"+text+"</p></div><div class='ui-widget-content ui-corner-all'><p><a href='https://osjones.github.io/BattlegroupBuilder/?load="+text+"&roster=1'>Web-Link to share this force.</a></p></div>");
 
-
    $('#save_div').dialog({title:'Save String', modal:true,
        buttons: {
            Close: function () {
